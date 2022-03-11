@@ -1,0 +1,1430 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "2a1a3e00-a082-4354-a918-5c797d5dae46",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "44d5f9e8-15ff-4f99-85c1-9116379781f5",
+			"container_type": "race",
+			"name": "Keleni",
+			"ancestry": "Keleni",
+			"calc": {
+				"points": 19
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "ea959f17-2356-4c0d-b71e-7ddfc26bb667",
+					"name": "Amphibious",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"reference": "B40",
+					"calc": {
+						"points": 10
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "d90ba657-e595-4df3-9068-ea428f353efe",
+					"name": "Ancestral Bond",
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "675decab-09cd-46c9-a0f5-abd7f8bb6358",
+					"name": "Appearance",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "2766ada5-6f89-4f43-afcd-ed5802b55ecd",
+							"name": "Attractive",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 4,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 1,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "3a778468-14be-4da0-8b01-a3d44db6a948",
+							"disabled": true,
+							"name": "Average",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "8753e780-86fe-4113-8cfc-6f75382d6424",
+							"disabled": true,
+							"name": "Beautiful",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 4,
+									"situation": "from those attracted to members of your sex, +2 from everyone else"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "0706b55e-ff6e-443f-ad80-adb1ff905a91",
+							"disabled": true,
+							"name": "Beautiful (Androgynous)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 3,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "af60ed3e-8c71-4ce6-a0f0-cffac56ee295",
+							"disabled": true,
+							"name": "Beautiful (Impressive)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 3,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "c9c06ca5-c9f7-4d76-a706-1f03b2775b77",
+							"disabled": true,
+							"name": "Handsome",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 4,
+									"situation": "from those attracted to members of your sex, +2 from everyone else"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "c309e02a-d9c2-48bd-8776-695a99b71250",
+							"disabled": true,
+							"name": "Handsome (Androgynous)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 3,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "a39ee1bf-129d-4b68-a912-885263c2cce8",
+							"disabled": true,
+							"name": "Handsome (Impressive)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 3,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "ddab1169-b064-4735-8797-d467dc66abaf",
+							"disabled": true,
+							"name": "Hideous",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": -16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": -4,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "b528eb58-2afe-4c2b-9b7a-9be8dc1d8ab7",
+							"disabled": true,
+							"name": "Horrific",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": -24,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": -6,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "c62471b6-55b2-4f74-85f8-d24e68abc89d",
+							"disabled": true,
+							"name": "Impressive",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "74ce4e2c-8e38-49c9-8f5e-a9b54f411d1d",
+							"disabled": true,
+							"name": "Monstrous",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": -5,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "cf41a6d0-f6ee-454d-85ab-e2e5dd5308b6",
+							"disabled": true,
+							"name": "Off-the-Shelf Looks",
+							"reference": "B21",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "Halves the usual reaction bonus - adjust manually"
+						},
+						{
+							"type": "modifier",
+							"id": "3c3783cf-cdf6-4b0b-9f8c-8050693262d0",
+							"disabled": true,
+							"name": "Transcendent",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 8,
+									"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead."
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "faf2fed3-9f5b-4513-b0f3-13cb864d4cc0",
+							"disabled": true,
+							"name": "Transcendent (Androgynous)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 5,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "d5f7eb3f-95c9-41e2-a230-84b3574b1753",
+							"disabled": true,
+							"name": "Transcendent (Impressive)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 5,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "859d849f-4ec9-40ba-80f2-006690b6de7c",
+							"disabled": true,
+							"name": "Ugly",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": -8,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": -2,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "0695bf04-c763-489a-a33c-79b689770915",
+							"disabled": true,
+							"name": "Unattractive",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": -4,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": -1,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "a1c5dd4b-6efa-46cd-bd55-e91d3b9acd4e",
+							"disabled": true,
+							"name": "Universal",
+							"reference": "B21",
+							"cost_type": "percentage",
+							"cost": 25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "2ff9ced3-3de1-449f-ac5a-ac3d91c1eae4",
+							"disabled": true,
+							"name": "Very Beautiful",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 6,
+									"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead."
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "856ea338-ddd1-4e61-a15d-96e4c33fd394",
+							"disabled": true,
+							"name": "Very Beautiful (Androgynous)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 4,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "5fd15c87-0056-4d5d-aac2-479fd3b24642",
+							"disabled": true,
+							"name": "Very Beautiful (Impressive)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 4,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "06ba21d8-e248-4f93-a876-8d4b61d083e0",
+							"disabled": true,
+							"name": "Very Handsome",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 6,
+									"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead."
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "338cd818-2c7a-47cd-8df3-9436069271ff",
+							"disabled": true,
+							"name": "Very Handsome (Androgynous)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 4,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "2e6a27a7-5513-4557-b61b-afa7c919301e",
+							"disabled": true,
+							"name": "Very Handsome (Impressive)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 4,
+									"situation": "from others"
+								}
+							]
+						}
+					],
+					"reference": "B21",
+					"calc": {
+						"points": 4
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e411d1f3-4c38-4761-8d2f-8eb0414b503d",
+					"name": "Bioluminesence",
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "ec2aefe0-b09e-4fce-9f3e-346086d7ab55",
+					"name": "Decreased Strength",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": -5,
+					"reference": "B14",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Attribute",
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "03e620e7-5d4f-4bba-bdc9-ae571554c214",
+					"name": "Doesn't Breathe",
+					"physical": true,
+					"exotic": true,
+					"base_points": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "50e4cab2-262a-4fec-bc6d-6d8e20e28024",
+							"disabled": true,
+							"name": "Gills",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "887d62b9-8724-4c1d-a32b-b9c6765227ed",
+							"disabled": true,
+							"name": "Gills",
+							"reference": "B49",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Suffocates in air"
+						},
+						{
+							"type": "modifier",
+							"id": "64c463c6-1909-4ab4-8f63-cb86f7f6f6ca",
+							"disabled": true,
+							"name": "Oxygen Absorption",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "4cfa4b4a-ac80-43ef-951c-ba6dbc074f95",
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "Can hold breath 25 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"id": "42a44159-c0d5-458f-814f-b8b0b792f7f6",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "Can hold breath 50 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"id": "22464a3e-987c-410c-a244-3fef007dab5e",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total",
+							"notes": "Can hold breath 100 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"id": "f0f5c4f7-0da2-48f8-b70a-25f9722ae898",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Can hold breath 200 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"id": "f859a962-15b5-4a3c-902d-546dea928935",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "Can hold breath 300 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"id": "c1db1df8-cb2a-47ce-ae0e-fe822a4c2caf",
+							"disabled": true,
+							"name": "Oxygen Combustion",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						}
+					],
+					"reference": "B49",
+					"calc": {
+						"points": 10
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "cd055905-c4b9-40b4-aef1-355e9d2c537c",
+					"name": "Keleni Telepathy",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "b02701f0-4d95-4a29-9884-8439cfee8bc3",
+							"name": "Level 1",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "175a9871-2186-4244-a3aa-02bcf4bd6282",
+							"disabled": true,
+							"name": "Level 2",
+							"cost_type": "points",
+							"cost": 14,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "65599746-99d3-4695-9a85-0f6bd6afc2c6",
+							"disabled": true,
+							"name": "Level 3",
+							"cost_type": "points",
+							"cost": 27,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "1e429df6-eb32-41c8-9693-0827d6c5faa5",
+							"disabled": true,
+							"name": "Level 4",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "e7e728ed-30fa-4111-98c0-3c1aaf168107",
+							"disabled": true,
+							"name": "Level 5",
+							"cost_type": "points",
+							"cost": 45,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "f654eaeb-1028-408a-b5c0-95bfdbfbc0c3",
+							"disabled": true,
+							"name": "Level 6",
+							"cost_type": "points",
+							"cost": 51,
+							"affects": "total"
+						}
+					],
+					"calc": {
+						"points": 12
+					},
+					"categories": [
+						"Psionic",
+						"Telepathy"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "7915a118-44da-4a75-b043-f8539d49fb32",
+					"name": "Maximum Psychic Healing Talent +5",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "5c618f6f-0509-4bbd-a84d-9e9816b8f5d0",
+					"name": "Maximum Telepathy Talent +5",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "780fcfb6-93ba-4337-8040-6d42168449ce",
+					"name": "Pacifism: Reluctant Killer",
+					"mental": true,
+					"base_points": -5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "0d3a0200-21a1-4852-a4e9-6f478ffbdcb6",
+							"disabled": true,
+							"name": "Species-Specific",
+							"reference": "UT32",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						}
+					],
+					"reference": "B148",
+					"calc": {
+						"points": -5
+					},
+					"notes": "You are psychologically unprepared to kill people. Whenever you make a deadly attack (e.g., with a knife or a gun) against an obvious person whose face is visible to you, you are at -4 to hit and may not Aim. If you cannot see the foe’s face (due to a mask, darkness, or distance, or because you attacked from behind), the penalty is only -2, save in close combat. You have no penalty to attack a vehicle (even an occupied one), an opponent you do not believe is a person (including things with Horrific or Monstrous appearance), or a target you can’t actually see (e.g., a set of map coordinates or a blip on a radar screen). If you kill a recognizable person, the effect on you is the same as for Pacifism: Cannot Kill. You have no problem with your allies killing; you may even supply ammo, loaded weapons, and encouragement! You just can’t do the killing yourself.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "97134fec-b364-471c-bd2c-8a1cb7b78006",
+					"name": "Social Stigma (Alien Outsider)",
+					"social": true,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "e45cb080-cc34-4955-8fac-69d80ae667cd",
+					"name": "Taboo Traits (Broken Communion, Dark Communion)",
+					"reference": "PU6:21",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "ad3f9b89-a5a3-4bc8-af77-4dabd8096fd6",
+					"name": "Taboo Traits (Callous, Low Empathy, Oblivious)",
+					"reference": "PU6:21",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "84419cf0-5aa7-4729-9370-1b1cd94d8fe5",
+					"name": "Telepathy Talent",
+					"mental": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"reference": "PSI19",
+					"calc": {
+						"points": 5
+					},
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Offense Talent"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Control Talent"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Sense and Defense Talent"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Communication Talent"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Borrow Skill"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Emotion Sense"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telereceive"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telesend"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Aspect"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Mental Surgery"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Mind Swap"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Mindwipe"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Sensory Control"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Suggestion"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telecontrol"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Instill Fear"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Mental Blow"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Mental Stab"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Sleep (Telepathy)"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Mind Clouding"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Mind Shield"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telepathy Sense"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telescan"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Telepathy"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Crippling Blow"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Telepathy"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Deafening Display"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Telepathy"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Drugged Weapon"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Telepathy"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Fatiguing Strike"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Telepathy"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Project Blow"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Telepathy"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Restorative Armor"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Telepathy"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Stealthy Attack"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Telepathy"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Stupefying Blow"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Telepathy"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Subtle Defense"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Telepathy"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Sudden Death"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Telepathy"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Thunderous Defense"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Keleni Telepathy"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Ancestral Recall"
+							}
+						}
+					],
+					"categories": [
+						"Communication",
+						"Control",
+						"Offense",
+						"Power",
+						"Sense and Defense",
+						"Telepathy"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e38372cf-e772-4d64-800a-7d79ecc34e1d",
+					"name": "Vulnerability",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "262a2257-2549-467c-be5e-7f579210be88",
+							"disabled": true,
+							"name": "@Rare attack@",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "ed86f804-49e2-48f1-8d56-e4510969b6d6",
+							"name": "Dehydration",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "2442ea57-8e24-49ec-baed-9102ef312f9f",
+							"disabled": true,
+							"name": "@Common attack@",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "00354792-337d-480b-b594-f96ada45ebe3",
+							"disabled": true,
+							"name": "@Very common attack@",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "a23450e5-f857-49ef-a283-bbd2ca7c2fb5",
+							"name": "Wounding x2",
+							"reference": "B161",
+							"cost_type": "multiplier",
+							"cost": 2
+						},
+						{
+							"type": "modifier",
+							"id": "2d1482cd-0793-45fb-ba10-2db53f31c0d1",
+							"disabled": true,
+							"name": "Wounding x3",
+							"reference": "B161",
+							"cost_type": "multiplier",
+							"cost": 3
+						},
+						{
+							"type": "modifier",
+							"id": "34e75a5b-6170-4dc0-a063-4e0b06203a45",
+							"disabled": true,
+							"name": "Wounding x4",
+							"reference": "B161",
+							"cost_type": "multiplier",
+							"cost": 4
+						},
+						{
+							"type": "modifier",
+							"id": "c13a4f2f-55af-41f4-bbf1-4f9fd41f0b75",
+							"name": "Fatigue Only",
+							"reference": "B161",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						}
+					],
+					"reference": "B161",
+					"calc": {
+						"points": -10
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "96a0f01a-3ca4-42d6-8816-9f2f23c04839",
+					"name": "Weak Latency (Psychic Healing)",
+					"physical": true,
+					"base_points": 1,
+					"reference": "PSI19",
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "f7f20fa1-e0d7-4dde-9e29-f9a0e0cdf9bd",
+			"name": "Keleni Power-Ups",
+			"calc": {
+				"points": 119
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "01b9b40a-d554-44de-82de-78c07897d4dd",
+					"name": "Ancestral Guide",
+					"mental": true,
+					"base_points": 8,
+					"calc": {
+						"points": 8
+					},
+					"categories": [
+						"Psionic",
+						"Telepathy"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "90462820-6e03-42f9-9647-257918e219f8",
+					"name": "Ancestral Recall",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "b48f0735-bdcc-4359-89a8-076f3d8d1fb6",
+							"name": "Level 1",
+							"cost_type": "points",
+							"cost": 14,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "cd9f9547-8805-448d-aa92-c7047e56657e",
+							"name": "Level 2",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "648efd42-15c6-40f9-a60a-b7b4d592e668",
+							"name": "Level 3",
+							"cost_type": "points",
+							"cost": 50,
+							"affects": "total"
+						}
+					],
+					"calc": {
+						"points": 94
+					},
+					"categories": [
+						"Psionic",
+						"Telepathy"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c700a56a-27c0-4bf6-8660-9449e24b117c",
+					"name": "Keleni Bond",
+					"mental": true,
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					},
+					"categories": [
+						"Psionic",
+						"Telepathy"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "6f2cb2fd-4e1f-4242-8112-ac6869d1f804",
+					"name": "Keleni Mind-Touch",
+					"mental": true,
+					"base_points": 12,
+					"calc": {
+						"points": 12
+					},
+					"categories": [
+						"Psionic",
+						"Telepathy"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "af41ea76-179c-48ec-8327-601a3dcf85c4",
+			"name": "Keleni Psionic Skills",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "55749a26-2a4b-4d63-9583-bee0f715ded4",
+					"name": "Ancestral Recall",
+					"difficulty": "iq/h",
+					"points": 1,
+					"categories": [
+						"Psionic",
+						"Telepathy"
+					]
+				}
+			]
+		},
+		{
+			"type": "skill_container",
+			"id": "fc439ccb-525c-43a7-af0c-18ba993969d3",
+			"name": "Keleni Racial Skills",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "dfb6e5dc-30a1-41bf-85a1-addfa17aa92d",
+					"name": "Keleni Telepathy",
+					"difficulty": "iq/h",
+					"points": 1,
+					"categories": [
+						"Psionic",
+						"Telepathy"
+					]
+				}
+			]
+		}
+	]
+}

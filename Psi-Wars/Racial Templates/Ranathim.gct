@@ -1,0 +1,1142 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "f22800e4-d9e8-4fd9-8cb8-6445e3118023",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "da692ead-b3c4-46bf-8b93-4ee7e0351152",
+			"container_type": "race",
+			"name": "Ranathim",
+			"ancestry": "Ranathim",
+			"calc": {
+				"points": 30
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "8e001426-d4e2-415c-9673-45e8a26686d4",
+					"name": "Appearance",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "2b3ad7a0-fab2-4581-8c72-28182381d5e0",
+							"name": "Attractive",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 4,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 1,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "8de42598-f903-42e3-9792-59378470076c",
+							"disabled": true,
+							"name": "Average",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "576e52cf-ee9e-466c-ac1a-2c4004fe4ced",
+							"disabled": true,
+							"name": "Beautiful",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 4,
+									"situation": "from those attracted to members of your sex, +2 from everyone else"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "389968e7-a2b4-4c12-aae6-e2dfa5d96669",
+							"disabled": true,
+							"name": "Beautiful (Androgynous)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 3,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "9617eb4d-3516-41a4-a240-7dbbc241e41c",
+							"disabled": true,
+							"name": "Beautiful (Impressive)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 3,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "6a35b227-f173-41f6-88d7-80f0110309ac",
+							"disabled": true,
+							"name": "Handsome",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 4,
+									"situation": "from those attracted to members of your sex, +2 from everyone else"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "9bcbce14-b67f-4c12-9a18-f2764825f543",
+							"disabled": true,
+							"name": "Handsome (Androgynous)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 3,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "9540521a-db1f-467f-a82b-de8c87ce60aa",
+							"disabled": true,
+							"name": "Handsome (Impressive)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 3,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "f5d5685b-356a-43bc-883c-d745e337f165",
+							"disabled": true,
+							"name": "Hideous",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": -16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": -4,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "5851deb7-3dc0-4c3d-97e9-125da2a8f84e",
+							"disabled": true,
+							"name": "Horrific",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": -24,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": -6,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "e281ea68-05ed-4613-a319-8f0b218bbbf2",
+							"disabled": true,
+							"name": "Impressive",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "cccd75f3-e9d9-4b23-a232-a1cd6d4c8e7c",
+							"disabled": true,
+							"name": "Monstrous",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": -5,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "5d8f3559-6967-4c82-9d48-6602aa6a1b81",
+							"disabled": true,
+							"name": "Off-the-Shelf Looks",
+							"reference": "B21",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "Halves the usual reaction bonus - adjust manually"
+						},
+						{
+							"type": "modifier",
+							"id": "8d99a131-72c9-4d1c-bd37-8896816ba181",
+							"disabled": true,
+							"name": "Transcendent",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 8,
+									"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead."
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "3fd47062-fe73-47a9-ab5d-80ebfc95fefe",
+							"disabled": true,
+							"name": "Transcendent (Androgynous)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 5,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "b3f58ea6-605d-49a7-bfb7-7fa732dc76d7",
+							"disabled": true,
+							"name": "Transcendent (Impressive)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 5,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "1fa671c6-4599-48f7-b4ea-573fb3863cb6",
+							"disabled": true,
+							"name": "Ugly",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": -8,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": -2,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "f31702ce-3dfb-4721-a308-a60dc5d22e12",
+							"disabled": true,
+							"name": "Unattractive",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": -4,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": -1,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "d35ebc13-e6f5-44c7-bfcb-eb733234d58f",
+							"disabled": true,
+							"name": "Universal",
+							"reference": "B21",
+							"cost_type": "percentage",
+							"cost": 25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "a759fe7b-ec61-4abc-a245-fc28a119cff5",
+							"disabled": true,
+							"name": "Very Beautiful",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 6,
+									"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead."
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "61e6f17f-0742-4348-b0f4-30d785c279a4",
+							"disabled": true,
+							"name": "Very Beautiful (Androgynous)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 4,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "ff024db6-e196-47e6-8920-65f89b4409ab",
+							"disabled": true,
+							"name": "Very Beautiful (Impressive)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 4,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "f6f6c454-3f7f-4041-9792-c844eedf7d1a",
+							"disabled": true,
+							"name": "Very Handsome",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 6,
+									"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead."
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "c107bc81-58ee-4207-97f9-2dde43576d91",
+							"disabled": true,
+							"name": "Very Handsome (Androgynous)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 4,
+									"situation": "from others"
+								}
+							]
+						},
+						{
+							"type": "modifier",
+							"id": "33fc3451-e9c9-4f80-a06c-ea2fed0d2930",
+							"disabled": true,
+							"name": "Very Handsome (Impressive)",
+							"reference": "B21",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total",
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 4,
+									"situation": "from others"
+								}
+							]
+						}
+					],
+					"reference": "B21",
+					"calc": {
+						"points": 4
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "1dfb89a6-ed20-4aba-8fb3-dc2a3e9fbea2",
+					"name": "ER (Psi)",
+					"physical": true,
+					"levels": "8",
+					"points_per_level": 3,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "6b9a34aa-b485-4357-856b-398fdf9f2244",
+							"name": "Regenerate with Steal Energy only",
+							"cost_type": "percentage",
+							"cost": -70,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "19d290a7-1f2c-4c24-a59f-ca96888f2b43",
+							"name": "Can be used with physical Extra Effort",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						}
+					],
+					"calc": {
+						"points": 12
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "2a408537-b3c3-4831-a0c2-cc884ee4b97a",
+					"name": "Godlike Extra Effort (Physical)",
+					"physical": true,
+					"base_points": 1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "3009660e-84f2-4358-9289-9a36cf62f3b9",
+							"name": "Psi",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "e9318062-ac76-4630-bc04-9dc5a1cc57e9",
+					"name": "Increased Health",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 10,
+					"reference": "B14",
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "ht"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "45858ad1-0dfa-45c7-b9b6-b4f9b42d8137",
+					"name": "May increase Psychic Vampirism Talent to 5",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "94d079f8-f042-4328-a2aa-2ca0ba1ad59c",
+					"name": "May increase their disadvantage limit by taking one passion disadvantage",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "65fe4def-d987-4e19-97f7-bf32863e3ca8",
+					"name": "Night Vision",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 1,
+					"reference": "B71",
+					"calc": {
+						"points": 2
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "89489e8a-2c29-4557-87ca-0804d4ef9cb9",
+					"name": "Passionate Psi",
+					"mental": true,
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "f51d490c-0a70-4dbf-b964-dddfa1a07808",
+					"name": "Psychic Vampirism Talent",
+					"mental": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"reference": "PSI19",
+					"calc": {
+						"points": 5
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Detect Life"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Drain DX"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Drain Emotion"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Drain HT"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Drain IQ"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Drain ST"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Steal Dreams"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Steal Energy"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Steal Life"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Steal Power"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Psychic Vampirism"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Annihilating Weapon"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Psychic Vampirism"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Chilling Strike"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Psychic Vampirism"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Corrosive Strike"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Psychic Vampirism"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Energizing Defense"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Psychic Vampirism"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Envenomed Weapon"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Psychic Vampirism"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Sudden Death"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Psychic Vampirism"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Toxic Strike"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Psychic Vampirism"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Traumatic Blow"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Psychic Vampirism"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Vampiric Weapon"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Psychic Vampirism"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Vengeful Defense"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Psychic Vampirism"
+							},
+							"name": {
+								"compare": "is",
+								"qualifier": "Withering Strike"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Ranathim Blood-Scent"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Ranathim Energy Vampirism"
+							}
+						}
+					],
+					"categories": [
+						"Power",
+						"Psychic Vampirism"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "ea1b9f7b-1900-4856-9444-35ccb4545773",
+					"name": "Ranathim Energy Vampirism",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "15226935-bfb4-42ac-bf80-38778b24fb66",
+							"name": "Level 1",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "75ba1fb8-d337-48f8-895b-be8e9b5d34d7",
+							"disabled": true,
+							"name": "Level 2",
+							"cost_type": "points",
+							"cost": 7,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "f0eb1080-08b6-430c-8f43-b0f01cb7217e",
+							"disabled": true,
+							"name": "Level 3",
+							"cost_type": "points",
+							"cost": 9,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "7b0aa86a-345b-456e-9924-3f59e5812d13",
+							"disabled": true,
+							"name": "Level 4",
+							"cost_type": "points",
+							"cost": 11,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "457f375e-0a8d-4e39-9f25-b10e70ae036f",
+							"disabled": true,
+							"name": "Level 5",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "f037aefc-c073-4015-9048-35036849cb63",
+							"disabled": true,
+							"name": "Level 6",
+							"cost_type": "points",
+							"cost": 14,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "2b944646-e457-441e-92a0-48ee7c75c0ca",
+							"disabled": true,
+							"name": "Level 7",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "0f764a72-40ee-4a81-a4d4-c646fbc0dc51",
+					"name": "Ranathim Skull",
+					"physical": true,
+					"base_points": 2,
+					"calc": {
+						"points": 2
+					},
+					"features": [
+						{
+							"type": "dr_bonus",
+							"amount": 2,
+							"location": "skull"
+						},
+						{
+							"type": "weapon_bonus",
+							"amount": 2,
+							"selection_type": "weapons_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Head Butt"
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "9cb33bb1-cf97-4db1-ac84-53972417a72c",
+					"name": "Social Stigma (Alien Outsider)",
+					"physical": true,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from other races"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 1,
+							"situation": "from sympathizers"
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "00bc8811-ae89-4476-97b2-cea3e6de5812",
+					"name": "Taboo Traits (True Communion)",
+					"reference": "PU6:21",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "4dee6bb0-5786-47d9-a09f-b816a04d875b",
+					"name": "Tail",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "59db7a67-fd45-406c-a8fb-81ace05541f8",
+					"name": "Uncontrollable Appetite (Psionic Energy)",
+					"mental": true,
+					"supernatural": true,
+					"base_points": -15,
+					"cr": 15,
+					"reference": "B159",
+					"calc": {
+						"points": -7
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "7a1680c2-76b7-40b3-99e7-1ab2e68e36fa",
+			"name": "Ranathim Power-Ups",
+			"calc": {
+				"points": 56
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "6928e297-9aac-4c65-894a-d1321a448327",
+					"name": "Extreme Sexual Dimorphism",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "PU2:10",
+					"calc": {
+						"points": 1
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Sex Appeal"
+							}
+						}
+					],
+					"notes": "+1 to attempts to identify you, -1 to attempts to remain anonymous.",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "13c9b01e-4b5b-4c96-9d26-33222cf99ca4",
+					"name": "Latent Psychokinesis",
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "a4d0b87a-aca0-4a5f-9cd9-2e588c6a6254",
+					"name": "Latent Telepathy",
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "174ca7c2-c9a3-42af-a581-28b00944d1c5",
+					"name": "Prehensile Tail",
+					"physical": true,
+					"base_points": 8,
+					"calc": {
+						"points": 8
+					},
+					"categories": [
+						"Trait"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "250bdc9e-4617-4fde-b022-9447705c54c7",
+					"name": "Ranathim Blood-Scent",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "b03e15b7-f0f3-4f10-99e9-323ab4a010bd",
+							"name": "Level 1",
+							"cost_type": "points",
+							"cost": 8,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "d43d4fa4-7a30-46d0-9d21-81a7175ffc81",
+							"name": "Level 2",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "4e497ada-059b-4382-9fdc-e8a8d7557b4b",
+							"name": "Level 3",
+							"cost_type": "points",
+							"cost": 22,
+							"affects": "total"
+						}
+					],
+					"calc": {
+						"points": 45
+					},
+					"categories": [
+						"Psionic",
+						"Psychic Vampirism"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "8bf999b5-d55f-4cf1-938c-9fa5fcce2290",
+			"name": "Ranathim Psychic Skills",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "0596a06e-eeb3-4b5e-a530-e2e78e8fab58",
+					"name": "Ranathim Blood-Scent",
+					"difficulty": "per/h",
+					"points": 1,
+					"categories": [
+						"Psionic",
+						"Psychic Vampirism"
+					]
+				}
+			]
+		}
+	]
+}
