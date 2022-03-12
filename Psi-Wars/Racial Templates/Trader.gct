@@ -1,0 +1,1867 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "25260d57-25ef-47eb-8e8b-39de8bfa1002",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "6a534b3f-c3d0-45b0-83d3-94c6c620ee09",
+			"name": "Optional Traits",
+			"calc": {
+				"points": -8
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "fba68931-13f7-474a-973e-59e9929f402e",
+					"name": "Code of Honor (The Trader Ways)",
+					"social": true,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "345f1dc4-7e6c-40c4-b2c0-205dc6754fa1",
+					"name": "Cutting Edge Training (Trader Tech)",
+					"mental": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "7ecf4780-4f01-494a-a946-0a2c07f650a0",
+					"name": "Intuitive Navigator",
+					"mental": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					},
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Intuitive Mathematician"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Enhanced Time Sense"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Absolute Direction"
+								}
+							}
+						]
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "7cdc7cd8-9e11-41c3-a8aa-6b020755f6ff",
+					"name": "Social Stigma (Trader Exile)",
+					"social": true,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "66aabb27-c7ca-4028-81fb-e9da36ab4299",
+			"container_type": "race",
+			"name": "Trader",
+			"ancestry": "Human",
+			"calc": {
+				"points": 35
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "9997f61a-044c-48f3-8cd8-20c67b7682f0",
+					"name": "Decreased Strength",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": -5,
+					"reference": "B14",
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Attribute",
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c3b52eef-3b5c-42f4-a842-83d07bfc7068",
+					"name": "Enhanced Time Sense",
+					"mental": true,
+					"exotic": true,
+					"base_points": 45,
+					"reference": "B52",
+					"calc": {
+						"points": 45
+					},
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Combat Reflexes"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "fast-draw"
+							}
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"attribute": "dodge"
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"attribute": "parry"
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"attribute": "block"
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 2,
+							"attribute": "fright_check"
+						}
+					],
+					"notes": "You immediately act in combat before those without Enhanced Time Sense; Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "2da4fa3a-8fd1-4ef0-b48e-01ce24b54f7c",
+					"name": "Extendable Jaw",
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "79a78e4a-3361-4783-a273-a0c32023f7f2",
+					"name": "Gracile",
+					"physical": true,
+					"exotic": true,
+					"levels": "2",
+					"reference": "TT2:14",
+					"calc": {
+						"points": 0
+					},
+					"notes": "+5% average height per level",
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "a8a4d136-1d09-4499-bd72-67f2ddf26df7",
+					"name": "Green Skin",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "ea2a5943-edf5-4838-a763-f033c2ece6ed",
+					"name": "Hairless",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "3bab6673-2655-4d89-8acd-8defeaf6bf29",
+					"name": "Monstrous Maw",
+					"physical": true,
+					"base_points": -2,
+					"calc": {
+						"points": -2
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "when mouth visible while speaking or eating"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "27a00e62-76ea-4ead-a810-9266a0562065",
+					"name": "Sharp Teeth",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"weapons": [
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Bite",
+							"reach": "C",
+							"parry": "No",
+							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "No",
+								"block": "No",
+								"damage": "thr-1 cut"
+							},
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "dx"
+								}
+							]
+						}
+					],
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "8da2a1d9-d8f2-4170-bbe1-550c2633eff7",
+							"disabled": true,
+							"name": "Provided by Vampiric Bite",
+							"reference": "B96",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total"
+						}
+					],
+					"reference": "B91",
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "162f3736-db10-4b04-8c20-2b2856e1d69c",
+					"name": "Social Stigma (Alien Outsider)",
+					"social": true,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from other races"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 1,
+							"situation": "from sympathizers"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "cade754b-95bc-4ee4-85e4-bb5a85b916f7",
+					"name": "Susceptible (Disease)",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": -1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "f1648ade-f8f6-4157-8a92-20dcebfee7cf",
+							"disabled": true,
+							"name": "Occasional",
+							"reference": "B158",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"id": "fca3034e-f743-407f-97f2-3c06bf4142f2",
+							"disabled": true,
+							"name": "Common",
+							"reference": "B158",
+							"cost_type": "multiplier",
+							"cost": 2
+						},
+						{
+							"type": "modifier",
+							"id": "84b059f8-31bf-465b-84c9-230f6a03a129",
+							"name": "Very Common",
+							"reference": "B158",
+							"cost_type": "multiplier",
+							"cost": 4
+						}
+					],
+					"reference": "B158",
+					"calc": {
+						"points": -8
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "5b6e5fa8-55a1-46be-a807-2b94e55c2001",
+					"name": "Ultrasonic Speech",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "75e55bab-5f13-425c-90fd-c9d209c37da5",
+							"disabled": true,
+							"name": "No normal speech",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "3cf1fef2-5c7b-4752-8798-e7d7134a4e3a",
+							"name": "Burst x 1000",
+							"cost_type": "percentage",
+							"cost": 30,
+							"affects": "total"
+						}
+					],
+					"reference": "B94",
+					"calc": {
+						"points": 13
+					},
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "978b1021-7f47-488e-828a-d7b1e725a9c6",
+			"name": "Trader Biological Variations",
+			"calc": {
+				"points": 2
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage_container",
+					"id": "2f7a3dc6-a444-4438-bf73-051a4438d522",
+					"container_type": "meta_trait",
+					"name": "Albino Trader",
+					"calc": {
+						"points": -2
+					},
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"id": "269cc3b0-b8e7-4149-8780-a7d5ddb7fef4",
+							"name": "Photosensitivity",
+							"physical": true,
+							"base_points": -1,
+							"reference": "PU6:24",
+							"calc": {
+								"points": -1
+							},
+							"categories": [
+								"Quirk"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "9e401e85-e65f-48ce-8dc4-3c560b88a5d1",
+							"name": "Sunburns Easily",
+							"physical": true,
+							"base_points": -1,
+							"reference": "PU6:24",
+							"calc": {
+								"points": -1
+							},
+							"categories": [
+								"Quirk"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "4253cb2e-eeb8-48e6-af68-13466eb66a33",
+							"name": "White Skin",
+							"physical": true,
+							"calc": {
+								"points": 0
+							},
+							"categories": [
+								"Feature"
+							]
+						}
+					]
+				},
+				{
+					"type": "advantage_container",
+					"id": "002f5d6f-718d-401c-9e62-73cd07bfc3af",
+					"container_type": "meta_trait",
+					"name": "Chitinous Trader",
+					"calc": {
+						"points": 4
+					},
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"id": "1b2c38a3-ff4d-4c9f-a112-e1e4e12707e3",
+							"name": "Crushing Striker (Forehead crest)",
+							"physical": true,
+							"exotic": true,
+							"base_points": 5,
+							"weapons": [
+								{
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"modifier_per_die": 1
+									},
+									"reach": "C",
+									"parry": "No",
+									"block": "No",
+									"calc": {
+										"level": 0,
+										"parry": "No",
+										"block": "No",
+										"damage": "thr (+1 per die) cr"
+									},
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										}
+									]
+								}
+							],
+							"modifiers": [
+								{
+									"type": "modifier",
+									"id": "bfe63427-6472-45ad-9fb6-eca93c7ae989",
+									"name": "Cannot Parry",
+									"cost_type": "percentage",
+									"cost": -40,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "39b73dab-eabe-4edf-8c90-a79e3a58a088",
+									"name": "Limited Arc: Straight Ahead",
+									"cost_type": "percentage",
+									"cost": -40,
+									"affects": "total"
+								}
+							],
+							"reference": "B88",
+							"calc": {
+								"points": 1
+							},
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "4df8357a-6f5d-40ce-a2d0-a859ad171792",
+							"name": "Damage Resistance",
+							"physical": true,
+							"exotic": true,
+							"levels": "5",
+							"points_per_level": 1,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"id": "7ee10d91-df9f-40f6-b57f-8ca3eb86f17c",
+									"disabled": true,
+									"name": "Force Field",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": 20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "1d97d039-8f6f-4a71-8ecf-83c505dd2e9b",
+									"disabled": true,
+									"name": "Hardened",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": 20,
+									"affects": "total",
+									"levels": 1
+								},
+								{
+									"type": "modifier",
+									"id": "631c621a-48fe-497c-9826-3cb9de3b59e6",
+									"disabled": true,
+									"name": "Absorption",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": 80,
+									"affects": "total",
+									"notes": "Enhances @Trait@"
+								},
+								{
+									"type": "modifier",
+									"id": "aa2ecf6a-8b4b-4a9d-baa3-fce255e08df3",
+									"disabled": true,
+									"name": "Absorption",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": 80,
+									"affects": "total",
+									"notes": "Healing only"
+								},
+								{
+									"type": "modifier",
+									"id": "cea905f1-a15f-4743-ae2d-79d19852d9f3",
+									"disabled": true,
+									"name": "Absorption",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": 100,
+									"affects": "total",
+									"notes": "Enhances any trait"
+								},
+								{
+									"type": "modifier",
+									"id": "46be4202-4d1a-47cb-91b4-498c96f394bb",
+									"disabled": true,
+									"name": "Reflection",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": 100,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "914e4ebc-4d73-4013-8fe2-8a96eae33633",
+									"disabled": true,
+									"name": "Bane",
+									"reference": "H14",
+									"cost_type": "points",
+									"cost": -1,
+									"affects": "total",
+									"notes": "@Rare@"
+								},
+								{
+									"type": "modifier",
+									"id": "c438d171-0f47-4dd2-86c1-55a858a600eb",
+									"disabled": true,
+									"name": "Bane",
+									"reference": "H14",
+									"cost_type": "percentage",
+									"cost": -5,
+									"affects": "total",
+									"notes": "@Occasional@"
+								},
+								{
+									"type": "modifier",
+									"id": "0b3db4cf-f0fa-4f13-b0e7-0715b72c2aac",
+									"disabled": true,
+									"name": "Bane",
+									"reference": "H14",
+									"cost_type": "percentage",
+									"cost": -10,
+									"affects": "total",
+									"notes": "@Common@"
+								},
+								{
+									"type": "modifier",
+									"id": "bce97513-f691-45ea-b881-58da4ee53ec4",
+									"disabled": true,
+									"name": "Bane",
+									"reference": "H14",
+									"cost_type": "percentage",
+									"cost": -15,
+									"affects": "total",
+									"notes": "@Very Common@"
+								},
+								{
+									"type": "modifier",
+									"id": "dee6809c-d0f4-449d-851e-c1719a05a983",
+									"disabled": true,
+									"name": "Directional",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total",
+									"notes": "Front"
+								},
+								{
+									"type": "modifier",
+									"id": "c6f2c3c7-6efd-4156-b24f-a201eae5a5db",
+									"disabled": true,
+									"name": "Flexible",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "ab9f3d77-998f-4cdf-b821-1d2d80d4be61",
+									"disabled": true,
+									"name": "Limited",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total",
+									"notes": "@Very Common Attack Form@"
+								},
+								{
+									"type": "modifier",
+									"id": "35842e12-47d8-43b7-a1bb-fbcaf45e6656",
+									"disabled": true,
+									"name": "Semi-Ablative",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "ad7beb75-ed32-4864-943e-dae54385e89f",
+									"disabled": true,
+									"name": "Can't wear armor",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -40,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "07b5e8e5-e73d-43bb-8d62-6fefaebebbdc",
+									"disabled": true,
+									"name": "Directional",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -40,
+									"affects": "total",
+									"notes": "@Direction: Back, Right, Left, Top or Underside@"
+								},
+								{
+									"type": "modifier",
+									"id": "5b6c5c25-4806-4d2b-9009-343efeb8e6f4",
+									"disabled": true,
+									"name": "Limited",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": -40,
+									"affects": "total",
+									"notes": "@Common Attack Form@"
+								},
+								{
+									"type": "modifier",
+									"id": "32bafc4c-66ec-45e6-90cb-7e18b4720d40",
+									"name": "Tough Skin",
+									"cost_type": "percentage",
+									"cost": -40,
+									"affects": "total",
+									"notes": "Effects that just require skin contact or a scratch ignore this DR"
+								},
+								{
+									"type": "modifier",
+									"id": "ce81652b-e993-45b4-9d41-0f60bbb76d55",
+									"disabled": true,
+									"name": "Limited",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": -60,
+									"affects": "total",
+									"notes": "@Occasional Attack Form@"
+								},
+								{
+									"type": "modifier",
+									"id": "789a17e6-1472-4f2a-a97c-0a1448982eeb",
+									"disabled": true,
+									"name": "Ablative",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -80,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "5a325363-27a1-4192-af40-4cc730e5460c",
+									"disabled": true,
+									"name": "Limited",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": -80,
+									"affects": "total",
+									"notes": "@Rare Attack Form@"
+								},
+								{
+									"type": "modifier",
+									"id": "c1f1c477-7852-4ccd-a322-d15932403b8e",
+									"disabled": true,
+									"name": "Laminate",
+									"reference": "RSWL18",
+									"cost_type": "percentage",
+									"cost": 10,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "377542f9-6079-4b1a-bea3-743e1ed78f9a",
+									"disabled": true,
+									"name": "Malediction-Proof",
+									"reference": "PSI14",
+									"cost_type": "percentage",
+									"cost": 50,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "ecfe686d-fa06-47f3-b858-75c59d5b7b79",
+									"disabled": true,
+									"name": "Maledictions Only",
+									"reference": "PSI14",
+									"cost_type": "percentage",
+									"cost": 0,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "02ad82d6-2285-4b11-95a5-1304a40e224e",
+									"disabled": true,
+									"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -10,
+									"affects": "total"
+								}
+							],
+							"reference": "B47",
+							"calc": {
+								"points": 3
+							},
+							"features": [
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "skull"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "face"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "neck"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "torso"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "vitals"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "groin"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "arm"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "hand"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "leg"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "foot"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "tail"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "wing"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "fin"
+								},
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "brain"
+								}
+							],
+							"categories": [
+								"Advantage"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "835761ff-a221-48cc-8c89-29cc4ba3b4a9",
+			"name": "Trader Power-Ups",
+			"calc": {
+				"points": 58
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage_container",
+					"id": "44d0e0bf-67ab-4b2d-b5a4-8dd29b093a8e",
+					"name": "Cyberneticist",
+					"calc": {
+						"points": 20
+					},
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"id": "596788af-652a-401f-9af4-bdd7632718fe",
+							"name": "Talent (Cyberneticist)",
+							"mental": true,
+							"levels": "4",
+							"points_per_level": 5,
+							"reference": "PU3:9",
+							"calc": {
+								"points": 20
+							},
+							"features": [
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"per_level": true,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Computer Hacking"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"per_level": true,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Computer Operation"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"per_level": true,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Computer Programming"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"per_level": true,
+									"selection_type": "skills_with_name",
+									"specialization": {
+										"compare": "is",
+										"qualifier": "AI"
+									},
+									"name": {
+										"compare": "is",
+										"qualifier": "Computer Programming"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"per_level": true,
+									"selection_type": "skills_with_name",
+									"specialization": {
+										"compare": "is",
+										"qualifier": "Computers"
+									},
+									"name": {
+										"compare": "is",
+										"qualifier": "Electronics Repair"
+									}
+								},
+								{
+									"type": "reaction_bonus",
+									"amount": 1,
+									"per_level": true,
+									"situation": "From other computer professionals, AI systems, and robots."
+								}
+							],
+							"categories": [
+								"Advantage",
+								"Talent"
+							]
+						}
+					]
+				},
+				{
+					"type": "advantage_container",
+					"id": "bc22cce9-8d46-46e1-8f11-b7672f068862",
+					"name": "Hyperspatial Strategist",
+					"calc": {
+						"points": 11
+					},
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"id": "e46ca993-ef85-4271-bd5c-dc729952e4cc",
+							"name": "Absolute Direction",
+							"mental": true,
+							"physical": true,
+							"base_points": 5,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"id": "443b9178-3f1f-4e60-b076-5e05ae2242bc",
+									"disabled": true,
+									"name": "Requires signal",
+									"reference": "B34",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "081a4c6c-2357-4c97-adb5-b33d444b3b25",
+									"name": "3D Spatial Sense",
+									"reference": "B34",
+									"cost_type": "points",
+									"cost": 5,
+									"affects": "total",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"amount": 1,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "starts_with",
+												"qualifier": "piloting"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": 2,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "aerobatics"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": 2,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "free fall"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": 2,
+											"selection_type": "skills_with_name",
+											"specialization": {
+												"compare": "is",
+												"qualifier": "hyperspace"
+											},
+											"name": {
+												"compare": "is",
+												"qualifier": "navigation"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": 2,
+											"selection_type": "skills_with_name",
+											"specialization": {
+												"compare": "is",
+												"qualifier": "space"
+											},
+											"name": {
+												"compare": "is",
+												"qualifier": "navigation"
+											}
+										}
+									]
+								}
+							],
+							"reference": "B34",
+							"calc": {
+								"points": 10
+							},
+							"features": [
+								{
+									"type": "skill_bonus",
+									"amount": 3,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "body sense"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 3,
+									"selection_type": "skills_with_name",
+									"specialization": {
+										"compare": "is",
+										"qualifier": "air"
+									},
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 3,
+									"selection_type": "skills_with_name",
+									"specialization": {
+										"compare": "is",
+										"qualifier": "land"
+									},
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 3,
+									"selection_type": "skills_with_name",
+									"specialization": {
+										"compare": "is",
+										"qualifier": "sea"
+									},
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									}
+								}
+							],
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "3a65e2c2-47be-4772-a103-a8488471bb9c",
+							"name": "Chessmaster",
+							"mental": true,
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage_container",
+					"id": "119a576a-1adb-45e3-8d09-5914271a78ab",
+					"name": "Rikarik Sharp",
+					"calc": {
+						"points": 12
+					},
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"id": "5ba3caf3-bc66-47dc-8350-6c00592f88a3",
+							"name": "Eidetic Memory",
+							"mental": true,
+							"base_points": 5,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"id": "695c9c90-d4ea-40da-b420-1db4ea1e2a05",
+									"disabled": true,
+									"name": "Photographic",
+									"reference": "B51",
+									"cost_type": "points",
+									"cost": 5,
+									"affects": "total"
+								}
+							],
+							"reference": "B51",
+							"calc": {
+								"points": 5
+							},
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "847269ba-95d2-4872-aa68-54d492c03000",
+							"name": "Intuitive Navigator",
+							"mental": true,
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							},
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "advantage_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Intuitive Mathematician"
+										}
+									},
+									{
+										"type": "advantage_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Enhanced Time Sense"
+										}
+									},
+									{
+										"type": "advantage_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Absolute Direction"
+										}
+									}
+								]
+							},
+							"categories": [
+								"Perk"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "16e8e55e-f5cb-45f8-a72e-1d3452e57d0a",
+							"name": "Lightning Calculator",
+							"mental": true,
+							"base_points": 2,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"id": "068355b1-cf99-4a68-a2a2-938f8e99151a",
+									"name": "Intuitive Mathematician",
+									"reference": "B66",
+									"cost_type": "points",
+									"cost": 3,
+									"affects": "total"
+								}
+							],
+							"reference": "B66",
+							"calc": {
+								"points": 5
+							},
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "719df6b7-3c4b-468e-a8af-5029d689414e",
+							"name": "Social Regard",
+							"social": true,
+							"levels": "1",
+							"points_per_level": 5,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"id": "050d9db9-9742-4cd8-8e58-ec282f5bdb9f",
+									"name": "Traders Only",
+									"cost_type": "percentage",
+									"cost": -80,
+									"affects": "total"
+								}
+							],
+							"reference": "B87",
+							"calc": {
+								"points": 1
+							},
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": 1,
+									"per_level": true,
+									"situation": "from those who hold you in high regard for being a , in a Venerated way."
+								}
+							],
+							"notes": "Venerated: ",
+							"categories": [
+								"Advantage"
+							]
+						}
+					]
+				},
+				{
+					"type": "advantage_container",
+					"id": "a538e9a2-6a54-4f44-8f40-1b36f6d4346a",
+					"name": "Trader Navigator",
+					"calc": {
+						"points": 15
+					},
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"id": "38908187-5210-4c32-958d-6e3a54a6d632",
+							"name": "Absolute Direction",
+							"mental": true,
+							"physical": true,
+							"base_points": 5,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"id": "eeb93c76-f338-4153-9138-aa7eb9d185f7",
+									"disabled": true,
+									"name": "Requires signal",
+									"reference": "B34",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "4199cd8a-6b8e-430f-9e89-62c47bc754af",
+									"name": "3D Spatial Sense",
+									"reference": "B34",
+									"cost_type": "points",
+									"cost": 5,
+									"affects": "total",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"amount": 1,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "starts_with",
+												"qualifier": "piloting"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": 2,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "aerobatics"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": 2,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "free fall"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": 2,
+											"selection_type": "skills_with_name",
+											"specialization": {
+												"compare": "is",
+												"qualifier": "hyperspace"
+											},
+											"name": {
+												"compare": "is",
+												"qualifier": "navigation"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": 2,
+											"selection_type": "skills_with_name",
+											"specialization": {
+												"compare": "is",
+												"qualifier": "space"
+											},
+											"name": {
+												"compare": "is",
+												"qualifier": "navigation"
+											}
+										}
+									]
+								}
+							],
+							"reference": "B34",
+							"calc": {
+								"points": 10
+							},
+							"features": [
+								{
+									"type": "skill_bonus",
+									"amount": 3,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "body sense"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 3,
+									"selection_type": "skills_with_name",
+									"specialization": {
+										"compare": "is",
+										"qualifier": "air"
+									},
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 3,
+									"selection_type": "skills_with_name",
+									"specialization": {
+										"compare": "is",
+										"qualifier": "land"
+									},
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 3,
+									"selection_type": "skills_with_name",
+									"specialization": {
+										"compare": "is",
+										"qualifier": "sea"
+									},
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									}
+								}
+							],
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "4826c208-3c46-4c57-855a-9055f4e29f2b",
+							"name": "Lightning Calculator",
+							"mental": true,
+							"base_points": 2,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"id": "c676a508-1cf0-4b44-9384-b21bac5da4b1",
+									"name": "Intuitive Mathematician",
+									"reference": "B66",
+									"cost_type": "points",
+									"cost": 3,
+									"affects": "total"
+								}
+							],
+							"reference": "B66",
+							"calc": {
+								"points": 5
+							},
+							"categories": [
+								"Advantage"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "c594f661-0a3c-4996-a9b2-b4264061bfdc",
+			"name": "Optional Techniques",
+			"open": true,
+			"children": [
+				{
+					"type": "technique",
+					"id": "a31c6a05-76a4-4726-93e8-301e236d4c22",
+					"name": "Trader Drive Training",
+					"difficulty": "h",
+					"points": 1,
+					"limit": 0,
+					"default": {
+						"type": "skill",
+						"name": "Navigation",
+						"specialization": "Hyperspace",
+						"modifier": -4
+					},
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Mathematics"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 12
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"type": "skill_container",
+			"id": "b5ace3f4-5b1f-40b3-b717-682af901f2d7",
+			"name": "Trader Power-Ups",
+			"open": true,
+			"children": [
+				{
+					"type": "skill_container",
+					"id": "e1f767ac-53c3-4752-823e-f8f5358674e7",
+					"name": "Cyberneticist",
+					"open": true,
+					"children": [
+						{
+							"type": "skill",
+							"id": "3a1b1da9-dbc1-466d-9eab-39d3dbdabb3f",
+							"name": "Computer Hacking",
+							"reference": "B184",
+							"tech_level": "",
+							"difficulty": "iq/vh",
+							"points": 4,
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "computer programming"
+										}
+									}
+								]
+							},
+							"categories": [
+								"Criminal/Street",
+								"Spy"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "fcd26d24-7f1c-485d-9621-b5a0e2093947",
+							"name": "Computer Operation",
+							"reference": "B184",
+							"tech_level": "",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Everyman",
+								"Scholarly",
+								"Technical"
+							]
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "721f0fcd-6b5b-4804-8395-16fa4e417729",
+					"name": "Hyperspatial Strategist",
+					"open": true,
+					"children": [
+						{
+							"type": "skill",
+							"id": "169d7d02-5daa-478d-b191-8273b294d1e3",
+							"name": "Games",
+							"reference": "B197",
+							"specialization": "Tika",
+							"difficulty": "iq/e",
+							"points": 2,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Knowledge"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "9e6778bb-6cfb-429b-a7f3-04473b7ae639",
+							"name": "Strategy",
+							"reference": "B222",
+							"specialization": "Space",
+							"difficulty": "iq/h",
+							"points": 12,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Intelligence Analysis",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Tactics",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Strategy",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Military"
+							]
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "0862eda5-4590-40ea-8304-55121efb1d45",
+					"name": "Rikarik Sharp",
+					"open": true,
+					"children": [
+						{
+							"type": "skill",
+							"id": "c60e3822-0c5a-4a58-99d6-7aac58dbc992",
+							"name": "Gambling",
+							"reference": "B197",
+							"difficulty": "iq/a",
+							"points": 4,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Mathematics",
+									"specialization": "Statistics",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Criminal/Street",
+								"Social"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "0c26f23f-7d7c-4c8e-b53c-a0c686b978f2",
+							"name": "Games",
+							"reference": "B197",
+							"specialization": "Rikarik",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Knowledge"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "ac640811-5156-44ee-adff-db9d57bc624a",
+							"name": "Mathematics",
+							"reference": "B207",
+							"tech_level": "",
+							"difficulty": "iq/h",
+							"points": 2,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Physics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Natural Science"
+							]
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "5efd96f3-a5de-4960-be00-cd146efe6f19",
+					"name": "Trader Navigatior",
+					"open": true,
+					"children": [
+						{
+							"type": "skill",
+							"id": "ca5bfc1b-c405-4b80-8552-a25ad7531929",
+							"name": "Mathematics",
+							"reference": "B207",
+							"tech_level": "",
+							"difficulty": "iq/h",
+							"points": 4,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Physics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Natural Science"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "bd58658f-aad5-403b-9d4e-ac6e8b3773f0",
+							"name": "Navigation",
+							"reference": "B211",
+							"specialization": "Hyperspace",
+							"tech_level": "",
+							"difficulty": "iq/a",
+							"points": 4,
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Astronomy",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Mathematics",
+									"specialization": "Applied",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Space",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Outdoor/Exploration",
+								"Technical",
+								"Vehicle"
+							]
+						},
+						{
+							"type": "technique",
+							"id": "53cdf9c7-e825-4900-9c08-013babf595c7",
+							"name": "Trader Drive Training",
+							"difficulty": "h",
+							"points": 3,
+							"limit": 0,
+							"default": {
+								"type": "skill",
+								"name": "Navigation",
+								"specialization": "Hyperspace",
+								"modifier": -4
+							},
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Mathematics"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 12
+										}
+									}
+								]
+							},
+							"features": [
+								{
+									"type": "skill_bonus",
+									"amount": 2,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Trader Drive Training"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

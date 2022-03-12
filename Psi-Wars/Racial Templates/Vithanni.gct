@@ -1,0 +1,276 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "1c712245-bdf0-4d2f-aa15-8fd98c9f8bc7",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "934391d4-1a7a-463c-b8fe-4e171fdb9def",
+			"container_type": "race",
+			"name": "Vithanni",
+			"ancestry": "Human",
+			"calc": {
+				"points": 3
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "54139f79-0abd-4376-8899-4bc406519703",
+					"name": "Alternate Attribute (Aura)",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Trait"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "1fe764fd-d78f-4534-89fc-e84009eafdfd",
+					"name": "Colorblindness",
+					"physical": true,
+					"base_points": -10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "7adb242a-e0f5-48e3-9be9-08e34485ced5",
+							"name": "Only without UV",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						}
+					],
+					"reference": "B127",
+					"calc": {
+						"points": -2
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "artist"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "chemistry"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "driving"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "merchant"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "piloting"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "tracking"
+							}
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c5648d2c-30ad-44bb-ad07-419c30f7f0de",
+					"name": "Decreased Strength",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": -5,
+					"reference": "B14",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Attribute",
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "8a4f5ad6-b1d8-4ec5-a4e5-3497260ee115",
+					"name": "Extreme Destiny",
+					"supernatural": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "41e98476-4838-4757-90d3-d1cd3e5e547b",
+					"name": "Gracile",
+					"physical": true,
+					"exotic": true,
+					"levels": "2",
+					"reference": "TT2:14",
+					"calc": {
+						"points": 0
+					},
+					"notes": "+5% average height per level",
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "ce1fea3d-d446-48b1-a83b-9518708ff558",
+					"name": "Night Adapted Vision -2",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "17ec36bc-7566-47ab-8a2f-3eb89fc02b7a",
+					"name": "Night Vision",
+					"physical": true,
+					"levels": "3",
+					"points_per_level": 1,
+					"reference": "B71",
+					"calc": {
+						"points": 3
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "b8ac7917-acc8-4f35-aa5d-ad7da874c949",
+					"name": "Social Stigma (Alien Outsider)",
+					"social": true,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from other races"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 1,
+							"situation": "from sympathizers"
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "5adc1e38-630f-4a1e-bc1c-a5642dff7737",
+					"name": "Taboo Traits (Charisma, Energy Reserve (Psi), Smooth Operator)",
+					"reference": "PU6:21",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "56a79db4-b099-451f-91eb-cfabb05845fb",
+					"name": "Ultravision",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "94d386b0-1cf1-4614-8001-ba7601cab10c",
+							"disabled": true,
+							"name": "No normal vision",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B94",
+					"calc": {
+						"points": 10
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "5b410b5e-3555-4bf1-b78f-a8b30cb2a7b5",
+					"name": "Unique Coloration",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "0ae87459-e59c-4903-a244-49391995d244",
+					"name": "Vithanni Lungs",
+					"physical": true,
+					"base_points": 2,
+					"calc": {
+						"points": 2
+					},
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	]
+}

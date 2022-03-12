@@ -42,8 +42,8 @@
 			"type": "integer",
 			"name": "Will",
 			"full_name": "",
-			"attribute_base": "$au",
-			"cost_per_point": 0,
+			"attribute_base": "$iq",
+			"cost_per_point": 5,
 			"cost_adj_percent_per_sm": 0
 		},
 		{
@@ -119,73 +119,6 @@
 			"cost_adj_percent_per_sm": 0
 		},
 		{
-			"id": "fp",
-			"type": "pool",
-			"name": "FP",
-			"full_name": "Fatigue Points",
-			"attribute_base": "ceil($ht/2)",
-			"cost_per_point": 3,
-			"cost_adj_percent_per_sm": 0,
-			"thresholds": [
-				{
-					"state": "Unconscious",
-					"explanation": "",
-					"multiplier": -1,
-					"divisor": 1,
-					"addition": 0,
-					"ops": [
-						"halve_move",
-						"halve_dodge",
-						"halve_st"
-					]
-				},
-				{
-					"state": "Collapse",
-					"explanation": "<html><body>\n<b>Roll vs. Will<\/b> to do anything besides talk or rest; failure causes unconsciousness<br>\nEach FP you lose below 0 also causes 1 HP of injury<br>\nMove, Dodge and ST are halved (B426)\n<\/body><\/html>",
-					"multiplier": 0,
-					"divisor": 1,
-					"addition": 0,
-					"ops": [
-						"halve_move",
-						"halve_dodge",
-						"halve_st"
-					]
-				},
-				{
-					"state": "Tired",
-					"explanation": "Move, Dodge and ST are halved (B426)",
-					"multiplier": 1,
-					"divisor": 3,
-					"addition": 0,
-					"ops": [
-						"halve_move",
-						"halve_dodge",
-						"halve_st"
-					]
-				},
-				{
-					"state": "Tiring",
-					"explanation": "",
-					"multiplier": 1,
-					"divisor": 1,
-					"addition": -1,
-					"ops": [
-
-					]
-				},
-				{
-					"state": "Rested",
-					"explanation": "",
-					"multiplier": 1,
-					"divisor": 1,
-					"addition": 0,
-					"ops": [
-
-					]
-				}
-			]
-		},
-		{
 			"id": "hp",
 			"type": "pool",
 			"name": "HP",
@@ -207,7 +140,7 @@
 				},
 				{
 					"state": "Dying #4",
-					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> to avoid death<br>\n<b>Roll vs. HT-4<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
 					"multiplier": -4,
 					"divisor": 1,
 					"addition": 0,
@@ -218,7 +151,7 @@
 				},
 				{
 					"state": "Dying #3",
-					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> to avoid death<br>\n<b>Roll vs. HT-3<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
 					"multiplier": -3,
 					"divisor": 1,
 					"addition": 0,
@@ -229,7 +162,7 @@
 				},
 				{
 					"state": "Dying #2",
-					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> to avoid death<br>\n<b>Roll vs. HT-2<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
 					"multiplier": -2,
 					"divisor": 1,
 					"addition": 0,
@@ -240,7 +173,7 @@
 				},
 				{
 					"state": "Dying #1",
-					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> to avoid death<br>\n<b>Roll vs. HT-1<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
 					"multiplier": -1,
 					"divisor": 1,
 					"addition": 0,
@@ -251,7 +184,7 @@
 				},
 				{
 					"state": "Collapse",
-					"explanation": "<html><body>\n<b>Roll vs. HT<\/b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n<\/body><\/html>",
+					"explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
 					"multiplier": 0,
 					"divisor": 1,
 					"addition": 0,
@@ -291,27 +224,6 @@
 
 					]
 				}
-			]
-		},
-		{
-			"id": "au",
-			"type": "integer",
-			"name": "AU",
-			"full_name": "Aura",
-			"attribute_base": "10",
-			"cost_per_point": 0,
-			"cost_adj_percent_per_sm": 0
-		},
-		{
-			"id": "ap",
-			"type": "pool",
-			"name": "AP",
-			"full_name": "Aura Points",
-			"attribute_base": "ceil($au/2)",
-			"cost_per_point": 0,
-			"cost_adj_percent_per_sm": 0,
-			"thresholds": [
-
 			]
 		}
 	]

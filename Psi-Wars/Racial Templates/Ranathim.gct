@@ -940,9 +940,9 @@
 				},
 				{
 					"type": "advantage",
-					"id": "9cb33bb1-cf97-4db1-ac84-53972417a72c",
+					"id": "950a402e-f259-49b7-9f8d-81e3da7a1dde",
 					"name": "Social Stigma (Alien Outsider)",
-					"physical": true,
+					"social": true,
 					"base_points": -5,
 					"calc": {
 						"points": -5

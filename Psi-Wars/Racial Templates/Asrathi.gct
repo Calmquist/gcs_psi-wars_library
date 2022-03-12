@@ -1,0 +1,1759 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "fc324580-0f7d-49c5-a9a4-aaecb5d5ed01",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "6bef0cd6-2599-480d-99c5-921e984002c0",
+			"container_type": "race",
+			"name": "Asrathi",
+			"ancestry": "Human",
+			"calc": {
+				"points": 20
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "05b9879b-8b6c-4fa2-a0d0-0388ac371826",
+					"name": "Asrathi Claws",
+					"physical": true,
+					"base_points": 6,
+					"weapons": [
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "3",
+								"armor_divisor": 3
+							},
+							"usage": "Hand Scratch",
+							"reach": "C",
+							"parry": "no",
+							"calc": {
+								"level": 0,
+								"parry": "no",
+								"block": "",
+								"damage": "thr+3(3) cut"
+							},
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							]
+						},
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "4",
+								"armor_divisor": 3
+							},
+							"usage": "Foot Scratch",
+							"reach": "C, 1",
+							"parry": "no",
+							"calc": {
+								"level": 0,
+								"parry": "no",
+								"block": "",
+								"damage": "thr+4(3) cut"
+							},
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Karate",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Kicking"
+								}
+							]
+						}
+					],
+					"calc": {
+						"points": 6
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "f82d7c7c-8af1-4ee9-b1c6-ec3ead22207c",
+					"name": "Catfall",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "62e82c3a-8368-4fad-9e2d-f73581725a25",
+							"disabled": true,
+							"name": "Feather Fall",
+							"reference": "P43",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "0c4069f9-66a7-47d7-b58c-bbd0fb516474",
+							"disabled": true,
+							"name": "Parachute",
+							"reference": "P43",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total"
+						}
+					],
+					"reference": "B41",
+					"calc": {
+						"points": 10
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "828fcd09-7c6e-491f-a965-fbbb50c34788",
+					"name": "Decreased Strength",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": -5,
+					"reference": "B14",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Attribute",
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e669635b-8ae4-456a-b6e0-2378a507cd43",
+					"name": "Fur",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B101",
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "83c6564b-9625-4c2d-9d77-a3fd4e97355b",
+					"name": "Impulsiveness",
+					"mental": true,
+					"base_points": -10,
+					"cr": 12,
+					"reference": "B139",
+					"calc": {
+						"points": -10
+					},
+					"notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "1d496012-1c78-4f8a-a81c-74b367b046b6",
+					"name": "Increased Dexterity",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "4b141aa2-8ac3-4fab-852c-d37a683208d7",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "B15",
+					"calc": {
+						"points": 20
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "dx"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "38675ef3-e9fc-441a-976b-8d25a3d00dc4",
+					"name": "Increased Perception",
+					"mental": true,
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"reference": "B16",
+					"calc": {
+						"points": 5
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "perception"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "6cb1933a-b6d3-4a06-8895-4483d9b4f2d0",
+					"name": "Night Vision",
+					"physical": true,
+					"levels": "5",
+					"points_per_level": 1,
+					"reference": "B71",
+					"calc": {
+						"points": 5
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "89ffed8c-80b4-4039-a691-35a35e21744c",
+					"name": "Phobia (Entering Water)",
+					"physical": true,
+					"base_points": -5,
+					"cr": 15,
+					"calc": {
+						"points": -2
+					},
+					"categories": [
+						"Disadvantage",
+						"Phobia"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "7219a7fd-3635-4beb-a3dc-b0f18c6100c4",
+					"name": "Purring Voice",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "39e85f37-e943-4fc8-8fed-a551c29aad4e",
+					"name": "Sleepy",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "192304fc-857b-4dd7-bef9-71e500b6b0de",
+							"name": "1/2 time",
+							"reference": "B154",
+							"cost_type": "points",
+							"cost": -8,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "fc50cf3e-0a99-4884-92b9-3f85d4ac32f8",
+							"disabled": true,
+							"name": "2/3 time",
+							"reference": "B154",
+							"cost_type": "points",
+							"cost": -16,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "79fc11fe-c113-4255-8d67-b63e5616238e",
+							"disabled": true,
+							"name": "3/4 time",
+							"reference": "B154",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "b2e522ce-c57e-4a84-a268-a445ea7e8baf",
+							"disabled": true,
+							"name": "7/8 time",
+							"reference": "B154",
+							"cost_type": "points",
+							"cost": -26,
+							"affects": "total"
+						}
+					],
+					"reference": "B154",
+					"calc": {
+						"points": -8
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "707306c3-75e9-4050-addc-58c82044bca9",
+					"name": "Social Stigma (Alien Outsider)",
+					"social": true,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from other races"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 1,
+							"situation": "from sympathizers"
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "903bf897-e509-46bf-a628-2ff755bdde34",
+					"name": "Striking ST",
+					"physical": true,
+					"exotic": true,
+					"levels": "3",
+					"points_per_level": 1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "a4791cac-cbcd-4f9f-8297-3dbabc19ed2e",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "9cb75d1e-9f07-4c29-8587-e397b72e31f8",
+							"disabled": true,
+							"name": "Size",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"id": "293a4c06-5fb1-4a4d-8418-8c9d8beed1a8",
+							"disabled": true,
+							"name": "Super Effort",
+							"reference": "SU24",
+							"cost_type": "percentage",
+							"cost": 400,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "92ea1dc4-e216-44a6-b98c-b81c71cf0888",
+							"disabled": true,
+							"name": "One Attack Only",
+							"reference": "P79",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "@Attack@"
+						},
+						{
+							"type": "modifier",
+							"id": "83726d71-c195-4ee0-96c7-ec9f7070b6d6",
+							"disabled": true,
+							"name": "Know Your Own Strength Pricing Variant",
+							"reference": "PY83:18",
+							"cost_type": "points",
+							"cost": -4,
+							"affects": "levels_only"
+						}
+					],
+					"reference": "B88",
+					"calc": {
+						"points": 3
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st",
+							"limitation": "striking_only"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "5cc805f5-b641-4797-9b0d-d34735597297",
+					"name": "Tail",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "80ed1ff6-6c78-43dc-b982-9555a6e96254",
+			"name": "Asrathi Power-Ups",
+			"calc": {
+				"points": 24
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "5fc8c130-c550-4927-9857-ca742dec9b25",
+					"name": "Primal Instincts",
+					"mental": true,
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 16,
+					"calc": {
+						"points": 16
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "06d6154a-9007-4e9f-be24-8ae5a259e011",
+					"name": "Primal Rage",
+					"physical": true,
+					"base_points": 8,
+					"calc": {
+						"points": 8
+					}
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "406fb3f6-01a0-4f2f-9cbd-002d15537e5e",
+			"container_type": "race",
+			"name": "Jagarathi",
+			"ancestry": "Asrathi",
+			"calc": {
+				"points": 45
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "14b0c4e2-fedf-4bfc-8f11-261799beb55d",
+					"name": "Asrathi Claws",
+					"physical": true,
+					"base_points": 6,
+					"weapons": [
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "3",
+								"armor_divisor": 3
+							},
+							"usage": "Hand Scratch",
+							"reach": "C",
+							"parry": "no",
+							"calc": {
+								"level": 0,
+								"parry": "no",
+								"block": "",
+								"damage": "thr+3(3) cut"
+							},
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							]
+						},
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "4",
+								"armor_divisor": 3
+							},
+							"usage": "Foot Scratch",
+							"reach": "C, 1",
+							"parry": "no",
+							"calc": {
+								"level": 0,
+								"parry": "no",
+								"block": "",
+								"damage": "thr+4(3) cut"
+							},
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Karate",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Kicking"
+								}
+							]
+						}
+					],
+					"calc": {
+						"points": 6
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "72b6ee96-267f-4d1e-a2de-379f8babefa7",
+					"name": "Berserk",
+					"mental": true,
+					"base_points": -10,
+					"cr": 15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "d9fd6d10-e777-40b4-ac92-3a0808f556bd",
+							"disabled": true,
+							"name": "Battle Rage",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						}
+					],
+					"reference": "B124",
+					"calc": {
+						"points": -5
+					},
+					"notes": "Make a self-control roll any time you suffer damage over 1/4 your HP in the space of one second, and whenever you witness equivalent harm to a loved one",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "62fd28ae-2ffd-43a3-998f-2073fe5c806a",
+					"name": "Catfall",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "8f3d063c-557b-47b0-a12a-b21510f6e794",
+							"disabled": true,
+							"name": "Feather Fall",
+							"reference": "P43",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "6f116227-71f6-4d60-8a5c-f484466a3a6f",
+							"disabled": true,
+							"name": "Parachute",
+							"reference": "P43",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total"
+						}
+					],
+					"reference": "B41",
+					"calc": {
+						"points": 10
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "5f875c15-738d-42f7-aef6-b09771b8d679",
+					"name": "Distinctive Features (Fur Pattern)",
+					"physical": true,
+					"base_points": -1,
+					"reference": "B165",
+					"calc": {
+						"points": -1
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							}
+						},
+						{
+							"type": "conditional_modifier",
+							"amount": 1,
+							"situation": "to others’ attempts to identify or follow you"
+						}
+					],
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "3073904b-d03e-4189-b275-8f49a9a125c5",
+					"name": "Fur",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B101",
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c4bbe27e-bce9-48e2-9f93-c818bc8b3cf3",
+					"name": "Impulsiveness",
+					"mental": true,
+					"base_points": -10,
+					"cr": 12,
+					"reference": "B139",
+					"calc": {
+						"points": -10
+					},
+					"notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "0a12624e-dd6b-4d78-b5f9-09eb8856f677",
+					"name": "Increased Dexterity",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "75d61d8b-964e-462a-a1b4-bbfb78a60251",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "B15",
+					"calc": {
+						"points": 20
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "dx"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "79c9efa6-472a-4068-988f-adee98a060ef",
+					"name": "Increased Perception",
+					"mental": true,
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"reference": "B16",
+					"calc": {
+						"points": 5
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "perception"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "f56c71ba-b8cb-49e4-8433-f557dec763d9",
+					"name": "Increased Strength",
+					"physical": true,
+					"levels": "3",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "ae2c6278-1f54-4a57-b29a-25860da4d309",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "3122c10a-88a8-45ec-b24b-3240cdf7985c",
+							"disabled": true,
+							"name": "Size",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"id": "fc10374d-277f-4421-ba5f-ff1cf4ff4416",
+							"disabled": true,
+							"name": "Super-Effort",
+							"reference": "SU24",
+							"cost_type": "percentage",
+							"cost": 300,
+							"affects": "total"
+						}
+					],
+					"reference": "B14",
+					"calc": {
+						"points": 15
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c5f8812a-0047-4020-a3e2-60130a9ca436",
+					"name": "Night Vision",
+					"physical": true,
+					"levels": "5",
+					"points_per_level": 1,
+					"reference": "B71",
+					"calc": {
+						"points": 5
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "d0df0bac-5ebe-4181-841d-8ddee66f8963",
+					"name": "Penetrating Voice",
+					"physical": true,
+					"base_points": 1,
+					"reference": "B101",
+					"calc": {
+						"points": 1
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 3,
+							"situation": "to others' Hearing roll in siturations where you want to be heard over noise"
+						}
+					],
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "009acdf2-697d-4f5e-b938-b6760e8a09e4",
+					"name": "Phobia (Entering Water)",
+					"physical": true,
+					"base_points": -5,
+					"cr": 15,
+					"calc": {
+						"points": -2
+					},
+					"categories": [
+						"Disadvantage",
+						"Phobia"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "a295ebeb-cfa2-4a72-8076-431b8c7bd643",
+					"name": "Purring Voice",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "f95d81e0-3181-4e9f-a5c7-2bba4b3a5b87",
+					"name": "Sleepy",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "462f612a-d5dc-48d2-a73f-492d443b5218",
+							"name": "1/2 time",
+							"reference": "B154",
+							"cost_type": "points",
+							"cost": -8,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "43d651bc-36d3-452d-9e9e-f23c931ced68",
+							"disabled": true,
+							"name": "2/3 time",
+							"reference": "B154",
+							"cost_type": "points",
+							"cost": -16,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "a0f64745-800d-4ea3-a053-9f49567d6922",
+							"disabled": true,
+							"name": "3/4 time",
+							"reference": "B154",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "87cf347e-e2eb-478a-9262-bafe5d35193c",
+							"disabled": true,
+							"name": "7/8 time",
+							"reference": "B154",
+							"cost_type": "points",
+							"cost": -26,
+							"affects": "total"
+						}
+					],
+					"reference": "B154",
+					"calc": {
+						"points": -8
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "f54da5b4-54e5-4d87-b9f1-7b39bbbf08bc",
+					"name": "Social Stigma (Alien Outsider)",
+					"social": true,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from other races"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 1,
+							"situation": "from sympathizers"
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "db6a2fec-be8b-43fb-9ea0-5efc7c778cee",
+					"name": "Striking ST",
+					"physical": true,
+					"exotic": true,
+					"levels": "13",
+					"points_per_level": 1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "8ae790ee-504d-49f7-8556-efa2bacd5fef",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "f796ca50-0e6e-40bf-a3d2-d7622eb1c5ef",
+							"disabled": true,
+							"name": "Size",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"id": "e23abf3c-db63-4609-bef0-5e16cbbd0a39",
+							"disabled": true,
+							"name": "Super Effort",
+							"reference": "SU24",
+							"cost_type": "percentage",
+							"cost": 400,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "69f65ffd-005d-4ff7-840d-510fdec7b343",
+							"disabled": true,
+							"name": "One Attack Only",
+							"reference": "P79",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "@Attack@"
+						},
+						{
+							"type": "modifier",
+							"id": "59bdd2e5-e447-4585-b56f-d1ad4c9df2f4",
+							"disabled": true,
+							"name": "Know Your Own Strength Pricing Variant",
+							"reference": "PY83:18",
+							"cost_type": "points",
+							"cost": -4,
+							"affects": "levels_only"
+						}
+					],
+					"reference": "B88",
+					"calc": {
+						"points": 13
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st",
+							"limitation": "striking_only"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "70e675d3-f785-488a-9ce7-40a1a25ab634",
+					"name": "Tail",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "b50bf56d-c5d4-4d20-b4dc-cb1fddca2d1e",
+			"container_type": "race",
+			"name": "Morathi",
+			"ancestry": "Asrathi",
+			"calc": {
+				"points": 21
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "ccceefab-0a12-430f-ba32-1d94ab21d88a",
+					"name": "Asrathi Claws",
+					"physical": true,
+					"base_points": 6,
+					"weapons": [
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "3",
+								"armor_divisor": 3
+							},
+							"usage": "Hand Scratch",
+							"reach": "C",
+							"parry": "no",
+							"calc": {
+								"level": 0,
+								"parry": "no",
+								"block": "",
+								"damage": "thr+3(3) cut"
+							},
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							]
+						},
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "4",
+								"armor_divisor": 3
+							},
+							"usage": "Foot Scratch",
+							"reach": "C, 1",
+							"parry": "no",
+							"calc": {
+								"level": 0,
+								"parry": "no",
+								"block": "",
+								"damage": "thr+4(3) cut"
+							},
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Karate",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Kicking"
+								}
+							]
+						}
+					],
+					"calc": {
+						"points": 6
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "8b7cecd9-5c66-43b7-9ccd-f5e0bfb418eb",
+					"name": "Catfall",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "2c4fc158-5a18-486a-b67f-6e41361fea42",
+							"disabled": true,
+							"name": "Feather Fall",
+							"reference": "P43",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "0333460c-4219-4b5d-84bb-61ce3cad5f1b",
+							"disabled": true,
+							"name": "Parachute",
+							"reference": "P43",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total"
+						}
+					],
+					"reference": "B41",
+					"calc": {
+						"points": 10
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "8e0d3e80-5189-40c7-a351-f6144c7281dc",
+					"name": "Decreased Strength",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": -5,
+					"reference": "B14",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Attribute",
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "0850321c-98c1-4a45-9910-02c3dcb72eca",
+					"name": "Fur",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B101",
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "dc948381-4b62-49eb-bb0c-c358f133f23b",
+					"name": "Impulsiveness",
+					"mental": true,
+					"base_points": -10,
+					"cr": 12,
+					"reference": "B139",
+					"calc": {
+						"points": -10
+					},
+					"notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c3f9b2ae-2f26-487f-964c-ae9c8cc03c0c",
+					"name": "Increased Dexterity",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "8b09660b-c179-44c3-b142-81d02fb281dd",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "B15",
+					"calc": {
+						"points": 20
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "dx"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "5461a5e1-70fd-41a5-86d5-ade8aacdbcdc",
+					"name": "Increased Perception",
+					"mental": true,
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"reference": "B16",
+					"calc": {
+						"points": 5
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "perception"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c647837f-9843-4212-93d2-498cc0b13e8b",
+					"name": "Latent Psi (Probability Manipulation)",
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "3dc7b5c2-bd45-4894-86e9-11565ccdc66e",
+					"name": "Night Vision",
+					"physical": true,
+					"levels": "5",
+					"points_per_level": 1,
+					"reference": "B71",
+					"calc": {
+						"points": 5
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c91220e4-91a5-4ccb-a3a8-882610d1807d",
+					"name": "Phobia (Entering Water)",
+					"physical": true,
+					"base_points": -5,
+					"cr": 15,
+					"calc": {
+						"points": -2
+					},
+					"categories": [
+						"Disadvantage",
+						"Phobia"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "4c27953f-1b04-4c93-8a9f-6d2e29b73c75",
+					"name": "Purring Voice",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "485d24bd-f4f0-44e1-850b-666bf9af38b5",
+					"round_down": true,
+					"name": "Reputation",
+					"social": true,
+					"levels": "1",
+					"points_per_level": -5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "6451b5ef-1b28-4c1f-8ea2-494c0d7b723a",
+							"disabled": true,
+							"name": "People Affected",
+							"reference": "B27",
+							"cost_type": "multiplier",
+							"cost": 1,
+							"notes": "Almost everyone"
+						},
+						{
+							"type": "modifier",
+							"id": "935dc179-f567-47ab-b965-395c253db077",
+							"disabled": true,
+							"name": "People Affected",
+							"reference": "B27",
+							"cost_type": "multiplier",
+							"cost": 0.67,
+							"notes": "Almost everyone except @large class of people@"
+						},
+						{
+							"type": "modifier",
+							"id": "6fedc9c2-a994-4800-808d-605891fe74cf",
+							"disabled": true,
+							"name": "People Affected",
+							"reference": "B27",
+							"cost_type": "multiplier",
+							"cost": 0.5,
+							"notes": "@Large class of people@"
+						},
+						{
+							"type": "modifier",
+							"id": "050e6d94-75c6-4aa9-a406-31c60675f155",
+							"name": "People Affected",
+							"reference": "B27",
+							"cost_type": "multiplier",
+							"cost": 0.33,
+							"notes": "Superstitious people"
+						},
+						{
+							"type": "modifier",
+							"id": "9006f9bb-00fd-495c-a923-e19ccf973820",
+							"name": "Recognized all the time",
+							"reference": "B28",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"id": "1f0b23a2-6e98-40cb-8be8-1ecd4e899c26",
+							"disabled": true,
+							"name": "Recognized sometimes",
+							"reference": "B28",
+							"cost_type": "multiplier",
+							"cost": 0.5,
+							"notes": "10-"
+						},
+						{
+							"type": "modifier",
+							"id": "1d3f1e70-9885-4c29-b8d4-b9b6b3959bc5",
+							"disabled": true,
+							"name": "Recognized occasionally",
+							"reference": "B28",
+							"cost_type": "multiplier",
+							"cost": 0.33,
+							"notes": "7-"
+						}
+					],
+					"reference": "B26",
+					"calc": {
+						"points": -2
+					},
+					"notes": "Bad Luck",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "bf98d92e-fa10-4027-835f-9422d03f6270",
+					"name": "Sleepy",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "f7a470e9-6481-4400-8cf7-aaae17a2fd6d",
+							"name": "1/2 time",
+							"reference": "B154",
+							"cost_type": "points",
+							"cost": -8,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "94a1ab0b-c765-41b6-b54f-97bb080322df",
+							"disabled": true,
+							"name": "2/3 time",
+							"reference": "B154",
+							"cost_type": "points",
+							"cost": -16,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "04db4f6a-826e-45f1-99c2-3eedbd4d6d15",
+							"disabled": true,
+							"name": "3/4 time",
+							"reference": "B154",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "f5c743c6-52bd-4e05-a7f9-f3e24eb8d5ef",
+							"disabled": true,
+							"name": "7/8 time",
+							"reference": "B154",
+							"cost_type": "points",
+							"cost": -26,
+							"affects": "total"
+						}
+					],
+					"reference": "B154",
+					"calc": {
+						"points": -8
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "a90fac6c-1bc6-4c78-8e0e-c5d1046589b4",
+					"name": "Social Regard",
+					"social": true,
+					"levels": "2",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "aefd08f4-5a98-4968-a558-286e000a5e8a",
+							"name": "Only among religious Asrathi",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						}
+					],
+					"reference": "B87",
+					"calc": {
+						"points": 2
+					},
+					"notes": "Venerated: Morathi",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "d7650046-8486-4177-a7ea-ac5de613ee2d",
+					"name": "Social Stigma (Alien Outsider)",
+					"social": true,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from other races"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 1,
+							"situation": "from sympathizers"
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c325fb19-d3e0-4147-8b0d-b792ab4954c0",
+					"name": "Striking ST",
+					"physical": true,
+					"exotic": true,
+					"levels": "3",
+					"points_per_level": 1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "e56fb349-1303-40da-8b8b-756a5faddec5",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "429bfe8a-c66f-49f0-9c77-a6974270a927",
+							"disabled": true,
+							"name": "Size",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"id": "248a50dd-488b-4cfb-99fe-048ac70cd66d",
+							"disabled": true,
+							"name": "Super Effort",
+							"reference": "SU24",
+							"cost_type": "percentage",
+							"cost": 400,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "6657921a-2e6b-4bb9-b8a7-583302df83d3",
+							"disabled": true,
+							"name": "One Attack Only",
+							"reference": "P79",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "@Attack@"
+						},
+						{
+							"type": "modifier",
+							"id": "e404deb6-3f44-47d8-a1fe-10c783fc2558",
+							"disabled": true,
+							"name": "Know Your Own Strength Pricing Variant",
+							"reference": "PY83:18",
+							"cost_type": "points",
+							"cost": -4,
+							"affects": "levels_only"
+						}
+					],
+					"reference": "B88",
+					"calc": {
+						"points": 3
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st",
+							"limitation": "striking_only"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "b18ae60e-bc10-42c9-9d8a-e8b00eddab74",
+					"name": "Tail",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "f136f3af-87e2-4b73-80a4-df7ff8b4fb42",
+			"name": "Witch Cat Power-Ups",
+			"calc": {
+				"points": 8
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "526e8782-83c3-431e-a861-2fb617c969f6",
+					"name": "Destiny (to Walk the Path of Death)",
+					"mental": true,
+					"supernatural": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "f83d68b1-d991-43c0-a6de-7f877a9cdffb",
+							"disabled": true,
+							"name": "Minor",
+							"reference": "B132",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "694c3c07-6207-4499-bc1e-36f0fa56c03f",
+							"disabled": true,
+							"name": "Major",
+							"reference": "B132",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "6423f2bb-f492-43af-aa71-122628aeef26",
+							"disabled": true,
+							"name": "Great",
+							"reference": "B132",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						}
+					],
+					"reference": "B132",
+					"calc": {
+						"points": 5
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "ed81f23e-a638-49b3-a9f4-c2e81a7235a8",
+					"name": "Touch of the Witch Cat",
+					"mental": true,
+					"base_points": 9,
+					"calc": {
+						"points": 9
+					},
+					"categories": [
+						"Probability Alteration",
+						"Psionic"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "2746540a-6535-4064-a69c-96ce995e516a",
+					"name": "Weirdness Magnet",
+					"mental": true,
+					"supernatural": true,
+					"base_points": -15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "d801c671-2063-4047-aff5-fcea5cce671a",
+							"disabled": true,
+							"name": "Origins Magnet",
+							"reference": "SU32",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"reference": "B161",
+					"calc": {
+						"points": -15
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "fd200e27-b475-4146-9ea9-da9b680862d1",
+					"name": "Witch Storm",
+					"mental": true,
+					"base_points": 9,
+					"calc": {
+						"points": 9
+					},
+					"categories": [
+						"Probability Alteration",
+						"Psionic"
+					]
+				}
+			]
+		}
+	]
+}
