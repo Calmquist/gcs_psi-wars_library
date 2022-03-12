@@ -1,0 +1,559 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "6ff05ec2-6f34-42ca-93fa-d38b53adeec1",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "0ff08f5b-9a93-4d96-a8dc-63f7a5a9a5e8",
+			"container_type": "race",
+			"name": "Loroko",
+			"ancestry": "Human",
+			"calc": {
+				"points": 30
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "bef99d82-58ac-4484-aeac-c65100c6b5c7",
+					"name": "Dread",
+					"mental": true,
+					"supernatural": true,
+					"levels": "1",
+					"base_points": -9,
+					"points_per_level": -1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "a40b7355-55e4-4942-b629-008759d6aa4a",
+							"disabled": true,
+							"name": "Very Common",
+							"reference": "B161",
+							"cost_type": "multiplier",
+							"cost": 3,
+							"notes": "@What@"
+						},
+						{
+							"type": "modifier",
+							"id": "78054979-5fc0-41b7-abf8-41de576592b3",
+							"disabled": true,
+							"name": "Common",
+							"reference": "B161",
+							"cost_type": "multiplier",
+							"cost": 2,
+							"notes": "@What@"
+						},
+						{
+							"type": "modifier",
+							"id": "4e193c18-8f24-4dde-bb8d-bc1a7a24c592",
+							"disabled": true,
+							"name": "Occasional",
+							"reference": "B161",
+							"cost_type": "multiplier",
+							"cost": 1,
+							"notes": "@What@"
+						},
+						{
+							"type": "modifier",
+							"id": "13bf5d56-7345-47ef-8897-46853ccec62c",
+							"name": "Rare",
+							"reference": "B161",
+							"cost_type": "multiplier",
+							"cost": 0.5,
+							"notes": "Sigils"
+						},
+						{
+							"type": "modifier",
+							"id": "0ec1e67d-5b45-4496-a448-95ee0e9c4e60",
+							"disabled": true,
+							"name": "Cannot be trapped",
+							"reference": "B133",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "eeb1cb3d-1f07-490a-b7f9-48ea708b0fd2",
+							"disabled": true,
+							"name": "Insensitive",
+							"reference": "H25",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						}
+					],
+					"reference": "B132",
+					"calc": {
+						"points": -5
+					},
+					"notes": "May not come within level yards of Sigils",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e763d691-d1a6-446e-b811-4ee1a19c4a5f",
+					"name": "Extra Hit Points",
+					"physical": true,
+					"levels": "10",
+					"points_per_level": 2,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "95825895-5984-44e1-98c0-71efea12059d",
+							"disabled": true,
+							"name": "Size",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"id": "63d37bb4-6be8-4f8c-baf7-186fc10a06b3",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "B16",
+					"calc": {
+						"points": 20
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "hp"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "840c6297-f5a6-4fc1-b72a-6ebd6c6e0924",
+					"name": "Flashbacks",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "a7b8e606-b4ff-4536-8313-7d2a3aff8e93",
+							"disabled": true,
+							"name": "Mild",
+							"reference": "B136",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total",
+							"notes": "Duration: 2d seconds; -2 on all skill rolls"
+						},
+						{
+							"type": "modifier",
+							"id": "0fb82cc3-9cb7-41a6-8aa5-77b0fed2cb44",
+							"name": "Severe",
+							"reference": "B136",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total",
+							"notes": "Duration: 1d minutes; -5 on all skill rolls"
+						},
+						{
+							"type": "modifier",
+							"id": "ab944943-8a34-427c-962c-05421491ede5",
+							"disabled": true,
+							"name": "Crippling",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Duration: 3d minutes; Precludes all skill use"
+						}
+					],
+					"reference": "B136",
+					"calc": {
+						"points": -10
+					},
+					"notes": "In any situation that the GM feels is stressful, he will roll 3d. On a 6 or less, you have a flashback. The GM will roll whenever you miss a Fright Check or make the roll exactly, and whenever you fail a self-control roll for another stress-related disadvantage.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c190c5af-48fd-435e-8c21-556432af3db3",
+					"name": "High Pain Threshold",
+					"physical": true,
+					"base_points": 10,
+					"reference": "B59",
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 3,
+							"situation": "on all HT rolls to avoid knockdown and stunning"
+						},
+						{
+							"type": "conditional_modifier",
+							"amount": 3,
+							"situation": "to resist torture"
+						}
+					],
+					"notes": "Never suffer shock penalties when injured",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "d4ad680e-14a8-42bd-a89f-088eb576431a",
+					"name": "Increased Health",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 10,
+					"reference": "B14",
+					"calc": {
+						"points": 20
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "ht"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "12fd56ac-2f58-4382-9aab-3f3caa020253",
+					"name": "Night Adapted Vision",
+					"physical": true,
+					"levels": "2",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "787e5f34-b442-44a8-b995-55681ae139a8",
+					"name": "On the Edge",
+					"mental": true,
+					"base_points": -15,
+					"cr": 12,
+					"reference": "B146",
+					"calc": {
+						"points": -15
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "from others if they witness your On the Edge behavior, unless it is someone who values bravery over self-preservation (GM’s decision), who will react at +2 instead"
+						}
+					],
+					"notes": "Make a self-control roll whenever you face a life-threatening situation: piloting a burning vehicle, staring down an entire street gang while armed only with a toothbrush, etc. If you fail, you may not back down from the challenge – but you may roll again after every success roll or reaction roll relating to the situation. In combat, make a self-control roll every time you take your turn. If you fail, you must make an All-Out attack or engage in some other kind of near-insane, suicidal behavior.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e50bfc8b-1f3d-4fda-b999-88dc4f98d4ad",
+					"name": "Psi Susceptibility",
+					"mental": true,
+					"supernatural": true,
+					"levels": "4",
+					"points_per_level": -3,
+					"reference": "B143",
+					"calc": {
+						"points": -12
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 1,
+							"per_level": true,
+							"situation": "to skill for others to use psi abilities on you"
+						},
+						{
+							"type": "conditional_modifier",
+							"amount": -1,
+							"per_level": true,
+							"situation": "to resist psi"
+						}
+					],
+					"notes": "Treat as Magic Susceptibility",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "63d10c19-30ce-43c7-96c0-5d46e6b030de",
+					"name": "Regeneration",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "c32a7e7a-c903-4a69-836b-708eccd32e6f",
+							"disabled": true,
+							"name": "Slow",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total",
+							"notes": "You recover 1 HP per 12 hours"
+						},
+						{
+							"type": "modifier",
+							"id": "f8faaad9-4e29-477f-bd91-64fc0336d9e3",
+							"name": "Regular",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 25,
+							"affects": "total",
+							"notes": "You recover 1 HP per hour"
+						},
+						{
+							"type": "modifier",
+							"id": "8c8d63c9-5fb1-42fa-84b5-e670e80e4e85",
+							"disabled": true,
+							"name": "Fast",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 50,
+							"affects": "total",
+							"notes": "You recover 1 HP per minute"
+						},
+						{
+							"type": "modifier",
+							"id": "8a8e8b9a-121b-41e4-b86b-c50b88d42550",
+							"disabled": true,
+							"name": "Very Fast",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 100,
+							"affects": "total",
+							"notes": "You recover 1 HP per second"
+						},
+						{
+							"type": "modifier",
+							"id": "615a6397-fe77-43c4-bd29-84dc233cd18a",
+							"disabled": true,
+							"name": "Extreme",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 150,
+							"affects": "total",
+							"notes": "You recover 10 HP per second"
+						},
+						{
+							"type": "modifier",
+							"id": "21bfbd0a-9f22-4afd-8580-61eeae0a00a4",
+							"disabled": true,
+							"name": "Heals Radiation",
+							"reference": "B80",
+							"cost_type": "percentage",
+							"cost": 40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "3a824b4c-e642-4f80-9b59-e350bfe2b963",
+							"disabled": true,
+							"name": "Radiation Only",
+							"reference": "B80",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "4c24cd47-5881-44d2-8987-b30c5fe4860e",
+							"disabled": true,
+							"name": "Fatigue Recovery",
+							"reference": "P70",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "d232a4cf-9b02-4596-a5c1-f03755f689b6",
+							"disabled": true,
+							"name": "Fatigue Only",
+							"reference": "P70",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "edd0500d-9d98-48ae-9b0e-7a93a643fe03",
+							"disabled": true,
+							"name": "Limited: @Advantage@ Only",
+							"reference": "P70",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "a5602560-e1e1-458e-ac84-43a8217c1f66",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H18",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "@Common or Very Common@"
+						},
+						{
+							"type": "modifier",
+							"id": "08402e52-a0d0-4549-b6b3-371a74d4dc58",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H18",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total",
+							"notes": "@Occasional@"
+						},
+						{
+							"type": "modifier",
+							"id": "e82299a8-9b43-4f2c-ae53-3dd84fb3e489",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H18",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "@Rare@"
+						}
+					],
+					"reference": "B80",
+					"calc": {
+						"points": 25
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "2e12360a-c6c9-43bd-96b0-7c4d8f7c03cc",
+					"name": "Rules Exemption (Can spend HP for extra effort)",
+					"base_points": 1,
+					"reference": "PU2:20",
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "9d060ace-7158-424d-8204-2c1372236f7c",
+					"name": "Rules Exemption (can use Godlike Extra Effort on physical tasks when spending HP)",
+					"base_points": 1,
+					"reference": "PU2:20",
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "ab8d0015-6b0c-48a5-8f65-59dbb28cf8c1",
+					"name": "Social Stigma (Alien Outsider)",
+					"social": true,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from other races"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 1,
+							"situation": "from sympathizers"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "cd8631ac-8e3f-434c-9f18-4d09fc753387",
+			"name": "New Loroko Traits",
+			"calc": {
+				"points": -13
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "9c30a38f-0183-4d0e-a95f-f6e124fd6b1f",
+					"name": "Casual Combatant",
+					"mental": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c8441b81-9c71-41ad-9ec8-905a9e68fd9f",
+					"name": "Code of Honor (Loroko)",
+					"mental": true,
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "ab8d298b-6c5a-421e-8725-5ad00743211f",
+					"name": "Rules Option (Extra Life; Cinematic)",
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		}
+	]
+}
