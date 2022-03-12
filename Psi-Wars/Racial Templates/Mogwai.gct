@@ -1,0 +1,509 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "a655d0d1-8c38-4c4f-8d31-2fbdaca04739",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "9c558f17-fe81-4bde-8929-5091df6077ba",
+			"container_type": "race",
+			"name": "Mogwai",
+			"ancestry": "Human",
+			"calc": {
+				"points": 25
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "2f46e273-1148-4503-9e72-acd7fa9705d2",
+					"name": "Acute Hearing",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 2,
+					"reference": "B35",
+					"calc": {
+						"points": 4
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "hearing"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "b08d4a82-40aa-4dad-9771-6be4022843d6",
+					"name": "Brachiator",
+					"physical": true,
+					"exotic": true,
+					"base_points": 5,
+					"reference": "B41",
+					"calc": {
+						"points": 5
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "climbing"
+							}
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "429771b0-99ae-4f4e-8f85-35fdfbc0586f",
+					"name": "Curious",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B129",
+					"calc": {
+						"points": -5
+					},
+					"notes": "Make a self-control roll when presented with an interesting item or situation",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "4d9c26d0-2f92-4ee2-bd59-5b3ea50b251a",
+					"name": "Decreased Strength",
+					"physical": true,
+					"levels": "5",
+					"points_per_level": -5,
+					"reference": "B14",
+					"calc": {
+						"points": -25
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Attribute",
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "80c5aee9-9618-4569-8e0a-4cbf72db135a",
+					"name": "Extra Arm",
+					"physical": true,
+					"exotic": true,
+					"levels": "2",
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "1ef35d15-b064-4130-a038-d15dec14d66e",
+							"disabled": true,
+							"name": "Extra-Flexible",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "37f90eff-c24f-42b1-a222-8e1548a55098",
+							"disabled": true,
+							"name": "Long",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"id": "624c7d0c-8f52-495d-95b7-bbaebca0a7af",
+							"name": "Foot Manipulators",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "7200d3b5-16f4-4b3f-b258-6a7e44985bbd",
+							"disabled": true,
+							"name": "No Physical Attack",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "795f4ba4-5e26-4948-b91c-0e9dede36a80",
+							"name": "Short",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "f461231d-813a-43dc-834d-16f80af0a02a",
+							"disabled": true,
+							"name": "Weak",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -25,
+							"affects": "total",
+							"notes": "Half body ST"
+						},
+						{
+							"type": "modifier",
+							"id": "e9a6cbe9-12f0-4435-b37a-10a79702e02a",
+							"disabled": true,
+							"name": "Weak",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "Quarter body ST"
+						},
+						{
+							"type": "modifier",
+							"id": "130d3886-0050-407a-ab9a-bbea2a5b6e04",
+							"disabled": true,
+							"name": "Weapon Mount",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "7186b03c-ef62-41cc-af7e-14f846fa5e3a",
+							"disabled": true,
+							"name": "No Grasping Hand",
+							"reference": "MATG28",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "B53",
+					"calc": {
+						"points": 4
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "349673a2-0221-4c4d-94b2-67f67c290750",
+					"name": "Extra Legs",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "929c1956-9c04-46d7-b544-758dde029fff",
+							"name": "4",
+							"reference": "B54",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "d16204f3-07c4-4906-b9d5-a1eb00480729",
+							"disabled": true,
+							"name": "@5 or 6@",
+							"reference": "B55",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "c0c1ffd0-fe3a-4191-a846-160b64dc78f8",
+							"disabled": true,
+							"name": "@7+@",
+							"reference": "B55",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "539af042-81ab-4213-b185-74c91bd3a053",
+							"disabled": true,
+							"name": "Long",
+							"reference": "B55",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"id": "570eac70-2efd-4592-8aec-44dad2ea7f31",
+							"disabled": true,
+							"name": "Cannot Kick",
+							"reference": "B55",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "b130e0b4-2fd9-4397-8bf8-3da7938583eb",
+							"disabled": true,
+							"name": "Extra Flexible",
+							"reference": "MATG27",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "724f9530-18cf-43b5-8de1-43e86ff16223",
+							"disabled": true,
+							"name": "Prehensile Feet",
+							"reference": "MATG28",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "d4d9b8bc-6894-4c39-843a-0ffb735f5bfa",
+							"name": "Temporary Disadvantage (No Fine Manipulators)",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total"
+						}
+					],
+					"reference": "B54",
+					"calc": {
+						"points": 4
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "4c26a408-6028-4165-96d6-7508b26e9d35",
+					"name": "Increased Dexterity",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "e5118588-c135-425b-92f5-b621c3133f1c",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "B15",
+					"calc": {
+						"points": 20
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "dx"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "d54ce834-751f-457d-b8d7-780a3ada0a84",
+					"name": "Machine Empathy",
+					"mental": true,
+					"supernatural": true,
+					"base_points": 9,
+					"calc": {
+						"points": 9
+					},
+					"categories": [
+						"Machine Telepathy",
+						"Psionic"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "ac732586-7d54-4a91-bcce-0ca4baff7edb",
+					"name": "Machine Telepathy Talent",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "49bafa95-3784-40fe-aa16-f1588ad4805d",
+					"name": "Machine Whisperer",
+					"mental": true,
+					"supernatural": true,
+					"base_points": 6,
+					"calc": {
+						"points": 6
+					},
+					"categories": [
+						"Machine Telepathy",
+						"Psionic"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "56beded0-de1d-467e-a427-6d606f3d05e5",
+					"name": "May increase Machine Telepathy Talent to 5",
+					"mental": true,
+					"supernatural": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "25e818e5-f5f3-4bb3-be6a-020fa438e3da",
+					"name": "Mogwai Hands",
+					"physical": true,
+					"exotic": true,
+					"base_points": 2,
+					"calc": {
+						"points": 2
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "37386f26-41ea-49ba-9da6-1ec89ac1e331",
+					"name": "Robots always count as \\u201cpeople\\u201d for the purposes of Pacifism, Chummy, etc",
+					"mental": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "36b84c46-ae73-4905-bc88-f5db05af0485",
+					"name": "Robust (Vision)",
+					"mental": true,
+					"base_points": 1,
+					"reference": "PU2:14",
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "a9785533-474f-4f38-997b-ffae9f0b78b7",
+					"name": "Short Attention Span",
+					"mental": true,
+					"base_points": -10,
+					"cr": 15,
+					"reference": "B153",
+					"calc": {
+						"points": -5
+					},
+					"notes": "Make a self-control roll whenever you must maintain interest in something for an extended period of time, or whenever a distraction is offered. If you fail, you automatically fail at the task at hand.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "d308d4a9-9671-4458-9beb-fbb89c40af72",
+					"name": "SM -2",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "8d33c828-c8d4-4461-854c-d6e96d3ca70c",
+					"name": "Social Stigma (Alien Outsider)",
+					"social": true,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from other races"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 1,
+							"situation": "from sympathizers"
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "f2bde920-a296-4d3a-aab3-c6d856a9f6dc",
+					"name": "Versatile",
+					"mental": true,
+					"base_points": 5,
+					"reference": "B96",
+					"calc": {
+						"points": 5
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 1,
+							"situation": "on any task that requires creativity or invention, including most rolls against Artist skill and all Engineer rolls for new inventions"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	]
+}
