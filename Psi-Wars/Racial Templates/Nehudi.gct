@@ -1,0 +1,294 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "d1bcde6e-9815-4a6b-9199-e92784bc521c",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "f282f9bd-8c4d-4161-a1fe-978872708466",
+			"container_type": "race",
+			"name": "Nehudi",
+			"ancestry": "Human",
+			"calc": {
+				"points": 25
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "39ec05d1-31ee-4467-bf9c-6de30ade8dd7",
+					"name": "Call of Nehud",
+					"mental": true,
+					"physical": true,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "e03e1e87-2e36-405d-9b6b-9ec2c0936b22",
+					"name": "Discriminatory Smell",
+					"physical": true,
+					"exotic": true,
+					"base_points": 15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "f01b41fb-a187-4d12-8e73-5758df121bad",
+							"disabled": true,
+							"name": "Emotion Sense",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "fe800f51-301e-4933-ad81-e4c91d4a9fe8",
+							"disabled": true,
+							"name": "Profiling",
+							"reference": "P47",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						}
+					],
+					"reference": "B49",
+					"calc": {
+						"points": 15
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "9de8c8ad-a17e-4b5a-aabc-a2bdc2dc94e6",
+					"name": "Increased Health",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 10,
+					"reference": "B14",
+					"calc": {
+						"points": 20
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "ht"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "8ace4e2a-7799-44dd-8e58-fb732d57909e",
+					"name": "Increased Strength",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "db0abcd0-1553-40b2-8576-4b61dc7611a8",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "179dcd00-c73f-489a-8f81-6846fc07db37",
+							"disabled": true,
+							"name": "Size",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"id": "d07227f5-331a-4666-8eb4-dc4c604d2d40",
+							"disabled": true,
+							"name": "Super-Effort",
+							"reference": "SU24",
+							"cost_type": "percentage",
+							"cost": 300,
+							"affects": "total"
+						}
+					],
+					"reference": "B14",
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "9cf952ab-dbf9-4f95-b8f5-7b2cf6526b9a",
+					"name": "Nehudi Environmental Adaptation",
+					"physical": true,
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "74f998f4-1c0b-4e9f-84cf-0768566eaec6",
+					"name": "Social Stigma (Alien Sabage)",
+					"physical": true,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "from other races"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 2,
+							"situation": "from sympathizers"
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "86cb4086-bda6-405d-9342-cd4ba5f3298d",
+					"name": "Stress Atavism",
+					"mental": true,
+					"exotic": true,
+					"cr": 12,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "945c7790-a1b9-41cf-a244-d66b15b99ab0",
+							"disabled": true,
+							"name": "Mild",
+							"reference": "B156",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "3c78ee78-57cc-4ffb-a08c-5095c70b9da4",
+							"name": "Moderate",
+							"reference": "B156",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "1badf8bb-1ab9-4e41-b55d-98b1eaa9ea3c",
+							"disabled": true,
+							"name": "Severe",
+							"reference": "B156",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B156",
+					"calc": {
+						"points": -15
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "3104abfc-a73e-47a4-9061-28f21dc7cdc6",
+					"name": "Sure-Footed",
+					"physical": true,
+					"base_points": 1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "162c85e9-be64-41a3-858d-016a34d8b1d9",
+							"name": "Active",
+							"cost_type": "percentage",
+							"cost": 300,
+							"affects": "total"
+						}
+					],
+					"reference": "PU2:8",
+					"calc": {
+						"points": 4
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e99df8d3-ce18-44c5-9182-0bec69e02fc9",
+					"name": "Telescopic Vision",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "825c3812-8a77-42d6-944a-b38d8a751d24",
+							"disabled": true,
+							"name": "No Targeting",
+							"reference": "B92",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total"
+						}
+					],
+					"reference": "B92",
+					"calc": {
+						"points": 5
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "368b4ea6-8129-48fc-9f6c-0d9dbebfb507",
+					"name": "Tough Feet",
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		}
+	]
+}
