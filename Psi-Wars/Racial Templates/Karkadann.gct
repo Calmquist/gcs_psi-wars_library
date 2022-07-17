@@ -707,85 +707,71 @@
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "skull"
+							"location": "skull",
+							"specialization": "burning and piercing"
 						},
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "face"
+							"location": "face",
+							"specialization": "burning and piercing"
 						},
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "neck"
+							"location": "neck",
+							"specialization": "burning and piercing"
 						},
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "torso"
+							"location": "torso",
+							"specialization": "burning and piercing"
 						},
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "vitals"
+							"location": "vitals",
+							"specialization": "burning and piercing"
 						},
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "groin"
+							"location": "groin",
+							"specialization": "burning and piercing"
 						},
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "arm"
+							"location": "arm",
+							"specialization": "burning and piercing"
 						},
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "hand"
+							"location": "hand",
+							"specialization": "burning and piercing"
 						},
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "leg"
+							"location": "leg",
+							"specialization": "burning and piercing"
 						},
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "foot"
-						},
-						{
-							"type": "dr_bonus",
-							"amount": 1,
-							"per_level": true,
-							"location": "tail"
-						},
-						{
-							"type": "dr_bonus",
-							"amount": 1,
-							"per_level": true,
-							"location": "wing"
-						},
-						{
-							"type": "dr_bonus",
-							"amount": 1,
-							"per_level": true,
-							"location": "fin"
-						},
-						{
-							"type": "dr_bonus",
-							"amount": 1,
-							"per_level": true,
-							"location": "brain"
+							"location": "foot",
+							"specialization": "burning and piercing"
 						}
 					],
 					"categories": [
