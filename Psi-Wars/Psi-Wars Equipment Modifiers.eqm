@@ -1,0 +1,389 @@
+{
+	"type": "eqp_modifier_list",
+	"version": 2,
+	"id": "4fe924a1-a5eb-4ef0-8387-12a01c1eced3",
+	"rows": [
+		{
+			"type": "eqp_modifier",
+			"id": "765863e8-7e50-4810-af38-5a6c43ae8a0f",
+			"name": "Camouflage Pattern (@environment@)",
+			"cost_type": "to_base_cost",
+			"cost": "+0.5 CF",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"amount": 2,
+					"situation": "camouflage in (@environment)"
+				},
+				{
+					"type": "conditional_modifier",
+					"amount": -2,
+					"situation": "camouflage in other environments"
+				}
+			],
+			"notes": "Available for Westerly battleweave"
+		},
+		{
+			"type": "eqp_modifier",
+			"id": "c8066660-85b3-41b3-9450-2339e6ca2957",
+			"name": "Carbide",
+			"cost_type": "to_base_cost",
+			"cost": "+1 CF",
+			"notes": "beam resistant; +0.5 lb/reach; compatible with Monomolecular and Vibro"
+		},
+		{
+			"type": "eqp_modifier",
+			"id": "db673f22-5d8b-4cc5-b629-47b2993bb866",
+			"name": "Climage Control System",
+			"cost_type": "to_original_cost",
+			"cost": "+50",
+			"weight_type": "to_original_weight",
+			"weight": "+1 lb",
+			"notes": "10 days/C; available for Westerly battleweave"
+		},
+		{
+			"type": "eqp_modifier",
+			"id": "177f0b17-5b0f-4eb8-b679-d43798c4bf6e",
+			"name": "Diamondoid",
+			"cost_type": "to_base_cost",
+			"cost": "+1 CF",
+			"notes": "beam resistant; +1 to breakage; compatible with Monomolecular and Vibro"
+		},
+		{
+			"type": "eqp_modifier",
+			"id": "b44a833e-b090-4778-b08d-84394b389a2a",
+			"name": "Fashion Original",
+			"cost_type": "to_original_cost",
+			"cost": "+12000",
+			"notes": "Status 3"
+		},
+		{
+			"type": "eqp_modifier",
+			"id": "e59a471b-19f3-422f-9e72-7bbfac6d33ae",
+			"name": "Hyperdense",
+			"cost_type": "to_base_cost",
+			"cost": "+4 CF",
+			"weight_type": "to_base_weight",
+			"weight": "x1.5",
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 2,
+					"selection_type": "this_weapon"
+				}
+			],
+			"notes": "armor divisor (5); multiply ST requirement by 1.5; beam immune"
+		},
+		{
+			"type": "eqp_modifier_container",
+			"id": "e53214ba-7107-40b3-8949-5b60080179bc",
+			"disabled": true,
+			"name": "Maradon Armor Customization",
+			"open": true,
+			"children": [
+				{
+					"type": "eqp_modifier",
+					"id": "6bcb9d9d-abe6-49d6-b248-e294bf890611",
+					"name": "Ancestral Memory Gem",
+					"cost_type": "to_original_cost",
+					"cost": "+20000",
+					"notes": "Helmet; Elegans"
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "d8da7830-ac38-42fc-b5ae-4effd6f5814e",
+					"name": "Bio-Intensifier",
+					"cost_type": "to_original_cost",
+					"cost": "+25000",
+					"weight_type": "to_original_weight",
+					"weight": "+3 lb",
+					"notes": "Armor; Elegans"
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "93d3c4d2-1c11-459e-a354-28cc2f381431",
+					"name": "Blind Masque",
+					"cost_type": "to_original_cost",
+					"cost": "+10000",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Awareness"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Blind Fighting"
+							}
+						},
+						{
+							"type": "conditional_modifier",
+							"amount": 1,
+							"situation": "psychic powers"
+						}
+					],
+					"notes": "Helmet; Sabine"
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "d52277be-4847-4ba0-a462-281c3a32ef8d",
+					"name": "Electronic Bodyshield",
+					"cost_type": "to_original_cost",
+					"cost": "+20000",
+					"weight_type": "to_original_weight",
+					"weight": "+1.5 lb",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "EK Shield"
+							}
+						}
+					],
+					"notes": "Armor; Grimshaw"
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "e29d2250-fe92-4fcc-bd2a-302837755129",
+					"name": "Electronic Reactor",
+					"cost_type": "to_original_cost",
+					"cost": "+10000",
+					"weight_type": "to_original_weight",
+					"weight": "+2 lb",
+					"notes": "Armor; Grimshaw"
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "57442990-54b5-495d-ba16-dbf54d4c8612",
+					"name": "Fashion Original",
+					"cost_type": "to_original_cost",
+					"cost": "+10000",
+					"notes": "Status 3; any Space Knight armor"
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "4e1340f5-50eb-49b1-8a49-7e86ebe6920d",
+					"name": "Gestaltic Interface",
+					"cost_type": "to_original_cost",
+					"cost": "+35000",
+					"notes": "Helmet; Sabine"
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "996cba70-cd18-4576-97bb-c2a9f3dfcb9b",
+					"name": "Lightning Gauntlet",
+					"cost_type": "to_original_cost",
+					"cost": "+10000",
+					"weight_type": "to_original_weight",
+					"weight": "+5 lb",
+					"notes": "Armor or Gauntlet; Grimshaw"
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "46cf1d8e-42f8-478c-94df-f1ba79bb1a1e",
+					"name": "Mag-Lanyard",
+					"cost_type": "to_original_cost",
+					"cost": "+500"
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "5c3aafac-c48b-4762-980e-c7b05f074a88",
+					"name": "Psionic Mind-Shield Circuitry",
+					"cost_type": "to_original_cost",
+					"cost": "+10000",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 5,
+							"situation": "to IQ or Will rolls to resist telepathic invasion or affliction"
+						}
+					]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "624dc34f-e87b-41e9-acf9-06d6a95bd4bd",
+					"name": "Trauma Maintenance",
+					"cost_type": "to_original_cost",
+					"cost": "+10000",
+					"weight_type": "to_original_weight",
+					"weight": "+2 lb",
+					"notes": "Armor; Kain"
+				}
+			]
+		},
+		{
+			"type": "eqp_modifier",
+			"id": "54c6d958-ced7-45a8-af6b-e8d35b38a420",
+			"name": "Monomolecular",
+			"cost_type": "to_base_cost",
+			"cost": "+4 CF",
+			"weight_type": "to_base_weight",
+			"weight": "+0 lb",
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 2,
+					"selection_type": "this_weapon"
+				}
+			],
+			"notes": "armor divisor (10); compatible with Carbide and Nanomaterials"
+		},
+		{
+			"type": "eqp_modifier",
+			"id": "c58903e2-8237-4f6f-a3bc-a4be05b70415",
+			"name": "Nanomaterials",
+			"cost_type": "to_base_cost",
+			"cost": "+1 CF",
+			"weight_type": "to_base_weight",
+			"weight": "x0.5",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"amount": -2,
+					"situation": "to detect with scanners"
+				}
+			],
+			"notes": "Compatible with Monomolecular and Vibro"
+		},
+		{
+			"type": "eqp_modifier",
+			"id": "0ddfb3ad-2cad-4162-93fb-9de9af0805b5",
+			"name": "Stylish",
+			"cost_type": "to_original_cost",
+			"cost": "+3000",
+			"notes": "Status 2"
+		},
+		{
+			"type": "eqp_modifier_container",
+			"id": "b6d91f56-cb1a-4180-8ede-072959b59d99",
+			"disabled": true,
+			"name": "Trader Armor Modules",
+			"open": true,
+			"children": [
+				{
+					"type": "eqp_modifier_container",
+					"id": "f1a71ec7-56b2-49f4-bc64-d658afcdc16e",
+					"disabled": true,
+					"name": "Antique Trader Modules",
+					"open": true,
+					"children": [
+						{
+							"type": "eqp_modifier",
+							"id": "e5c15728-4ff6-435e-901e-f1709ec79912",
+							"name": "Archive",
+							"cost_type": "to_original_cost",
+							"cost": "+5000",
+							"weight_type": "to_original_weight",
+							"weight": "+3 lb",
+							"notes": "C/5 days"
+						},
+						{
+							"type": "eqp_modifier",
+							"id": "2b5e08bc-6539-4098-9f7e-bd736745b4d9",
+							"name": "Conformal Force Screen",
+							"cost_type": "to_original_cost",
+							"cost": "+15000",
+							"weight_type": "to_original_weight",
+							"weight": "+3 lb",
+							"notes": "C/hour; 60 ablative armor"
+						},
+						{
+							"type": "eqp_modifier",
+							"id": "ea579182-c125-4b08-85c3-714f340a9069",
+							"name": "Invisibility Field",
+							"cost_type": "to_original_cost",
+							"cost": "+15000",
+							"weight_type": "to_original_weight",
+							"weight": "+3 lb",
+							"notes": "C/hour;"
+						},
+						{
+							"type": "eqp_modifier",
+							"id": "91af1d82-6f85-4b6b-aa7d-ba37d687b89d",
+							"name": "Psi-Scream Field",
+							"cost_type": "to_original_cost",
+							"cost": "+3",
+							"weight_type": "to_original_weight",
+							"weight": "+25000 lb",
+							"notes": "C/5 days"
+						}
+					]
+				},
+				{
+					"type": "eqp_modifier_container",
+					"id": "a725f6ed-7889-474a-89cf-535a82031943",
+					"disabled": true,
+					"name": "Modern Trader Modules",
+					"open": true,
+					"children": [
+						{
+							"type": "eqp_modifier",
+							"id": "40f52c3e-365a-438f-9a4e-9f945cc98c56",
+							"name": "Distributed Computer Support System",
+							"cost_type": "to_original_cost",
+							"cost": "+3",
+							"weight_type": "to_original_weight",
+							"weight": "+20000 lb"
+						},
+						{
+							"type": "eqp_modifier",
+							"id": "b2573a96-ecf7-46b0-b204-259e42098258",
+							"name": "Robotic Integration",
+							"cost_type": "to_original_cost",
+							"cost": "+1000",
+							"weight_type": "to_original_weight",
+							"weight": "+5 lb"
+						},
+						{
+							"type": "eqp_modifier",
+							"id": "2a4abf43-bd2e-49ad-be6d-98c755d54508",
+							"name": "Strength Amplification System",
+							"cost_type": "to_original_cost",
+							"cost": "+20000",
+							"weight_type": "to_original_weight",
+							"weight": "+3 lb",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 4,
+									"attribute": "st",
+									"limitation": "striking_only"
+								},
+								{
+									"type": "attribute_bonus",
+									"amount": 4,
+									"attribute": "st",
+									"limitation": "lifting_only"
+								}
+							]
+						},
+						{
+							"type": "eqp_modifier",
+							"id": "a5487d50-8e11-4ceb-bff9-2f1eea7fd75a",
+							"name": "Tactical Sensor Grid"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "eqp_modifier",
+			"id": "f312d9f2-4475-430d-a1d5-4f5024e8e1fc",
+			"name": "Vibro",
+			"cost_type": "to_base_cost",
+			"cost": "+4 CF",
+			"notes": "+1d+2 to cutting damage; adds armor divisor (5); compatible with Carbide, Hyperdense and Nanomaterials"
+		}
+	]
+}
