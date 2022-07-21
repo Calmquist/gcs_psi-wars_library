@@ -1007,7 +1007,7 @@
 			"id": "7a1680c2-76b7-40b3-99e7-1ab2e68e36fa",
 			"name": "Ranathim Power-Ups",
 			"calc": {
-				"points": 56
+				"points": 11
 			},
 			"open": true,
 			"children": [
@@ -1084,7 +1084,8 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"id": "b03e15b7-f0f3-4f10-99e9-323ab4a010bd",
+							"id": "715afc60-fe3f-4996-a617-b63f2983e221",
+							"disabled": true,
 							"name": "Level 1",
 							"cost_type": "points",
 							"cost": 8,
@@ -1092,7 +1093,8 @@
 						},
 						{
 							"type": "modifier",
-							"id": "d43d4fa4-7a30-46d0-9d21-81a7175ffc81",
+							"id": "e771134e-6fa7-4c62-9b66-452642251168",
+							"disabled": true,
 							"name": "Level 2",
 							"cost_type": "points",
 							"cost": 15,
@@ -1100,7 +1102,8 @@
 						},
 						{
 							"type": "modifier",
-							"id": "4e497ada-059b-4382-9fdc-e8a8d7557b4b",
+							"id": "84e74b80-0e59-4bd8-b202-19df5f054089",
+							"disabled": true,
 							"name": "Level 3",
 							"cost_type": "points",
 							"cost": 22,
@@ -1108,7 +1111,7 @@
 						}
 					],
 					"calc": {
-						"points": 45
+						"points": 0
 					},
 					"categories": [
 						"Psionic",

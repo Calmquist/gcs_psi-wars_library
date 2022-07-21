@@ -1,0 +1,502 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "0dc219ab-8015-4c27-adb6-ada7b8943509",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "1cf41146-eaec-45e0-b7a0-c631494d4274",
+			"name": "Common Disadvantages",
+			"calc": {
+				"points": -60
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "8381d764-1687-4718-806d-0505fe790b92",
+					"name": "Charitable",
+					"mental": true,
+					"base_points": -15,
+					"cr": 12,
+					"reference": "B125",
+					"calc": {
+						"points": -15
+					},
+					"notes": "Make a self-control roll in any situation where you could render aid or are specifically asked for help, but should resist the urge",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "3d97e2f1-4f4e-4886-82b3-87d7aaf3fd3d",
+					"name": "Gregarious",
+					"mental": true,
+					"base_points": -10,
+					"reference": "B126",
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": 4,
+							"situation": "to others"
+						},
+						{
+							"type": "conditional_modifier",
+							"amount": -2,
+							"situation": "to IQ-based skills when alone, or only -1 if in a group of 4 or less"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "2d07247a-ab41-48b0-9272-1f6e96a934a4",
+					"name": "Guilt Complex",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B137",
+					"calc": {
+						"points": -5
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "66145b15-58f0-4eaa-a2a2-2a89c7cbf5da",
+					"name": "Incurious",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B140",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "to new things"
+						}
+					],
+					"notes": "Make a self-control roll when confronted with something strange. If you fail, you ignore it!",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "ff330325-f038-495e-91e8-f52c44c339c0",
+					"name": "Odious Personal Habit",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "5c8b2802-7b4f-41ef-acd3-499113aca494",
+							"name": "-1 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "fdf987c9-dd11-48e9-b85b-bc59ba054cc2",
+							"disabled": true,
+							"name": "-2 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "9657bb08-33ee-43a2-82fd-44acd898e041",
+							"disabled": true,
+							"name": "-3 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						}
+					],
+					"reference": "B22",
+					"calc": {
+						"points": -5
+					},
+					"notes": "@Constant Mothering or Makes Everything about Master@",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "311986cd-e592-4e71-b58d-05f3dffaa6e2",
+					"name": "Sense of Duty",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "86be3bcf-a04e-44fe-b3f7-9c66fe2e2066",
+							"disabled": true,
+							"name": "Friends and Companions",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "aea05eda-592e-4222-8de5-1334266a15ad",
+							"disabled": true,
+							"name": "@Small Group@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "bad74cb1-967d-45aa-a879-04ab04cf09fb",
+							"disabled": true,
+							"name": "@Individual@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "1c135416-3680-47fd-b16a-d11e5ba9ea63",
+							"name": "Children",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "d36d4b69-a0a5-4bdd-9361-4d4a8c088b3a",
+							"disabled": true,
+							"name": "@Entire Race@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "ae510ba3-9ea8-48a0-8aa2-635fd4df4e20",
+							"disabled": true,
+							"name": "Every Living Being",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B153",
+					"calc": {
+						"points": -10
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "9078a379-7173-4b9c-9e43-71bf9ef21f76",
+					"name": "Squeamish",
+					"physical": true,
+					"base_points": -10,
+					"cr": 12,
+					"reference": "B156",
+					"calc": {
+						"points": -10
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "b9b5290d-10df-47fb-aed4-aa69c46bd5b2",
+			"name": "Common Quirks",
+			"calc": {
+				"points": -16
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "699d4ab2-528e-4207-b310-7479ba5044ce",
+					"name": "Chummy",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B126",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": 2,
+							"situation": "to others"
+						},
+						{
+							"type": "conditional_modifier",
+							"amount": -1,
+							"situation": "to IQ-based skills when alone"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "3fb6467a-764f-44e0-98f8-8ab34d68e78d",
+					"name": "Clean freak",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:30",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "88612b57-0acf-428c-92da-a2684628b1d5",
+					"name": "Congenial",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "5f7719c5-0e7c-428f-9a08-ba6edfde19bc",
+					"name": "Hidebound",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B138",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": -2,
+							"situation": "on any task that requires creativity or invention, including most rolls against Artist skill, all Engineer rolls for new inventions, and all skill rolls made to use the Gadgeteer advantage"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "2887e412-8e0c-47c7-9b9b-c89d45a14598",
+					"name": "Mind-Numbing Magnetism (@Cheerful or Optimistic@)",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:15",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "4845f211-ccea-4877-a416-ee5db6f5c097",
+					"name": "Record-Keeper",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:29",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "d4379d89-b249-4da2-94f0-0f4f083acfbc",
+					"name": "Responsive",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "cd6d8284-1904-4401-ac66-65183dca54ef",
+					"name": "Staid",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "670dfb8f-25d3-4bd5-a6b1-b95605f8b553",
+			"container_type": "meta_trait",
+			"name": "Tender Personality",
+			"calc": {
+				"points": -5
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "b3c7da25-ae95-4e61-9ff4-a50d2446c2e2",
+					"name": "Selfless",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B153",
+					"calc": {
+						"points": -5
+					},
+					"notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "df66356f-0f35-4962-a854-2a0ce54455fc",
+			"name": "Tender Personality",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "f4c3c220-9eac-48fc-9985-e35de86fc830",
+					"name": "Body Language",
+					"reference": "B181",
+					"difficulty": "per/a",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Detect Lies",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Psychology",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Police",
+						"Social",
+						"Spy"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "eece05e1-e341-49cc-9169-4a40bebb4a5c",
+					"name": "Diagnosis",
+					"reference": "B187",
+					"tech_level": "",
+					"difficulty": "iq/h",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "First Aid",
+							"modifier": -8
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Veterinary",
+							"modifier": -5
+						}
+					],
+					"categories": [
+						"Medical"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "824b3eb5-eeb5-4205-8686-20b1975a9c24",
+					"name": "First Aid",
+					"reference": "B195",
+					"tech_level": "",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Esoteric Medicine"
+						},
+						{
+							"type": "skill",
+							"name": "Physician"
+						},
+						{
+							"type": "skill",
+							"name": "Veterinary",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Everyman",
+						"Medical"
+					]
+				}
+			]
+		}
+	]
+}

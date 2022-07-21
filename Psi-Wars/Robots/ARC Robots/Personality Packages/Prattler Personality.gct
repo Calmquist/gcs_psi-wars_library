@@ -1,0 +1,490 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "be2a3db8-6420-4d71-af1b-dcf0b5197721",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "8c7e341b-bf11-414f-93b3-b6065a7c096b",
+			"name": "Common Disadvantages",
+			"calc": {
+				"points": -25
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "91e07e56-490c-46c0-8d5e-3b8df1be4e2f",
+					"name": "Chummy",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B126",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": 2,
+							"situation": "to others"
+						},
+						{
+							"type": "conditional_modifier",
+							"amount": -1,
+							"situation": "to IQ-based skills when alone"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "060b8909-b808-44f1-b25a-ad0434885500",
+					"name": "Gregarious",
+					"mental": true,
+					"base_points": -10,
+					"reference": "B126",
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": 4,
+							"situation": "to others"
+						},
+						{
+							"type": "conditional_modifier",
+							"amount": -2,
+							"situation": "to IQ-based skills when alone, or only -1 if in a group of 4 or less"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "2e1866ad-1342-4645-8538-7db8d7ad57b4",
+					"name": "Intolerance (Non-ARC Robots)",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "acde88ae-8abe-457c-b022-609fc380a35c",
+							"name": "Scope: Common",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "7169d42b-373b-4e42-98e1-d51cdd5ab9f9",
+							"disabled": true,
+							"name": "Scope: Occasional",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "653342d8-dc36-4a3e-8842-2c694b79413c",
+							"disabled": true,
+							"name": "Scope: Rare",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "9dd464f0-cb30-4d01-afc8-bcde570deab3",
+							"disabled": true,
+							"name": "Scope: Anyone unlike you",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B140",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from victims of your intolerance (may be as much as -5, at GM's discretion)"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e7044b79-918e-435a-a2d6-1ef5cb3f6317",
+					"name": "Odious Personal Habit",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "1f490532-e78a-437b-a5f1-2cca37fa85d9",
+							"disabled": true,
+							"name": "-1 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "307c77f9-1a3a-4ba8-836f-8d4e104cb3c9",
+							"disabled": true,
+							"name": "-2 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "dc37ec35-37a2-4c72-b9c2-f95f8f029510",
+							"disabled": true,
+							"name": "-3 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						}
+					],
+					"reference": "B22",
+					"calc": {
+						"points": 0
+					},
+					"notes": "Busy Body",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "86b01f8f-b4a4-4e08-97f0-aabc64beebfb",
+					"name": "Odious Personal Habit",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "cb03bd81-2e0e-408f-9c95-29a0afb3a106",
+							"disabled": true,
+							"name": "-1 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "ae20a8d6-44bc-471f-ab66-8d26f5af11f6",
+							"disabled": true,
+							"name": "-2 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "49fb537f-e7c7-440f-b968-7eab73ad203b",
+							"disabled": true,
+							"name": "-3 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						}
+					],
+					"reference": "B22",
+					"calc": {
+						"points": 0
+					},
+					"notes": "Makes Everything about Master",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "6e9df32e-1088-42f8-ad74-965a0a495957",
+					"name": "Selfless",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B153",
+					"calc": {
+						"points": -5
+					},
+					"notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "8827031f-d0d8-4ac9-a8f0-606d2c4e9c89",
+			"name": "Common Quirks",
+			"calc": {
+				"points": -8
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "84815949-2734-4332-a8c9-c54bff7e079b",
+					"name": "Chauvinistic",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B163",
+					"calc": {
+						"points": -1
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from individuals sensitive to criticism or insults that you interact with"
+						}
+					],
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "6692cb09-e2e3-4a52-be2b-2aecefcdb59b",
+					"name": "Congenial",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "eefbd6f5-d47f-4ef1-8614-85320f320dee",
+					"name": "Distractible",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": -1,
+							"situation": "on any long task"
+						}
+					],
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "a5152c03-a860-4ecb-857e-04db4856eca0",
+					"name": "Eavesdropper",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:28",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "1df33789-c03e-4b96-b846-771c46793191",
+					"name": "Likes ARC Technology",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "0e413ce9-1764-4150-9a7d-76d85c56e9bb",
+					"name": "Mind-Numbing Magnetism (Talkative)",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:15",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "cab713e6-4bb9-49cc-9dc9-1ec5b7986081",
+					"name": "Record-Keeper",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:29",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c5b7dd38-a6b2-4ae7-91c6-653b9c7958b3",
+					"name": "Tattletale",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:30",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "d4ed8c11-7709-453e-9270-5650543f46ae",
+			"container_type": "meta_trait",
+			"name": "Prattler Personality",
+			"calc": {
+				"points": -5
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "0bdb81dc-7e6c-4f0d-9a96-6a2b56c77b8c",
+					"name": "Curious",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B129",
+					"calc": {
+						"points": -5
+					},
+					"notes": "Make a self-control roll when presented with an interesting item or situation",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "b2597120-1ab6-48e2-b58b-0f4778753b75",
+			"name": "Prattler Personality",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "97391906-7722-4a22-b54b-1d80af813736",
+					"name": "Current Affairs",
+					"reference": "B186",
+					"specialization": "People",
+					"tech_level": "",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Everyman",
+						"Knowledge",
+						"Social"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "ef0a2b53-064b-42a6-a4ac-b0fe98046897",
+					"name": "Lip Reading",
+					"reference": "B205",
+					"difficulty": "per/a",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -10
+						}
+					],
+					"categories": [
+						"Spy"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "520f3b03-dfa2-4f59-87dd-2f2ffe57be9f",
+					"name": "Observation",
+					"reference": "B211",
+					"difficulty": "per/a",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shadowing",
+							"modifier": -5
+						}
+					],
+					"categories": [
+						"Criminal/Street",
+						"Military",
+						"Police",
+						"Spy"
+					]
+				}
+			]
+		}
+	]
+}

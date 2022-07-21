@@ -1,0 +1,125 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "8885bda8-24b9-420c-9378-3f327b57799d",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "a6f3db4b-4a26-4b46-861d-b9c21194c95c",
+			"name": "Matchmaker Upgrade",
+			"calc": {
+				"points": 1
+			},
+			"notes": "Cost: $1500",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "0663d713-e6c8-4370-820b-ade2a334a344",
+					"name": "Accessory (Pocket Genetics Analyzer)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "d717e6d3-488b-448e-9981-c1e8a0823a76",
+			"name": "Optional Disadvantages",
+			"calc": {
+				"points": -5
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "e6b46724-cc2f-4914-83e8-9b6905fb79c2",
+					"name": "Odious Personal Habit",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "3e35f5ac-dd7d-4252-b15b-a492a8617fc8",
+							"name": "-1 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "90d676e0-1986-4515-b14f-a37ec6794d3c",
+							"disabled": true,
+							"name": "-2 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "740865a3-ec22-4a71-86c4-ae22b69d9593",
+							"disabled": true,
+							"name": "-3 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						}
+					],
+					"reference": "B22",
+					"calc": {
+						"points": -5
+					},
+					"notes": "@Busybody, unwanted romantic advice, etc.@",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "12ea79ba-f84f-4847-b4b1-fe96c19e151e",
+			"name": "Matchmaker Upgrade",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "2a51f8ca-2648-413f-b656-80301682308b",
+					"name": "Bioengineering",
+					"reference": "B180",
+					"specialization": "Eugenics; Analysis Only",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 8,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Biology",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bioengineering",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Design/Invention"
+					]
+				}
+			]
+		}
+	]
+}

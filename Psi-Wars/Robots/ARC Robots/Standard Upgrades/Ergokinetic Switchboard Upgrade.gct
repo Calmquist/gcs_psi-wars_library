@@ -1,0 +1,73 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "5e716b16-2d11-4adc-a690-3d00277018e8",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "e4058b7c-ddd4-42f2-8c83-eb6c0e031a60",
+			"name": "Ergokinetic Switchboard Upgrade",
+			"calc": {
+				"points": -4
+			},
+			"notes": "Cost: $200",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "5a9c3831-1dc5-4229-bc7a-7b460a28ddde",
+					"name": "Psi Susceptibility",
+					"mental": true,
+					"supernatural": true,
+					"levels": "4",
+					"points_per_level": -3,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "24bd5858-6fd3-47d3-8145-00617587627a",
+							"name": "Ergokinesis Only",
+							"cost_type": "percentage",
+							"cost": -66,
+							"affects": "total"
+						}
+					],
+					"reference": "B143",
+					"calc": {
+						"points": -4
+					},
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "magic resistance"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 1,
+							"per_level": true,
+							"situation": "to skill for others to use ergokinesis on your"
+						},
+						{
+							"type": "conditional_modifier",
+							"amount": -1,
+							"per_level": true,
+							"situation": "to resist ergokinesis"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	]
+}

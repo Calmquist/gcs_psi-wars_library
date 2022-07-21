@@ -1,0 +1,394 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "f8ce8f60-f696-42f5-8009-b85a5d3d50c6",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "b27eebfc-086e-46ea-bca1-ed5d817a2eaa",
+			"name": "Additional Disadvantages",
+			"calc": {
+				"points": -24
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "14fefbd0-cb5a-4a6a-a2df-c0508c0c9fdc",
+					"name": "Believer (@Akashic Mysteries, Fringe Rationalisim, True Communion, some other psychic philosophy)",
+					"physical": true,
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "5382bd83-436e-440b-8e77-35e9626e078c",
+					"name": "Cowardice",
+					"mental": true,
+					"base_points": -10,
+					"cr": 12,
+					"reference": "B129",
+					"calc": {
+						"points": -10
+					},
+					"notes": "Make a self-control roll any time you are called on to risk physical danger. Roll at -5 if you must risk death.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "441b15c4-b864-434b-9176-9518414d4859",
+					"name": "Delusion (@Superstition@)",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "bb7440ca-57be-4369-a8c1-27c187aa730a",
+							"disabled": true,
+							"name": "Minor",
+							"reference": "B130",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "0916d790-915d-48f7-9ad8-55d9358cbb30",
+							"disabled": true,
+							"name": "Major",
+							"reference": "B130",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "e515662a-ff3b-48b5-b4f5-946b28bdcacd",
+							"disabled": true,
+							"name": "Severe",
+							"reference": "B130",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						}
+					],
+					"reference": "B130",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e9a74052-80ed-49f5-a91b-4c15f51b25c3",
+					"name": "Delusions",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B164,MA53",
+					"calc": {
+						"points": -1
+					},
+					"notes": "@Superstition@",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "bf983247-5ed0-447f-99bf-7764a7596884",
+					"name": "Fearfulness",
+					"mental": true,
+					"levels": "1",
+					"points_per_level": -2,
+					"reference": "B136",
+					"calc": {
+						"points": -2
+					},
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "fearlessness"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "fright_check"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "27387fde-5948-4b2c-8393-b1214de218c1",
+					"name": "Paranoia",
+					"mental": true,
+					"base_points": -10,
+					"reference": "B148",
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "from others"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": -4,
+							"situation": "toward any stranger and any “legitimate” reaction penalty (e.g., for an unfriendly race or nationality) is doubled"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "8cc6ded1-ced6-47ef-a490-fda67fea5c30",
+			"name": "Psychometer Upgrade",
+			"calc": {
+				"points": 4
+			},
+			"notes": "Cost: $3500",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "1daffd90-660b-43fc-a6b9-0d8f9aadefd0",
+					"name": "Detect",
+					"mental": true,
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "7e979770-f666-4f24-ab18-44e9c0d409e8",
+							"disabled": true,
+							"name": "@Rare Substance/Condition@",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "8776a894-bd2d-482e-80b0-bec7e858c051",
+							"name": "Psi",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "6e01927a-443b-45bb-b4fb-483ff9a1b6d3",
+							"disabled": true,
+							"name": "@Common Substance/Condition@",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "d3c9ddfb-b1af-43e4-bf9a-52435f8a2828",
+							"disabled": true,
+							"name": "@Very Common Substance/Condition@",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "417dc01b-da3a-45e1-a9fe-f9d7ed07771e",
+							"disabled": true,
+							"name": "Precise",
+							"reference": "B48",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "eb4265aa-6397-48de-9432-273a4112a7a9",
+							"disabled": true,
+							"name": "Signal Detection",
+							"reference": "B48",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "9f478c9b-dc90-42b0-a158-fa1a0e5387bb",
+							"name": "Vague",
+							"reference": "B48",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "5acb8116-9a27-4516-a38d-176ccd0e43d8",
+							"disabled": true,
+							"name": "Analyzing",
+							"reference": "P47",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "14829cae-c748-4184-ad83-9ad79f9a5fd5",
+							"disabled": true,
+							"name": "Lock-On",
+							"reference": "PSI14",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "34f5249e-e13c-4e02-b57b-80c5466d1bf0",
+							"disabled": true,
+							"name": "Precise, Nontargeting",
+							"reference": "PSI14",
+							"cost_type": "percentage",
+							"cost": 90,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "7b8e98ee-c013-4334-9bb8-7963a2d7d3c1",
+							"disabled": true,
+							"name": "Analysis Only",
+							"reference": "PSI14",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "39a07971-be39-4f7e-8045-397a0dc53f47",
+							"disabled": true,
+							"name": "Cannot Analyze",
+							"reference": "PSI14",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "84d09a08-d69a-4e95-b9b4-71cbbfe5cd81",
+							"name": "Nuisance Effect",
+							"reference": "B112,P104",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"notes": "repeated attempt penalty until recalibrated"
+						},
+						{
+							"type": "modifier",
+							"id": "bb6e9fe2-b53b-44a1-9c88-a052d2b4dec5",
+							"name": "Short-Range",
+							"reference": "PU8:18",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B48,P47,PSI14",
+					"calc": {
+						"points": 4
+					},
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "1b5c53e8-e9b7-4456-8658-6eb836d073b1",
+			"name": "Psychometer Upgrade",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "ab3ea3c0-8e68-4758-a541-4ce9938b0b92",
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"specialization": "Psychotronics",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"specialization": "Psychotronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Technical"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "a8cb2ab3-1be3-43d7-985e-42a2f2a3712b",
+					"name": "Expert Skill",
+					"reference": "B193,MA56",
+					"specialization": "Psionics",
+					"difficulty": "iq/h",
+					"points": 4,
+					"categories": [
+						"Knowledge",
+						"Occult/Magical",
+						"Scholarly"
+					]
+				}
+			]
+		}
+	]
+}

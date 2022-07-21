@@ -1,0 +1,103 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "f7580ca9-f796-4413-a620-7dd14377cfc4",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "9a547b33-2ea8-4c7d-a05a-d7e0db6a6bd4",
+			"name": "Security Failsefes",
+			"calc": {
+				"points": -9
+			},
+			"notes": "Cost: $1000",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "ff3be4bf-afad-440f-b8a9-fa907e12771a",
+					"name": "Fanaticism (Master)",
+					"mental": true,
+					"base_points": -15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "969ac850-e57a-4dc6-85a9-be207374e51c",
+							"name": "Extreme",
+							"reference": "B136",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"reference": "B136",
+					"calc": {
+						"points": -15
+					},
+					"notes": "Replaces Sense of Duty (Master)",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "ff66fb55-cf2e-4acc-99d7-c7cf646a6414",
+					"name": "Increased Will",
+					"mental": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"reference": "B16",
+					"calc": {
+						"points": 5
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "will"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "4ca8d910-d422-4c40-911c-b7653d7b33b6",
+					"name": "Security Failsafe",
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "ac294b09-ed0b-4930-aca7-1d05b3d22633",
+			"name": "Security Failsafes",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "6563c472-4bb0-458c-bfb4-f1cc59244412",
+					"name": "Expert Skill",
+					"reference": "B193,MA56",
+					"specialization": "Computer Security",
+					"difficulty": "iq/h",
+					"points": 8,
+					"categories": [
+						"Knowledge",
+						"Scholarly",
+						"Spy"
+					]
+				}
+			]
+		}
+	]
+}

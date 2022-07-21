@@ -1,0 +1,1818 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "22707f8e-f436-4365-9eca-1db68ac9f944",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "de4061e9-5a60-4502-800c-1ddd598175d8",
+			"container_type": "race",
+			"name": "Krokuta",
+			"ancestry": "Human",
+			"calc": {
+				"points": 10
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "1ea2548d-985f-44d9-b721-41a146190e45",
+					"name": "Addiction Fiend",
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "ceac4695-8d2b-49eb-849f-72ead8034010",
+					"name": "Bully",
+					"mental": true,
+					"base_points": -10,
+					"cr": 12,
+					"reference": "B125",
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "from others"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "2e3bb1b7-b79f-46f8-827f-bbf3ce11c156",
+					"name": "Decreased Intelligence",
+					"mental": true,
+					"levels": "2",
+					"points_per_level": -20,
+					"reference": "B15",
+					"calc": {
+						"points": -40
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "iq"
+						}
+					],
+					"categories": [
+						"Attribute",
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "2a6b17c9-dd1d-4c6b-80a5-8ae746aa0212",
+					"name": "Discriminatory Smell",
+					"physical": true,
+					"exotic": true,
+					"base_points": 15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "07ae6931-2f17-40dd-a4f7-415733379c1b",
+							"disabled": true,
+							"name": "Emotion Sense",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "ede9ad72-5ccd-470d-ba8c-0264d15ed1e8",
+							"disabled": true,
+							"name": "Profiling",
+							"reference": "P47",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						}
+					],
+					"reference": "B49",
+					"calc": {
+						"points": 15
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c2c5e315-f0a2-48c3-8554-8b4e8d8ec8fb",
+					"name": "Disturbing Voice",
+					"physical": true,
+					"base_points": -10,
+					"reference": "B132",
+					"calc": {
+						"points": -10
+					},
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "voice"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "performance"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "public speaking"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "singing"
+							}
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "19818cc6-5fc4-4bc6-90d8-35c1c2ee0361",
+					"name": "Gluttony",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B137",
+					"calc": {
+						"points": -5
+					},
+					"notes": "Make a self-control roll when presented with a tempting morsel or good wine that, for some reason, you should resist. If you fail, you partake – regardless of the consequences.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "3c1e3fbb-47c5-46d6-82ce-bfaab96d3e24",
+					"name": "Hard to Kill",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 2,
+					"reference": "B58",
+					"calc": {
+						"points": 4
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 1,
+							"per_level": true,
+							"situation": "to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death. If this bonus makes the difference between success and failure, you collapse, apparently dead (or disabled), but come to in the usual amount of time. A successful Diagnosis roll reveals the truth."
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "5e8ef69c-3003-4275-a06f-65c5e96adc48",
+					"name": "Increased Perception",
+					"mental": true,
+					"physical": true,
+					"levels": "4",
+					"points_per_level": 5,
+					"reference": "B16",
+					"calc": {
+						"points": 20
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "per"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "564cc560-31e8-4c6a-82bc-f1713e5b415e",
+					"name": "Increased Strength",
+					"physical": true,
+					"levels": "4",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "cec2c6d0-21f6-4be0-aaed-cb62e9f80784",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "8d1450c6-a0ee-432e-a5ea-958036636ede",
+							"disabled": true,
+							"name": "Size",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"id": "a0663c92-a1c2-4d6e-ae8e-25ded6d8c64f",
+							"disabled": true,
+							"name": "Super-Effort",
+							"reference": "SU24",
+							"cost_type": "percentage",
+							"cost": 300,
+							"affects": "total"
+						}
+					],
+					"reference": "B14",
+					"calc": {
+						"points": 20
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "7efb8a6a-b37b-456f-8d11-faa90d33684d",
+					"name": "Increased Will",
+					"mental": true,
+					"levels": "2",
+					"points_per_level": 5,
+					"reference": "B16",
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "will"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "52ce9552-3e74-44d1-8b3c-559d2ed2f099",
+					"name": "Krokuta Fangs",
+					"physical": true,
+					"base_points": 6,
+					"weapons": [
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "+1d(3) cut",
+								"st": "thr",
+								"base": "-1",
+								"armor_divisor": 3
+							},
+							"usage": "Bite",
+							"reach": "C",
+							"parry": "No",
+							"block": "B",
+							"calc": {
+								"level": 0,
+								"parry": "No",
+								"block": "B",
+								"damage": "thr-1(3) +1d(3) cut"
+							},
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								}
+							]
+						}
+					],
+					"calc": {
+						"points": 6
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "a2fa1e1a-e346-4695-8559-cf54a093aa08",
+					"name": "Night Vision",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 1,
+					"reference": "B71",
+					"calc": {
+						"points": 2
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "9ea77602-2288-473f-9ba0-d485e72c7e65",
+					"name": "Penetrating Voice",
+					"physical": true,
+					"base_points": 1,
+					"reference": "B101",
+					"calc": {
+						"points": 1
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 3,
+							"situation": "to others' Hearing roll in siturations where you want to be heard over noise"
+						}
+					],
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "f045251f-db0e-4550-ac32-8810b5a7402e",
+					"name": "Rapid Healing",
+					"physical": true,
+					"base_points": 5,
+					"reference": "B79",
+					"calc": {
+						"points": 5
+					},
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"which": "ht",
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 10
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 5,
+							"situation": "to your effective HT whenever you roll to recover lost HP or to see if you can get over a crippling injury"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "d35ee631-fe0c-4c2f-9bf9-5b89c62d0a88",
+					"name": "Recovery",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"reference": "B80",
+					"calc": {
+						"points": 10
+					},
+					"notes": "When determining the length of time you remain unconscious for any reason, divide all times by 60",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "8baca35d-6f34-42d8-ad3d-d30ef4b87a3b",
+					"name": "Smelly (Dog Smell)",
+					"physical": true,
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "ea8fd40d-9a97-4507-aa76-d4fdef8fb0f1",
+					"name": "Social Stigma (Alien Savage)",
+					"social": true,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "from other races"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 2,
+							"situation": "from sympathizers"
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e0541819-78cc-4877-a9fc-854a961a06a8",
+					"name": "Susceptible (Drugs and Poison)",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": -1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "c51a8a3d-f11f-40e7-b0cf-dbeca0f7eb23",
+							"disabled": true,
+							"name": "Occasional",
+							"reference": "B158",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"id": "c63a6e1e-3c1a-4f4b-b11a-79d320a97410",
+							"disabled": true,
+							"name": "Common",
+							"reference": "B158",
+							"cost_type": "multiplier",
+							"cost": 2
+						},
+						{
+							"type": "modifier",
+							"id": "c6e8baf7-a296-4a1a-aba3-a7bf0aa93a13",
+							"name": "Very Common",
+							"reference": "B158",
+							"cost_type": "multiplier",
+							"cost": 4
+						}
+					],
+					"reference": "B158",
+					"calc": {
+						"points": -8
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "d77ce98f-3789-4702-ad14-47ba14e28af5",
+			"container_type": "race",
+			"name": "Krokuta Female",
+			"ancestry": "Human",
+			"calc": {
+				"points": 45
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "052dd6a7-f64e-463e-9ed8-2493012034bf",
+					"name": "Addiction Fiend",
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "025a882f-2452-4fb0-a209-a3ee0b79d033",
+					"name": "Bad Temper",
+					"mental": true,
+					"base_points": -10,
+					"cr": 9,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "0a57d6af-0e99-4c68-9139-15322c3499b7",
+							"name": "Mitigator, daily dose of Amberdine",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total"
+						}
+					],
+					"reference": "B124",
+					"calc": {
+						"points": -6
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "2440621b-5e3f-4554-a07c-4cdedcdbbc52",
+					"name": "Bully",
+					"mental": true,
+					"base_points": -10,
+					"cr": 12,
+					"reference": "B125",
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "from others"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "6f414a7d-7319-4bc3-bed4-ec96918d690c",
+					"name": "Decreased Intelligence",
+					"mental": true,
+					"levels": "4",
+					"points_per_level": -20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "1d0d282c-b823-4618-a574-cb904b89de14",
+							"name": "Mitigator, Daily Dose of Amberdine",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total"
+						}
+					],
+					"reference": "B15",
+					"calc": {
+						"points": -32
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "iq"
+						}
+					],
+					"categories": [
+						"Attribute",
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "f581a0f2-2b69-4942-b2b8-fc4dc4b593fd",
+					"name": "Discriminatory Smell",
+					"physical": true,
+					"exotic": true,
+					"base_points": 15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "e6dc6d82-e597-40f8-9db2-602b71cf3552",
+							"disabled": true,
+							"name": "Emotion Sense",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "74f4c8d2-e7af-43c3-8051-3f3ef691661a",
+							"disabled": true,
+							"name": "Profiling",
+							"reference": "P47",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						}
+					],
+					"reference": "B49",
+					"calc": {
+						"points": 15
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "1a17f0c1-cb7f-4f1b-9297-69eddf7d4a3e",
+					"name": "Disturbing Voice",
+					"physical": true,
+					"base_points": -10,
+					"reference": "B132",
+					"calc": {
+						"points": -10
+					},
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "voice"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "performance"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "public speaking"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "singing"
+							}
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "92c1cf07-470b-4ed9-9b09-c5639fb6abb1",
+					"name": "Extremely Mitigated Disadvantage (Bestial; Daily Dose of Amberdine_",
+					"physical": true,
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "72dff7c9-00a8-4f0e-9dfb-b4bb1682f559",
+					"name": "Gluttony",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B137",
+					"calc": {
+						"points": -5
+					},
+					"notes": "Make a self-control roll when presented with a tempting morsel or good wine that, for some reason, you should resist. If you fail, you partake – regardless of the consequences.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "95aad17a-91c9-4edd-ab7a-2031bcdc152c",
+					"name": "Hard to Kill",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 2,
+					"reference": "B58",
+					"calc": {
+						"points": 4
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 1,
+							"per_level": true,
+							"situation": "to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death. If this bonus makes the difference between success and failure, you collapse, apparently dead (or disabled), but come to in the usual amount of time. A successful Diagnosis roll reveals the truth."
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c5dd9e10-2b24-41a3-9c1c-95a2f76eed55",
+					"name": "Increased Perception",
+					"mental": true,
+					"physical": true,
+					"levels": "4",
+					"points_per_level": 5,
+					"reference": "B16",
+					"calc": {
+						"points": 20
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "per"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "cc9a2b48-d8eb-47f1-9485-3fe0a6c07929",
+					"name": "Increased Strength",
+					"physical": true,
+					"levels": "8",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "e31ea2cf-7604-4600-9f0c-e80ffdb30224",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "a74d24c7-f2c3-4d07-ab6d-b4bf772a9a90",
+							"name": "Size",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"id": "86909460-b1bb-4165-9632-91ecb8051958",
+							"disabled": true,
+							"name": "Super-Effort",
+							"reference": "SU24",
+							"cost_type": "percentage",
+							"cost": 300,
+							"affects": "total"
+						}
+					],
+					"reference": "B14",
+					"calc": {
+						"points": 36
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "cf37b676-e1e6-4412-aa45-bf63e36dcf40",
+					"name": "Increased Will",
+					"mental": true,
+					"levels": "2",
+					"points_per_level": 5,
+					"reference": "B16",
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "will"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "f9d3f242-c8c2-46eb-a91c-b7a5727e138f",
+					"name": "Krokuta Fangs",
+					"physical": true,
+					"base_points": 6,
+					"weapons": [
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "+1d(3) cut",
+								"st": "thr",
+								"base": "-1",
+								"armor_divisor": 3
+							},
+							"usage": "Bite",
+							"reach": "C",
+							"parry": "No",
+							"block": "B",
+							"calc": {
+								"level": 0,
+								"parry": "No",
+								"block": "B",
+								"damage": "thr-1(3) +1d(3) cut"
+							},
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								}
+							]
+						}
+					],
+					"calc": {
+						"points": 6
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "ad408ab9-57a7-4e8e-a2c8-ca346813ee93",
+					"name": "Lecherousness (Estrus only)",
+					"mental": true,
+					"base_points": -1,
+					"cr": 12,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "f925c666-3d94-4ad9-9257-5978f23ea990",
+							"name": "Modifier",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"reference": "B142",
+					"calc": {
+						"points": -1
+					},
+					"notes": "Make a self-control roll whenever you have more than the briefest contact with an appealing member of the sex you find attractive, at -5 if this person is Handsome/Beautiful, or at -10 if Very Handsome/Very Beautiful. If you fail, you must make a “pass” using whatever wiles and skills you can bring to bear.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "0a868ce5-f8d1-40c1-9a19-caaa7a3dbf41",
+					"name": "Night Vision",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 1,
+					"reference": "B71",
+					"calc": {
+						"points": 2
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "df86aff3-a8fc-4977-a1d1-2744463bf9fa",
+					"name": "Penetrating Voice",
+					"physical": true,
+					"base_points": 1,
+					"reference": "B101",
+					"calc": {
+						"points": 1
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 3,
+							"situation": "to others' Hearing roll in siturations where you want to be heard over noise"
+						}
+					],
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "b2af7ffc-920c-455f-9c9b-be395febd038",
+					"name": "Rapid Healing",
+					"physical": true,
+					"base_points": 5,
+					"reference": "B79",
+					"calc": {
+						"points": 5
+					},
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"which": "ht",
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 10
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 5,
+							"situation": "to your effective HT whenever you roll to recover lost HP or to see if you can get over a crippling injury"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "bc43fa6e-7f37-4625-9850-746249b3b3ed",
+					"name": "Recovery",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"reference": "B80",
+					"calc": {
+						"points": 10
+					},
+					"notes": "When determining the length of time you remain unconscious for any reason, divide all times by 60",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c3f14322-e041-4675-868d-c7e063bac062",
+					"name": "Regeneration",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "29aec6eb-a321-48f9-af28-efc563cd6175",
+							"disabled": true,
+							"name": "Slow",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total",
+							"notes": "You recover 1 HP per 12 hours"
+						},
+						{
+							"type": "modifier",
+							"id": "4becfff9-9834-4b54-aa90-87548a5e43e0",
+							"name": "Regular",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 25,
+							"affects": "total",
+							"notes": "You recover 1 HP per hour"
+						},
+						{
+							"type": "modifier",
+							"id": "9e6f3b53-1d76-4f0d-8d2c-37e299eac340",
+							"disabled": true,
+							"name": "Fast",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 50,
+							"affects": "total",
+							"notes": "You recover 1 HP per minute"
+						},
+						{
+							"type": "modifier",
+							"id": "1771583e-3680-4654-b0fc-7edc9d2608f9",
+							"disabled": true,
+							"name": "Very Fast",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 100,
+							"affects": "total",
+							"notes": "You recover 1 HP per second"
+						},
+						{
+							"type": "modifier",
+							"id": "c97d9e22-e1d6-4a97-bf37-085245ca0ea8",
+							"disabled": true,
+							"name": "Extreme",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 150,
+							"affects": "total",
+							"notes": "You recover 10 HP per second"
+						},
+						{
+							"type": "modifier",
+							"id": "33a0ab11-c574-4667-9d61-43db03d6ec73",
+							"disabled": true,
+							"name": "Heals Radiation",
+							"reference": "B80",
+							"cost_type": "percentage",
+							"cost": 40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "ac9256db-1ba1-42bb-8f34-f7c205548e4e",
+							"disabled": true,
+							"name": "Radiation Only",
+							"reference": "B80",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "b5e014ee-1e74-4856-93c1-b561eeebf6d0",
+							"disabled": true,
+							"name": "Fatigue Recovery",
+							"reference": "P70",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "4fdbc473-807b-41ae-a007-e0b7557de888",
+							"disabled": true,
+							"name": "Fatigue Only",
+							"reference": "P70",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "e5a2974d-06c0-481a-a3af-02fd9e1f5d0c",
+							"disabled": true,
+							"name": "Limited: @Advantage@ Only",
+							"reference": "P70",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "2290e2ac-fb6a-4439-9f1b-bde9ad190e9c",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H18",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "@Common or Very Common@"
+						},
+						{
+							"type": "modifier",
+							"id": "4b98cee3-29c7-40eb-a896-139e97370a17",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H18",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total",
+							"notes": "@Occasional@"
+						},
+						{
+							"type": "modifier",
+							"id": "b1c1745d-2067-4b10-9a70-f55a5f85f155",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H18",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "@Rare@"
+						}
+					],
+					"reference": "B80",
+					"calc": {
+						"points": 25
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "2ff7d242-abfd-404d-b4b1-7c046a6c02ba",
+					"name": "SM +1",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "045d3c1b-82f4-4d9f-86a7-c92a2bb442ac",
+					"name": "Smelly (Dog Smell)",
+					"physical": true,
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "5d6b174f-3f2a-4157-b0d3-149248e9a327",
+					"name": "Social Stigma (Alien Savage)",
+					"social": true,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "from other races"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 2,
+							"situation": "from sympathizers"
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "8aa2080c-046c-4797-9a03-873a1f68741c",
+					"name": "Soft Spot (Children)",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:27",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "95aa7184-86ce-41c6-bf2c-e59981a62303",
+					"name": "Stress Atavism",
+					"mental": true,
+					"exotic": true,
+					"cr": 15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "4de85807-5228-40b4-9005-a748f2876c07",
+							"name": "Mild",
+							"reference": "B156",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "24342c31-304a-4859-8d79-d9b74c384c17",
+							"disabled": true,
+							"name": "Moderate",
+							"reference": "B156",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "ad14087b-4e8a-448c-9b26-eff3deca22ba",
+							"disabled": true,
+							"name": "Severe",
+							"reference": "B156",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B156",
+					"calc": {
+						"points": -5
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c65cbdd0-8013-41cf-8055-e76cfd06404b",
+					"name": "Susceptible (Drugs and Poison)",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": -1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "69439af4-ad2a-499b-8092-0dc78d79701d",
+							"disabled": true,
+							"name": "Occasional",
+							"reference": "B158",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"id": "7b93cff6-c5f5-4f56-86f4-4c8facd81ee2",
+							"disabled": true,
+							"name": "Common",
+							"reference": "B158",
+							"cost_type": "multiplier",
+							"cost": 2
+						},
+						{
+							"type": "modifier",
+							"id": "4b2293c1-7893-4a41-bf09-f5107466ea98",
+							"name": "Very Common",
+							"reference": "B158",
+							"cost_type": "multiplier",
+							"cost": 4
+						}
+					],
+					"reference": "B158",
+					"calc": {
+						"points": -8
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "3128e66c-5e75-4c4d-8299-51efd48acd4b",
+			"name": "Krokuta Power-Ups",
+			"calc": {
+				"points": 295
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage_container",
+					"id": "38793a21-e132-4255-a9eb-99cf1e04efaa",
+					"name": "Blue Stiletto Agility",
+					"calc": {
+						"points": 121
+					},
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"id": "ff4f3150-9551-413e-a677-c7a57b8b9f1e",
+							"name": "Blue Stiletto Agility",
+							"physical": true,
+							"base_points": 12,
+							"calc": {
+								"points": 12
+							}
+						},
+						{
+							"type": "advantage",
+							"id": "94da92a4-256c-4d95-9dc1-0f54fd941d27",
+							"name": "Blue Stiletto Coordination",
+							"physical": true,
+							"base_points": 20,
+							"calc": {
+								"points": 20
+							}
+						},
+						{
+							"type": "advantage",
+							"id": "8856b537-23ad-48b6-9b2b-05f9735b9e5a",
+							"name": "Blue Stiletto Hero",
+							"physical": true,
+							"base_points": 12,
+							"calc": {
+								"points": 12
+							}
+						},
+						{
+							"type": "advantage_container",
+							"id": "8723d8ca-3ae7-4c4b-8f52-0fda32395279",
+							"name": "Blue Stiletto Prowess; Choose one of the following:",
+							"calc": {
+								"points": 77
+							},
+							"open": true,
+							"children": [
+								{
+									"type": "advantage",
+									"id": "c28f9bf5-e929-4d43-9766-813bf4272d19",
+									"name": "Gunslinger",
+									"mental": true,
+									"base_points": 25,
+									"modifiers": [
+										{
+											"type": "modifier",
+											"id": "3a49ecd9-f4be-4dd7-b775-897f6759156d",
+											"name": "Terminal Condition, Purge or similar drug",
+											"cost_type": "percentage",
+											"cost": 0,
+											"affects": "total"
+										},
+										{
+											"type": "modifier",
+											"id": "8f1daee3-7951-4e12-a6a2-b5764546c086",
+											"name": "Trigger, Blue Stiletto dose, Extended, one hour",
+											"cost_type": "percentage",
+											"cost": -10,
+											"affects": "total"
+										}
+									],
+									"reference": "B58",
+									"calc": {
+										"points": 23
+									},
+									"categories": [
+										"Advantage"
+									]
+								},
+								{
+									"type": "advantage",
+									"id": "7b0d09b0-8d45-4142-a725-28156c3450a3",
+									"name": "Trained by a Master",
+									"mental": true,
+									"base_points": 30,
+									"modifiers": [
+										{
+											"type": "modifier",
+											"id": "e5eaa899-22b1-44b7-8019-5e3b803a1397",
+											"disabled": true,
+											"name": "Unarmed only",
+											"cost_type": "percentage",
+											"cost": -40,
+											"affects": "total"
+										},
+										{
+											"type": "modifier",
+											"id": "138a0cae-5279-4c69-890b-a8a1490eca7a",
+											"name": "Terminal Condition, Purge or similar drug",
+											"cost_type": "percentage",
+											"cost": 0,
+											"affects": "total"
+										},
+										{
+											"type": "modifier",
+											"id": "90c43996-1723-479a-8ee0-e131ee0e06df",
+											"name": "Trigger, Blue Stiletto dose, Extended, one hour",
+											"cost_type": "percentage",
+											"cost": -10,
+											"affects": "total"
+										}
+									],
+									"reference": "B93",
+									"calc": {
+										"points": 27
+									},
+									"categories": [
+										"Advantage"
+									]
+								},
+								{
+									"type": "advantage",
+									"id": "a3db69c2-0536-4238-b1bc-1a4c792e8ef4",
+									"name": "Weapon Master (All Krokuta Weapons)",
+									"mental": true,
+									"modifiers": [
+										{
+											"type": "modifier",
+											"id": "e95ee551-83e8-4e33-9ec1-9b531eeaf5fe",
+											"disabled": true,
+											"name": "One weapon",
+											"reference": "B99",
+											"cost_type": "points",
+											"cost": 20,
+											"affects": "total"
+										},
+										{
+											"type": "modifier",
+											"id": "8b9d7818-fe97-45bc-8409-5a43399a42dd",
+											"disabled": true,
+											"name": "Two weapons",
+											"reference": "B99",
+											"cost_type": "points",
+											"cost": 25,
+											"affects": "total"
+										},
+										{
+											"type": "modifier",
+											"id": "68b0fff4-9426-41bc-8fcc-48d49bba4f52",
+											"name": "Small class",
+											"reference": "B99",
+											"cost_type": "points",
+											"cost": 30,
+											"affects": "total"
+										},
+										{
+											"type": "modifier",
+											"id": "cf87be24-6e39-49a5-a0bf-0b60286846c9",
+											"disabled": true,
+											"name": "Medium class",
+											"reference": "B99",
+											"cost_type": "points",
+											"cost": 35,
+											"affects": "total"
+										},
+										{
+											"type": "modifier",
+											"id": "af5162d8-7af2-4bdf-8c06-ea41c69e6b11",
+											"disabled": true,
+											"name": "Large class",
+											"reference": "B99",
+											"cost_type": "points",
+											"cost": 40,
+											"affects": "total"
+										},
+										{
+											"type": "modifier",
+											"id": "58522a94-c70a-4ba5-b896-bd3100351683",
+											"name": "Terminal Condition, Purge or similar drug",
+											"cost_type": "percentage",
+											"cost": 0,
+											"affects": "total"
+										},
+										{
+											"type": "modifier",
+											"id": "a8e0041a-a7da-4a08-a975-aca24c41bf4e",
+											"name": "Trigger, Blue Stiletto dose, Extended, one hour",
+											"cost_type": "percentage",
+											"cost": -10,
+											"affects": "total"
+										}
+									],
+									"reference": "B99",
+									"calc": {
+										"points": 27
+									},
+									"categories": [
+										"Advantage"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "advantage_container",
+					"id": "4baa85a7-1233-4638-93a0-d364b2477fe0",
+					"name": "Drug-Related Power-Ups",
+					"calc": {
+						"points": 29
+					},
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"id": "1e893fc4-b1d6-4806-92d5-12c5a2419256",
+							"name": "Ketrazine Courage",
+							"physical": true,
+							"base_points": 14,
+							"calc": {
+								"points": 14
+							}
+						},
+						{
+							"type": "advantage",
+							"id": "dba0e6f3-3ae3-4f7f-a118-b21bf53fa8fc",
+							"name": "Ketrazine Devotion",
+							"physical": true,
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"type": "advantage",
+							"id": "69bef4b3-d52e-44d8-9aac-caa60619da84",
+							"name": "Ketrazine Endurance",
+							"physical": true,
+							"base_points": 9,
+							"calc": {
+								"points": 9
+							}
+						},
+						{
+							"type": "advantage",
+							"id": "efab1d0d-90bc-4ebd-97c1-10147fc75349",
+							"name": "Ketrazine Focus",
+							"physical": true,
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							},
+							"categories": [
+								"Perk"
+							]
+						}
+					]
+				},
+				{
+					"type": "advantage_container",
+					"id": "07f891ba-04c1-490b-b302-5b6adcd891ce",
+					"name": "Red Rage Power-Ups",
+					"calc": {
+						"points": 68
+					},
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"id": "9639ac02-42f1-447e-b714-c4d41fe0b2f9",
+							"name": "Red Rage Invincibility",
+							"physical": true,
+							"base_points": 43,
+							"calc": {
+								"points": 43
+							}
+						},
+						{
+							"type": "advantage",
+							"id": "bd0577c7-9482-46fc-a052-66a3fd394890",
+							"name": "Red Rage Legend",
+							"physical": true,
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							},
+							"categories": [
+								"Perk"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "df6c0137-41d8-40da-977b-376db9645174",
+							"name": "Red Rage Might",
+							"physical": true,
+							"levels": "1",
+							"base_points": 1,
+							"points_per_level": 2,
+							"calc": {
+								"points": 3
+							}
+						},
+						{
+							"type": "advantage",
+							"id": "5bdb896e-86a0-4fc6-b881-5bdea8377ed8",
+							"name": "Red Rage Power",
+							"physical": true,
+							"levels": "1",
+							"points_per_level": 21,
+							"calc": {
+								"points": 21
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage_container",
+					"id": "81405271-3be3-46e4-b2c9-63f8aabdf137",
+					"name": "Violoxin Power-Ups",
+					"calc": {
+						"points": 77
+					},
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"id": "27f6a2b6-4c73-4f3e-84ad-94c4014d877c",
+							"name": "Violoxin Accuracy",
+							"physical": true,
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"type": "advantage",
+							"id": "ccb68018-e888-4b33-b25f-fee3c6fe3380",
+							"name": "Violoxin Awareness",
+							"mental": true,
+							"physical": true,
+							"base_points": 12,
+							"calc": {
+								"points": 12
+							},
+							"categories": [
+								"ESP",
+								"Psionic"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "b2e080f5-f84c-48e7-80e8-9542a327cd76",
+							"name": "Violoxin Dreams",
+							"mental": true,
+							"physical": true,
+							"base_points": 12,
+							"calc": {
+								"points": 12
+							},
+							"categories": [
+								"ESP",
+								"Psionic"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "7f1e2963-0a08-48ff-b587-8507bdca02ef",
+							"name": "Violoxin Focus",
+							"mental": true,
+							"base_points": 4,
+							"calc": {
+								"points": 4
+							}
+						},
+						{
+							"type": "advantage",
+							"id": "79b267b6-0a61-4e9d-809d-5600260f17e6",
+							"name": "Violoxin Hallucination",
+							"mental": true,
+							"supernatural": true,
+							"base_points": 12,
+							"calc": {
+								"points": 12
+							},
+							"categories": [
+								"Psionic"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "cd1888ae-4e38-4180-baba-ca7989425ae1",
+							"name": "Violoxin Reflexes",
+							"mental": true,
+							"physical": true,
+							"base_points": 36,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"id": "4ac7cb6a-bfe4-4178-b409-d7c49b8dba7d",
+									"disabled": true,
+									"name": "Has Combat Reflexes",
+									"cost_type": "points",
+									"cost": -12,
+									"affects": "total"
+								}
+							],
+							"calc": {
+								"points": 36
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

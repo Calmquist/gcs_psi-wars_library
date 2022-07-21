@@ -1,0 +1,148 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "b0c183b3-1ec7-4009-b804-e76f3d292830",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "8b7237d3-2e7b-4494-80fe-2598cce888c6",
+			"name": "Silvertongue Upgrade",
+			"calc": {
+				"points": 10
+			},
+			"notes": "Cost: $3500",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "c238e7d9-c695-4d70-8a98-dc980d9dfe0f",
+					"name": "Voice",
+					"physical": true,
+					"base_points": 10,
+					"reference": "B97",
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "starts_with",
+								"qualifier": "mimicry"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "performance"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "politics"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "public speaking"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "singing"
+							}
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": 2,
+							"situation": "from others who can hear your voice"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "cc08c588-486c-45dc-a72a-9d469d8860f6",
+			"name": "Silvertongue Upgrade",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "ac4d6bee-69b8-402c-ade0-648dc5212209",
+					"name": "Savoir-Faire",
+					"reference": "B218,MA59",
+					"specialization": "Servant",
+					"difficulty": "iq/e",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Savoir-Faire",
+							"specialization": "High Society",
+							"modifier": -2
+						}
+					],
+					"categories": [
+						"Everyman",
+						"Knowledge",
+						"Social"
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,566 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "c4c42b97-e500-415b-8147-882e5192f7d1",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "bcb630bc-9db9-464d-af52-5d9376c31d3d",
+			"name": "Common Disadvantages",
+			"calc": {
+				"points": -70
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "3dbc72fb-1e17-4133-b789-0353d288b228",
+					"name": "Hidebound",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B138",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": -2,
+							"situation": "on any task that requires creativity or invention, including most rolls against Artist skill, all Engineer rolls for new inventions, and all skill rolls made to use the Gadgeteer advantage"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "f2bd07b0-6387-48ab-884c-412ed7ffe8f4",
+					"name": "Honesty",
+					"mental": true,
+					"base_points": -10,
+					"cr": 6,
+					"reference": "B138",
+					"calc": {
+						"points": -20
+					},
+					"notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "d720b595-1ff7-4c21-b4c7-1f52ec7b1366",
+					"name": "Honesty",
+					"mental": true,
+					"base_points": -10,
+					"cr": 9,
+					"reference": "B138",
+					"calc": {
+						"points": -15
+					},
+					"notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "4942a562-cc1d-4e9c-893a-49c76df7a288",
+					"name": "Incurious",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B140",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "to new things"
+						}
+					],
+					"notes": "Make a self-control roll when confronted with something strange. If you fail, you ignore it!",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "398f585e-b9bb-4c7f-b9be-c6c1d8ec147a",
+					"name": "Intolerance (Non-ARC Robots)",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "ceee294d-0383-4c4e-9513-cd01f59408c4",
+							"name": "Scope: Common",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "ad8db7b9-1ac7-4e0b-abd7-3351713e6fcf",
+							"disabled": true,
+							"name": "Scope: Occasional",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "1a91782c-1ec5-4de2-8864-3bc780c34646",
+							"disabled": true,
+							"name": "Scope: Rare",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "e5555e97-65b8-4a98-afef-b57cb9447892",
+							"disabled": true,
+							"name": "Scope: Anyone unlike you",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B140",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from victims of your intolerance (may be as much as -5, at GM's discretion)"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "934e1b1c-f467-407d-bd75-21569b87092b",
+					"name": "Odious Personal Habit",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "d8a219bc-fd4c-423b-8205-fabbf52545b5",
+							"disabled": true,
+							"name": "-1 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "e38422a7-8049-47bd-97cd-f24c092a67c7",
+							"disabled": true,
+							"name": "-2 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "5435ef6b-4e27-42a7-9e68-ad8a78c9eaaa",
+							"disabled": true,
+							"name": "-3 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						}
+					],
+					"reference": "B22",
+					"calc": {
+						"points": 0
+					},
+					"notes": "@Sanctimonious, Pedantic or Makes Everything about Master@",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "10ccc970-ff87-4e43-81c1-f2c44e98ef8e",
+					"name": "Selfless",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B153",
+					"calc": {
+						"points": -5
+					},
+					"notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "634f3689-600f-43c3-b296-ed19daaa0516",
+					"name": "Squeamish",
+					"physical": true,
+					"base_points": -10,
+					"cr": 12,
+					"reference": "B156",
+					"calc": {
+						"points": -10
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "29dd7716-b721-4ef7-aaa7-06586e782106",
+					"name": "Workaholic",
+					"physical": true,
+					"base_points": -5,
+					"reference": "B162",
+					"calc": {
+						"points": -5
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "be1192cc-78be-4be8-aef6-b5206164c299",
+			"name": "Common Quirks",
+			"calc": {
+				"points": -14
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "bc9cd1ea-ada5-46e0-9d31-b8d04b123608",
+					"name": "Attentive",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B163",
+					"calc": {
+						"points": -1
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 1,
+							"situation": "to skill rolls when working on lengthy tasks, but -3 to notice any important interruption"
+						}
+					],
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "395579b9-9ae7-4c94-84f8-a7847508d1d8",
+					"name": "Chauvinistic",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B163",
+					"calc": {
+						"points": -1
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from individuals sensitive to criticism or insults that you interact with"
+						}
+					],
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "60b98fa6-c4ef-459f-b9ae-a89cfb52417a",
+					"name": "Clean freak",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:30",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "f277b865-64f9-4a40-95c7-8e706dd0d1a6",
+					"name": "Easily Influenced (Posh)",
+					"physical": true,
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "06ab101a-ed21-4a88-9f85-20daf595c47b",
+					"name": "Inappropriate Manner (Servile)",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:14",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "55805189-38e4-4a59-bff0-09d2cbe2c99e",
+					"name": "Likes ARC Technology",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "b216c3ad-3726-4e82-8f9d-633129b8f6c6",
+					"name": "Literal-Minded",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:19",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "163c0180-7c96-4e11-8513-c428eeb8d0e9",
+					"name": "Methodical",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:19",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "5753bd0f-3705-4c2b-bd5d-9fb27c8f6aca",
+					"name": "Perfectionist",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:20",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "3fdbcc26-47d6-4990-83d9-e78b6e92f541",
+					"name": "Record-Keeper",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:29",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "0aaa8660-4826-4456-ab03-61ac99e83662",
+					"name": "Sanctimonious",
+					"physical": true,
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "5a39e616-d996-4ab8-89db-9f20e5b94eca",
+					"name": "Soft Spot (Aristocrats)",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:27",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "a6a3ad43-281c-4cf7-81a1-3841d958bb5e",
+					"name": "Staid",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "de81c9eb-efb0-47e7-a453-3b6a46da3b63",
+					"name": "Stickler for Rules",
+					"physical": true,
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "7daec139-3f81-426c-9edf-59f96cca7373",
+			"container_type": "meta_trait",
+			"name": "Prim Personality",
+			"calc": {
+				"points": -10
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "27ec4292-49ff-463b-8929-cbdda9805534",
+					"name": "No Sense of Humor",
+					"physical": true,
+					"base_points": -10,
+					"reference": "B146",
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "from others in any situation where No Sense of Humor becomes evident"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "894e19ec-5e94-4dcd-874a-5aea97f6a623",
+			"name": "Prim Personality",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "319fd8a4-aaa9-47c1-860b-a6c0518ef91e",
+					"name": "Connoisseur",
+					"reference": "B185,MA56",
+					"specialization": "Robots",
+					"difficulty": "iq/a",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"categories": [
+						"Arts/Entertainment",
+						"Knowledge",
+						"Social"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "09dc2ea1-581e-4574-aae2-36c60bff4460",
+					"name": "Housekeeping",
+					"reference": "B200",
+					"difficulty": "iq/e",
+					"points": 4,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Everyman"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "fee880be-3813-4583-a1c7-8f19cf7c0f31",
+					"name": "Savoir-Faire",
+					"reference": "B218,MA59",
+					"specialization": "Servant",
+					"difficulty": "iq/e",
+					"points": 4,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Savoir-Faire",
+							"specialization": "High Society",
+							"modifier": -2
+						}
+					],
+					"categories": [
+						"Everyman",
+						"Knowledge",
+						"Social"
+					]
+				}
+			]
+		}
+	]
+}

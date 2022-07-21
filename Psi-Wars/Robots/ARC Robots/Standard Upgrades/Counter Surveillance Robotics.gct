@@ -1,0 +1,289 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "a7b0aef8-f4a7-4689-a003-3693b633f4f2",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "197b097e-d66a-405e-9a96-0c9f06a46bf2",
+			"name": "Counter Surveillance Robotics",
+			"calc": {
+				"points": 27
+			},
+			"notes": "Cost: $6000",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "ccfa29b8-8e76-4f5f-adfe-e32608603512",
+					"name": "Accessory (Bug Detector)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "a6151806-5b3f-422b-84c7-204983b2bb07",
+					"name": "Obscure (Sound)",
+					"physical": true,
+					"exotic": true,
+					"levels": "10",
+					"points_per_level": 2,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "f0a60809-4b91-462e-ae87-54bc905be484",
+							"disabled": true,
+							"name": "Defensive",
+							"reference": "B72",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "042e1d4a-5ab6-413d-aea2-85c328211940",
+							"disabled": true,
+							"name": "Extended",
+							"reference": "B72",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"notes": "@Sense@"
+						},
+						{
+							"type": "modifier",
+							"id": "9633b21e-650b-4c1b-aa7c-7cd086356b03",
+							"disabled": true,
+							"name": "Ranged",
+							"reference": "B72",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "7f1e005a-55b1-45e8-baee-5dacb6e22f9e",
+							"disabled": true,
+							"name": "Stealthy",
+							"reference": "B72",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "f6ae4240-79c5-45b6-8cb7-7531e8ecad29",
+							"disabled": true,
+							"name": "Always On",
+							"reference": "B72",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "c2b30839-b270-49b4-9ca7-7cba60c6f4a1",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "P65",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "@Source@"
+						},
+						{
+							"type": "modifier",
+							"id": "06db54d6-7a25-4ce4-aa2a-ece2d0579d3b",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "P65",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Power@"
+						},
+						{
+							"type": "modifier",
+							"id": "23189f38-a695-4c17-bbf2-5fbb7bd41e65",
+							"disabled": true,
+							"name": "Anti-Targeting",
+							"reference": "PSI16",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "7984cf1c-881e-4b85-a802-d33671a69f80",
+							"name": "Area Effect",
+							"reference": "B102,P100",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"levels": 1,
+							"notes": "4 yard radius"
+						},
+						{
+							"type": "modifier",
+							"id": "492d42ac-9379-405e-8838-49e4a1b5dd36",
+							"name": "Nuisance Effect",
+							"reference": "B112,P104",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "only prevents sounds from crossing the boundary"
+						}
+					],
+					"reference": "B72,P64,PSI16",
+					"calc": {
+						"points": 26
+					},
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "213889a2-21be-46de-bb5e-f49fff594521",
+			"name": "Counter Surveillance Robotics",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "4244f53f-9578-4a78-8400-ab202def543f",
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"specialization": "Security",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Security",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Criminal/Street",
+						"Spy",
+						"Technical"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "f5ab2615-0bdf-4920-afea-0296d946879d",
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"specialization": "Surveillance",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"specialization": "Surveillance",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Police",
+						"Spy",
+						"Technical"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "ab0795a3-1260-49a5-9aec-d38aea7003c9",
+					"name": "Search",
+					"reference": "B219",
+					"difficulty": "per/a",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Criminology",
+							"modifier": -5
+						}
+					],
+					"categories": [
+						"Police",
+						"Spy"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "37d18ae0-cb76-433e-8602-ec0128989bba",
+					"name": "Traps",
+					"reference": "B226",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Lockpicking",
+							"modifier": -3
+						}
+					],
+					"categories": [
+						"Criminal/Street",
+						"Military"
+					]
+				}
+			]
+		}
+	]
+}

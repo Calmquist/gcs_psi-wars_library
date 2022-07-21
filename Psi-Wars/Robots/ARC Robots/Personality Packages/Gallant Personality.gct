@@ -1,0 +1,524 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "1b6669d6-4377-49f8-8201-fcee6f43e325",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "6ebc459c-39a3-47d5-8834-827fd7f65674",
+			"name": "Common Quirks",
+			"calc": {
+				"points": -8
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "7341e5ef-d1b7-4728-869b-b9740eddbb29",
+					"name": "Congenial",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e759aab2-ff4b-4a44-af46-8caba34ddd48",
+					"name": "Idealistic (Restored Alliance)",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:19",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "bcd06463-83e2-4daf-907e-e7ad96f62d15",
+					"name": "Mind-Numbing Magnetism (Enthusiastic, Galliant or Jovial)",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:15",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "29979601-794d-45ac-b5d6-71a7700b6fc2",
+					"name": "Loud Voice",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:16",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "9f8e419a-9d47-4f6d-bbf5-0d4c1f5a9378",
+					"name": "Likes ARC Technology",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "80707b2e-840c-4e88-8a47-45d64a6303e6",
+					"name": "Decisive",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:17",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "24324bfe-ff1e-479e-b146-45c451b5a170",
+					"name": "Soft Spot (Aristocrats)",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:27",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "61267e17-cdc9-4a91-aa77-2f7b92fbd52f",
+					"name": "Expressions (\"Zounds!\", \"Huzzah!\", \"Tally-Ho!\", etc.)",
+					"physical": true,
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "40be8925-ea31-43a3-b490-2807532d68d0",
+			"name": "Common Disadvantages",
+			"calc": {
+				"points": -45
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "1c779127-830d-403f-9fef-fda20de1ac52",
+					"name": "Odious Personal Habit",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "56a13f44-4b33-4cdb-9982-cb7e40be91c3",
+							"disabled": true,
+							"name": "-1 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "42bd1221-bfdc-40c2-87c2-178d48fac7a0",
+							"disabled": true,
+							"name": "-2 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "dd6250bf-8c6f-4574-8335-0a5a2883a5fd",
+							"disabled": true,
+							"name": "-3 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						}
+					],
+					"reference": "B22",
+					"calc": {
+						"points": 0
+					},
+					"notes": "Makes Everything about Master",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "aa3e8ba4-b88e-421b-9188-64b784179088",
+					"name": "Sense of Duty",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "3fa33856-3534-4fbf-866f-ce90c5f2d2bf",
+							"disabled": true,
+							"name": "Friends and Companions",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "c603a70c-b4d7-4c54-ad91-0eea1ae3cf39",
+							"disabled": true,
+							"name": "@Small Group@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "8a72f897-3125-483b-ab41-f62e43fb08ff",
+							"disabled": true,
+							"name": "@Individual@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "8d3cea54-135f-4ff8-9242-4a2027769dc7",
+							"name": "Alliance",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "aa7e188d-b084-4533-ba87-97bf64ad9555",
+							"disabled": true,
+							"name": "@Entire Race@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "179db1a7-8c63-4c3b-8988-ea9b8df3c957",
+							"disabled": true,
+							"name": "Every Living Being",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B153",
+					"calc": {
+						"points": -10
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "8db866ff-1704-4384-b964-66e949202eb9",
+					"name": "Overconfidence",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B148",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": 2,
+							"situation": "from young or naive individuals who believe you are as good as you say you are"
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "from experienced NPCs"
+						}
+					],
+					"notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "011a8f23-205f-4fb8-be53-5444bd46fc65",
+					"name": "On the Edge",
+					"mental": true,
+					"base_points": -15,
+					"cr": 12,
+					"reference": "B146",
+					"calc": {
+						"points": -15
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "from others if they witness your On the Edge behavior, unless it is someone who values bravery over self-preservation (GM’s decision), who will react at +2 instead"
+						}
+					],
+					"notes": "Make a self-control roll whenever you face a life-threatening situation: piloting a burning vehicle, staring down an entire street gang while armed only with a toothbrush, etc. If you fail, you may not back down from the challenge – but you may roll again after every success roll or reaction roll relating to the situation. In combat, make a self-control roll every time you take your turn. If you fail, you must make an All-Out attack or engage in some other kind of near-insane, suicidal behavior.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "dcc93517-4562-4926-a940-21c5536d2f17",
+					"name": "Intolerance (Imperials)",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "fd63d065-8ba8-45a3-87b1-4cb60b84626d",
+							"name": "Scope: Common",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "aed0eaef-b732-4727-92ae-bfc926cedb1a",
+							"disabled": true,
+							"name": "Scope: Occasional",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "b12d78a4-cb4b-4a0a-a4b0-0eb985c523d2",
+							"disabled": true,
+							"name": "Scope: Rare",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "0354bde6-a07f-4176-88f9-e98589c80ff6",
+							"disabled": true,
+							"name": "Scope: Anyone unlike you",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B140",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from victims of your intolerance (may be as much as -5, at GM's discretion)"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "d6992aab-bcbd-432e-bc0f-a719c6f3f307",
+					"name": "Impulsiveness",
+					"mental": true,
+					"base_points": -10,
+					"cr": 12,
+					"reference": "B139",
+					"calc": {
+						"points": -10
+					},
+					"notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "a56d6236-61d6-47a9-9f45-e6d627307be8",
+			"name": "Optional Advantages",
+			"calc": {
+				"points": 2
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "ba464b34-41b1-4123-852b-60dd2432978c",
+					"name": "Good with Soldiers",
+					"mental": true,
+					"base_points": 1,
+					"reference": "PU2:13",
+					"calc": {
+						"points": 1
+					},
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "222a2257-150d-4e19-9f88-bfcc0d716605",
+					"name": "Penetrating Voice",
+					"physical": true,
+					"base_points": 1,
+					"reference": "B101",
+					"calc": {
+						"points": 1
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 3,
+							"situation": "to others' Hearing roll in siturations where you want to be heard over noise"
+						}
+					],
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "39e5a8fb-52dc-4b72-b1b4-3c16f6841de3",
+			"container_type": "meta_trait",
+			"name": "Gallant Personality",
+			"calc": {
+				"points": -5
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "8bacfaca-b267-443a-8712-eac703361c70",
+					"name": "Resilient Traits (Selfless)",
+					"physical": true,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "1ecaffb8-99f5-46e6-a1c7-d6927ff76f99",
+					"name": "Selfless",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B153",
+					"calc": {
+						"points": -5
+					},
+					"notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "cce9edcc-322e-4b48-9a96-e6286448152b",
+			"name": "Gallant Personality",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "660da3d0-b119-47d8-a2c6-fbea5b466635",
+					"name": "Leadership",
+					"reference": "B204",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"categories": [
+						"Military",
+						"Social"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "2cc6adef-8016-410b-8d3d-e51925c8934f",
+					"name": "Psychology",
+					"reference": "B216",
+					"difficulty": "iq/h",
+					"points": 4,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sociology",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Social Sciences/Humanities"
+					]
+				}
+			]
+		}
+	]
+}

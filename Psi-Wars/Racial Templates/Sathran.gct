@@ -1,0 +1,123 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "8e3569fc-ade9-4874-a9cd-754b1d6995c2",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "37d36b2d-d6e9-4846-8a2f-e37f83796891",
+			"container_type": "race",
+			"name": "Sathran",
+			"ancestry": "Human",
+			"calc": {
+				"points": 58
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "591fd158-06e1-42cf-8143-ca5b136cecf0",
+					"name": "Increased Dexterity",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "b7be330b-ae2d-4cbc-9739-43b1dd1e910a",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "B15",
+					"calc": {
+						"points": 40
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "dx"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "1a122650-ee19-45ec-affa-1d19d368f526",
+					"name": "Increased Strength",
+					"physical": true,
+					"levels": "4",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "2b2f1c3c-928c-4a22-8760-aab6ac9d1c5e",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "9b91da75-2fdb-404d-9d95-4a61490eafae",
+							"name": "Size",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"id": "f429d6f6-2053-4267-8ada-d7af09ce44b6",
+							"disabled": true,
+							"name": "Super-Effort",
+							"reference": "SU24",
+							"cost_type": "percentage",
+							"cost": 300,
+							"affects": "total"
+						}
+					],
+					"reference": "B14",
+					"calc": {
+						"points": 18
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "338d2aaa-6ed9-462c-b79a-f9892a92f7b6",
+					"name": "SM +1",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Feature"
+					]
+				}
+			]
+		}
+	]
+}

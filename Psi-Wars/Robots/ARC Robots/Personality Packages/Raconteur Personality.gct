@@ -1,0 +1,720 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "e8817809-d98f-48cf-b405-fb0c459ee1a4",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "e0e124c4-3096-4c65-aa5e-1f9049ca27a8",
+			"name": "Optional Disadvantages",
+			"calc": {
+				"points": -67
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "21a1d4d3-d7ac-4914-91d3-d644efe1f231",
+					"name": "Easy to Read (Outdated Security Software)",
+					"mental": true,
+					"base_points": -10,
+					"reference": "B134",
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": 4,
+							"situation": "to others on all Empathy, Body Language, and Psychology rolls to discern your intentions or the truth of your words"
+						},
+						{
+							"type": "conditional_modifier",
+							"amount": 4,
+							"situation": "to others on IQ, Detect Lies, and Gambling rolls in any Quick Contest with your Acting, Fast-Talk, or Gambling skill when you try to lie or bluff"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "9d07833a-22fa-4d23-8cd6-abdca4c8c24f",
+					"name": "Incurious",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B140",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "to new things"
+						}
+					],
+					"notes": "Make a self-control roll when confronted with something strange. If you fail, you ignore it!",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "65ee46ed-c94a-40d3-862a-0f9f638fc3fa",
+					"name": "Intolerance (Non-ARC Robots)",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "3ea62b93-8f80-4ba1-9c43-a15c4acb8e12",
+							"name": "Scope: Common",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "816d2646-cab6-449e-b9ef-acb8b67e8bb7",
+							"disabled": true,
+							"name": "Scope: Occasional",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "8f023141-a33c-4f23-9281-4699fbcf80fc",
+							"disabled": true,
+							"name": "Scope: Rare",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "c8404d3a-41a7-44be-af2b-621ce79d40da",
+							"disabled": true,
+							"name": "Scope: Anyone unlike you",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B140",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from victims of your intolerance (may be as much as -5, at GM's discretion)"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "8b5ad8c3-7a97-4061-918d-ab5c8e39403e",
+					"name": "No Sense of Humor",
+					"physical": true,
+					"base_points": -10,
+					"reference": "B146",
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -2,
+							"situation": "from others in any situation where No Sense of Humor becomes evident"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "b52e8440-9bff-4540-9a07-c24c51095091",
+					"name": "Oblivious",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B146",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "intimidation"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "starts_with",
+								"qualifier": "savoir-faire"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "streetwise"
+							}
+						},
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "to resist Influence skills: Diplomacy, Fast-Talk, Intimidation, Savoir-Faire, Sex Appeal, and Streetwise"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "82f963bb-59c2-4ab8-9fe8-f1fcaeb6c19f",
+					"name": "Odious Personal Habit",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "f047d1a0-c16d-4392-8832-2f4b14c56523",
+							"disabled": true,
+							"name": "-1 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "1fcc79ed-c57a-4fda-825a-4fbf27cc3aac",
+							"disabled": true,
+							"name": "-2 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "02f0b01a-00cf-49d0-8147-e7db7b26e6de",
+							"disabled": true,
+							"name": "-3 Reaction",
+							"reference": "B22",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						}
+					],
+					"reference": "B22",
+					"calc": {
+						"points": 0
+					},
+					"notes": "Incessant Storytelling",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e1c70fcc-f177-4da6-8b5f-f74fb62b3e9c",
+					"name": "Selfless",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B153",
+					"calc": {
+						"points": -5
+					},
+					"notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "1b56af61-f8c3-4b31-a84c-dc7a6859f1eb",
+					"name": "Sense of Duty",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "77e5e2bb-6a17-4295-b85a-bc616a7ff1ee",
+							"disabled": true,
+							"name": "Friends and Companions",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "4c347c79-b3e0-4986-8912-e6fc4e7e18d7",
+							"disabled": true,
+							"name": "@Small Group@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "92fc8315-ed7e-40d9-b2a2-408256c3a6b2",
+							"disabled": true,
+							"name": "@Individual@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "1bbbb686-0e71-4aab-93d5-a75a12a6a458",
+							"name": "@Maradonian House@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "e235e118-cc87-4070-9818-0a9300a421dc",
+							"disabled": true,
+							"name": "@Entire Race@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "eed14170-8b1a-49af-bc9b-b59b6707a0fc",
+							"disabled": true,
+							"name": "Every Living Being",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B153",
+					"calc": {
+						"points": -10
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "35a0f2ea-6821-4335-803d-22d9c4c6f352",
+					"name": "Truthfulness",
+					"mental": true,
+					"base_points": -5,
+					"cr": 6,
+					"reference": "B159",
+					"calc": {
+						"points": -10
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -5,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast talk"
+							}
+						}
+					],
+					"notes": "Make a self-control roll whenever you must keep silent about an uncomfortable truth (lying by omission). Roll at -5 if you actually have to tell a falsehood! If you fail, you blurt out the truth, or stumble so much that your lie is obvious.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "2fab05a3-d829-4fcd-ad5d-b6eb0d35ab0a",
+					"name": "Truthfulness",
+					"mental": true,
+					"base_points": -5,
+					"cr": 9,
+					"reference": "B159",
+					"calc": {
+						"points": -7
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -5,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast talk"
+							}
+						}
+					],
+					"notes": "Make a self-control roll whenever you must keep silent about an uncomfortable truth (lying by omission). Roll at -5 if you actually have to tell a falsehood! If you fail, you blurt out the truth, or stumble so much that your lie is obvious.",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "721624a3-2e75-4c67-8656-583ca7456ccd",
+			"name": "Optional Quirks",
+			"calc": {
+				"points": -14
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "04f28bd0-dac9-4eea-b0e5-2d5c274a76b4",
+					"name": "Admiration (@House Leader@)",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:25",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "37a07a67-6161-4278-b826-e0ecde274834",
+					"name": "Chauvinistic",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B163",
+					"calc": {
+						"points": -1
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from individuals sensitive to criticism or insults that you interact with"
+						}
+					],
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c429d21e-21ed-4a84-8247-5824e7226d34",
+					"name": "Easily Influenced (Posh)",
+					"physical": true,
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "06a285cb-7ab8-4e5d-a161-d89ab02e9fe8",
+					"name": "Fatalistic",
+					"physical": true,
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "b29de753-7c06-4476-b662-ccf8f3bfe987",
+					"name": "Inaccessible Idioms",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:16",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "9b8d5e64-3261-4dc0-935a-df68a77f936a",
+					"name": "Likes ARC Technology",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "31aff0b2-b435-4e81-9b5b-9bbeb2dd77df",
+					"name": "Methodical",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:19",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "660160d0-0d1c-4f95-83ac-af112da6b79a",
+					"name": "Nostalgic",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:19",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "20faf80c-f1ef-4c3b-ad3d-cea21febd718",
+					"name": "Proud",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "to orders, insults, or social slights"
+						}
+					],
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "863adb8b-6da9-4789-8868-2f9caf423dbd",
+					"name": "Record-Keeper",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:29",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "1165e350-2280-4b48-bb02-d33daa741697",
+					"name": "Serious",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:20",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "0e319171-303d-4831-bdeb-f20e2c1ee3bf",
+					"name": "Sincere",
+					"physical": true,
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "f3bebb03-a46d-43ba-97ab-bf8da1ae74e7",
+					"name": "Soft Spot (Aristocrats)",
+					"mental": true,
+					"social": true,
+					"base_points": -1,
+					"reference": "PU6:27",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "1d4cb6a7-4212-4bb6-bf59-358644639655",
+					"name": "Talkative",
+					"physical": true,
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "3c7fb402-6914-4bf2-86e7-157dd91c7a9e",
+			"container_type": "meta_trait",
+			"name": "Raconteur Personality",
+			"calc": {
+				"points": -5
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "778bced9-91bd-4ac5-8c3c-2c517bdcee2e",
+					"name": "Hidebound",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B138",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"amount": -2,
+							"situation": "on any task that requires creativity or invention, including most rolls against Artist skill, all Engineer rolls for new inventions, and all skill rolls made to use the Gadgeteer advantage"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "4846d1cb-8d74-4e21-a79a-08bbe2462208",
+			"name": "Raconteur Personality",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "87a68651-2054-40ec-b0bf-44d644461d2f",
+					"name": "History",
+					"reference": "B200",
+					"specialization": "@Specific Maradonian House@",
+					"difficulty": "iq/a",
+					"points": 4,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						}
+					],
+					"categories": [
+						"Social Sciences/Humanities"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "c1bd3e70-ae4c-44f1-9182-d7070cace297",
+					"name": "Public Speaking",
+					"reference": "B216",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Performance",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Politics",
+							"modifier": -5
+						}
+					],
+					"categories": [
+						"Business",
+						"Scholarly",
+						"Social"
+					]
+				}
+			]
+		}
+	]
+}
