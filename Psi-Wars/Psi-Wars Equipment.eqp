@@ -6096,7 +6096,7 @@
 						"st": "thr",
 						"base": "-2"
 					},
-					"strength": "5",
+					"strength": "6",
 					"usage": "Thrust",
 					"reach": "1",
 					"parry": "0F",
@@ -11285,7 +11285,7 @@
 			"modifiers": [
 				{
 					"type": "eqp_modifier",
-					"id": "608e6d2d-47d7-445c-9450-7168bd50b146",
+					"id": "720beb00-f3ce-47e6-bed8-b734524b4eb3",
 					"name": "Camouflage Pattern (@environment@)",
 					"cost_type": "to_base_cost",
 					"cost": "+0 CF",
@@ -11293,7 +11293,7 @@
 						{
 							"type": "conditional_modifier",
 							"amount": 2,
-							"situation": "camouflage in (@environment)"
+							"situation": "camouflage in @environment@ environments"
 						},
 						{
 							"type": "conditional_modifier",
