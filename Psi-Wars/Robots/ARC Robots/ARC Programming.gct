@@ -1,0 +1,709 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "b702a6c0-918f-4343-a39c-8e3d8ab34861",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "d05dd37d-4ef8-4191-a762-3e01bb8ab88e",
+			"container_type": "meta_trait",
+			"name": "Militarized ARC Programming",
+			"calc": {
+				"points": -34
+			},
+			"notes": "Cost: $15000",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage_container",
+					"id": "3cc77199-6713-4194-ac39-f375172943e5",
+					"name": "Choose on of",
+					"calc": {
+						"points": -10
+					},
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"id": "d0ad6971-5b2f-424f-8943-2d7f7a406b9a",
+							"name": "Secret (Militarized Robot)",
+							"social": true,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"id": "dea91863-c95a-4336-80f3-29788084400a",
+									"name": "Serious Embarrassment",
+									"reference": "B152",
+									"cost_type": "points",
+									"cost": -5,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "a52055f4-85cf-4930-b246-77f1374630ea",
+									"disabled": true,
+									"name": "Utter Rejection",
+									"reference": "B152",
+									"cost_type": "points",
+									"cost": -10,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "35ce2c14-b933-46b8-99a8-378732f2b14e",
+									"disabled": true,
+									"name": "Imprisonment",
+									"reference": "B152",
+									"cost_type": "points",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"id": "3b81ccd2-4f33-49f4-8835-363fe008a2c7",
+									"disabled": true,
+									"name": "Possible Death",
+									"reference": "B152",
+									"cost_type": "points",
+									"cost": -30,
+									"affects": "total"
+								}
+							],
+							"reference": "B152",
+							"calc": {
+								"points": -5
+							},
+							"categories": [
+								"Disadvantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "9b3be684-b7c8-4a62-b7cb-44f647fa2026",
+							"name": "Social Stigma (Militarized Robot)",
+							"social": true,
+							"base_points": -5,
+							"reference": "B155",
+							"calc": {
+								"points": -5
+							},
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"amount": -1,
+									"situation": "from non-criminals who learn of your militarization. Police, judges, vigilantes, and other law-and-order types react at -2"
+								}
+							],
+							"categories": [
+								"Disadvantage"
+							]
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "eb23f651-7098-422c-aca4-1ec5baf7053f",
+					"name": "Disciplined",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:18",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e89568c4-2dfa-4fcd-a2fa-dbefb194be2b",
+					"name": "Honesty",
+					"mental": true,
+					"base_points": -10,
+					"cr": 15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "c2a81e7c-6238-4265-854a-8409a03322c9",
+							"name": "Alliance Laws",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"reference": "B138",
+					"calc": {
+						"points": -5
+					},
+					"notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "04cb48da-b6db-42a1-a7e4-1fe51be82c5d",
+					"name": "Pacifism: Cannot Harm Innocents",
+					"mental": true,
+					"base_points": -10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "e02b9330-999c-4250-9c23-7ad430a41744",
+							"disabled": true,
+							"name": "Species-Specific",
+							"reference": "UT32",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "a83ab6bf-ee2d-4e09-a745-189057c2a333",
+							"name": "Alliance-Recognized Sapient Species Only",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total"
+						}
+					],
+					"reference": "B148",
+					"calc": {
+						"points": -4
+					},
+					"notes": "You may fight – you may even start fights – but you may only use deadly force on a foe that is attempting to do you serious harm. Capture is not “serious harm” unless you are already under penalty of death or have a Code of Honor that would require suicide if captured. You never intentionally do anything that causes, or even threatens to cause, injury to the uninvolved – particularly if they are “ordinary folks.”",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "58dd4fb8-63ae-448c-893d-c478b0cd83bd",
+					"name": "Sense of Duty",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "022625c9-245f-460b-b231-846bd44d11d6",
+							"disabled": true,
+							"name": "Friends and Companions",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "c7660380-8774-49e5-884b-ff61b903cec9",
+							"name": "@Maradonian House@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "ef961b99-71f6-41e0-a04a-cde752134f9a",
+							"disabled": true,
+							"name": "@Individual@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "777e313d-de07-4802-8619-0d3a3d93be83",
+							"disabled": true,
+							"name": "@Large Group@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "ccb02a4f-a6e3-4a7f-9c8c-581a34e301d0",
+							"disabled": true,
+							"name": "@Entire Race@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "a9ae9900-11cd-4812-ada1-6d958c4a7c56",
+							"disabled": true,
+							"name": "Every Living Being",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B153",
+					"calc": {
+						"points": -5
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "22d5ad95-f425-4829-92d9-87cf16281038",
+					"name": "Sense of Duty",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "3f98f468-79a5-41f3-96f2-fc0a0887de48",
+							"disabled": true,
+							"name": "Friends and Companions",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "ccdd0922-7f33-434f-b117-eb1e042aab15",
+							"disabled": true,
+							"name": "@Small Group@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "7fb0f837-6d1b-46a4-b288-faa1d6a96424",
+							"name": "Master",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "1ddf389a-474d-467b-a403-79668b6912f3",
+							"disabled": true,
+							"name": "@Large Group@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "9c11091c-14f9-4742-98b9-7d99a450c335",
+							"disabled": true,
+							"name": "@Entire Race@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "9858ddbd-4307-4cfe-85f5-40f1f7444b5e",
+							"disabled": true,
+							"name": "Every Living Being",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B153",
+					"calc": {
+						"points": -2
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "68368daa-e4fd-4681-bf47-5de0b445ecea",
+					"name": "Truthfulness",
+					"mental": true,
+					"base_points": -5,
+					"cr": 15,
+					"reference": "B159",
+					"calc": {
+						"points": -2
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -5,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast talk"
+							}
+						}
+					],
+					"notes": "Make a self-control roll whenever you must keep silent about an uncomfortable truth (lying by omission). Roll at -5 if you actually have to tell a falsehood! If you fail, you blurt out the truth, or stumble so much that your lie is obvious.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "80949f1d-b36c-4333-8f53-43fdbf932f22",
+					"name": "Vow",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "840aa01a-a963-491e-902c-df2daf2500ad",
+							"name": "Minor",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "4ea4e440-ab67-41ce-9ac6-97fd576d58e1",
+							"disabled": true,
+							"name": "Major",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "bca45d8c-2579-470d-b26d-4daf79426062",
+							"disabled": true,
+							"name": "Great",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						}
+					],
+					"reference": "B161",
+					"calc": {
+						"points": -5
+					},
+					"notes": "Cannot discuss or reveal anything noted by any humanoid as confidential",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "1d4ed159-c302-4076-b071-8747cedd6882",
+			"container_type": "meta_trait",
+			"name": "Standard ARC Programming",
+			"calc": {
+				"points": -41
+			},
+			"notes": "Cost: $10000",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "66f8c4ce-5c02-4587-b000-49d5817e34ff",
+					"name": "Disciplined",
+					"mental": true,
+					"base_points": -1,
+					"reference": "PU6:18",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "cb0b7d36-5fd4-41c6-bd03-8a3fac70b7fc",
+					"name": "Honesty",
+					"mental": true,
+					"base_points": -10,
+					"cr": 9,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "221e86be-8a9b-45c9-a18d-328046e9397d",
+							"name": "Alliance Laws",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"reference": "B138",
+					"calc": {
+						"points": -15
+					},
+					"notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "20d85430-9c79-4af8-afed-e3291755c764",
+					"name": "Pacifism: Cannot Kill",
+					"mental": true,
+					"base_points": -15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "0437941c-8e65-46e3-9b77-7c80aebb225f",
+							"disabled": true,
+							"name": "Species-Specific",
+							"reference": "UT32",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "068a9847-8ba4-44af-b624-a57e3c2bafc4",
+							"name": "Alliance-Recognized Sapient Species Only",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total"
+						}
+					],
+					"reference": "B148",
+					"calc": {
+						"points": -6
+					},
+					"notes": "You may fight – you may even start fights – but you may never do anything that seems likely to kill another. This includes abandoning a wounded foe to die “on his own”! You must do your best to keep your companions from killing, too. If you do kill someone (or feel responsible for a death), you immediately suffer a nervous breakdown. Roll 3d and be totally morose and useless for that many days. During this time, you must make a Will roll to offer any sort of violence toward anyone, for any reason.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "2685f075-3f3a-4fef-9696-62c7d4e30c2e",
+					"name": "Sense of Duty",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "ab986a4d-5cdb-4ec1-bc66-cfcf7085707f",
+							"disabled": true,
+							"name": "Friends and Companions",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "e2a46119-e339-43d2-a20a-cff0d8efe6e4",
+							"name": "@Maradonian House@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "22f9f9a8-719d-484b-9f05-fb5fcdd06bdc",
+							"disabled": true,
+							"name": "@Individual@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "cd2b4df7-eefc-4abe-9535-27246ae0028a",
+							"disabled": true,
+							"name": "@Large Group@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "5563b76e-050a-44e0-af59-eb3957b07743",
+							"disabled": true,
+							"name": "@Entire Race@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "a6d51d8f-7193-4765-b176-8315b8b28bc0",
+							"disabled": true,
+							"name": "Every Living Being",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B153",
+					"calc": {
+						"points": -5
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "8bcd59bb-71ed-40c7-94eb-b917e8a6dbba",
+					"name": "Sense of Duty",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "ceaccc4b-6036-402c-8c7d-0f12a23f3f10",
+							"disabled": true,
+							"name": "Friends and Companions",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "7f4c09f8-7e7b-45ca-9cb0-b2dd8889f575",
+							"disabled": true,
+							"name": "@Small Group@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "19b59fa5-03cf-49bf-9ae4-cb19264bbf4a",
+							"name": "Master",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "fad05c4d-ec88-4c89-96ab-577460d3b505",
+							"disabled": true,
+							"name": "@Large Group@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "e312c70a-f710-48b4-a723-5b212bbd13bf",
+							"disabled": true,
+							"name": "@Entire Race@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "e4f093a4-320a-476c-90e7-b83f584edb30",
+							"disabled": true,
+							"name": "Every Living Being",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B153",
+					"calc": {
+						"points": -2
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "468c6a55-b532-4f96-9fd5-2820072e50af",
+					"name": "Truthfulness",
+					"mental": true,
+					"base_points": -5,
+					"cr": 9,
+					"reference": "B159",
+					"calc": {
+						"points": -7
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -5,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast talk"
+							}
+						}
+					],
+					"notes": "Make a self-control roll whenever you must keep silent about an uncomfortable truth (lying by omission). Roll at -5 if you actually have to tell a falsehood! If you fail, you blurt out the truth, or stumble so much that your lie is obvious.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c6b2be5e-9145-40d0-9408-f0400e4fa655",
+					"name": "Vow",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "e4626c1f-748e-425b-a7f6-857cdd799a07",
+							"name": "Minor",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "0c6ad02b-baea-4d31-8c41-35689611fb38",
+							"disabled": true,
+							"name": "Major",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "c59d866a-0088-4827-854d-10404343fafe",
+							"disabled": true,
+							"name": "Great",
+							"reference": "B161",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						}
+					],
+					"reference": "B161",
+					"calc": {
+						"points": -5
+					},
+					"notes": "Cannot discuss or reveal anything noted by their master as confidential",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	]
+}

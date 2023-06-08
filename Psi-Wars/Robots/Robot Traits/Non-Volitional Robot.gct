@@ -1,0 +1,557 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "8582e56a-5ecf-49d6-9689-608ec5bd1230",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "608ac7a8-57ba-47d7-91d7-6dc6ed7f9286",
+			"container_type": "meta_trait",
+			"name": "Non-Volitional Robot",
+			"calc": {
+				"points": -67
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "7e89e1a4-2708-4bda-8fbe-e0842b2d5fc9",
+					"name": "Dead Broke",
+					"social": true,
+					"base_points": -25,
+					"reference": "B25",
+					"calc": {
+						"points": -25
+					},
+					"notes": "Starting wealth is 0",
+					"categories": [
+						"Disadvantage",
+						"Wealth"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "dfa92c5f-8145-4cdb-a8f0-147aeb7d15e5",
+					"name": "Duty (Master)",
+					"social": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "dc28ede2-34ee-43bc-a3ea-9281833c51df",
+							"disabled": true,
+							"name": "FR: 6",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "9f004cc1-dbdb-406d-aea3-cc250d6c8d85",
+							"disabled": true,
+							"name": "FR: 9",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "1a723e7b-3b8b-4937-8295-c972adff2497",
+							"disabled": true,
+							"name": "FR: 12",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "409b3407-898c-49a1-be94-8dbeac231a11",
+							"name": "FR: 15",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "c8690a38-3ae0-4fd7-9606-59c4a6f97715",
+							"disabled": true,
+							"name": "Extremely Hazardous",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "de3aca91-9d71-4540-be70-666772bdc494",
+							"disabled": true,
+							"name": "Involuntary",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "ca4acff4-8938-4996-ab29-3da4bd83dbee",
+							"disabled": true,
+							"name": "Nonhazardous",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						}
+					],
+					"reference": "B133",
+					"calc": {
+						"points": -15
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "bf9b71b1-b841-4617-8037-985e65476ea6",
+					"name": "Indomitable",
+					"mental": true,
+					"base_points": 15,
+					"reference": "B60",
+					"calc": {
+						"points": 15
+					},
+					"notes": "Impossible to influence through ordinary words or actions",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "8e3a6e69-11e0-46a8-bf94-9cb9e53b8fd2",
+					"name": "Neural-net",
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"type": "advantage_container",
+					"id": "66dfe667-0a9a-40cb-9792-e31d8a2076fc",
+					"container_type": "meta_trait",
+					"name": "Non-Volitional AI",
+					"reference": "UT27",
+					"calc": {
+						"points": -38
+					},
+					"notes": "This program lacks self-direction, initiative, creativity, and empathy. It ignores orders from anyone but its master. It requires computer hardware and software with a Complexity equal to or greater than its (IQ/2)+2, rounded up.",
+					"open": false,
+					"children": [
+						{
+							"type": "advantage",
+							"id": "4ca560fe-1751-4d1b-a60a-b90fbd337742",
+							"name": "Indomitable",
+							"mental": true,
+							"base_points": 15,
+							"reference": "B60",
+							"calc": {
+								"points": 15
+							},
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage_container",
+							"id": "45a06d29-b2e0-4345-ba4b-13ca80eb212a",
+							"name": "Meta-Trait: Artificial Intelligence",
+							"reference": "B263",
+							"calc": {
+								"points": 32
+							},
+							"open": false,
+							"children": [
+								{
+									"type": "advantage",
+									"id": "b1664109-272b-4900-8261-f585e43b1d2b",
+									"name": "Absolute Timing",
+									"mental": true,
+									"base_points": 2,
+									"reference": "B35",
+									"calc": {
+										"points": 2
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "725ae15f-b1ba-4873-8a60-9dde24771f93",
+									"name": "Digital Mind",
+									"physical": true,
+									"exotic": true,
+									"base_points": 5,
+									"reference": "B49",
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "d2ee5b13-b8ae-489b-83a3-deb1952f5983",
+									"name": "Doesn't Sleep",
+									"physical": true,
+									"exotic": true,
+									"base_points": 20,
+									"reference": "B50",
+									"calc": {
+										"points": 20
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "7a37ee89-557f-41e3-84e9-8151ac3c1d96",
+									"name": "Eidetic Memory (Photographic)",
+									"mental": true,
+									"base_points": 10,
+									"reference": "B51",
+									"calc": {
+										"points": 10
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "fd97a850-4122-465d-ab75-46dda2d89ef9",
+									"name": "Lightning Calculator (Intuitive Mathematician)",
+									"mental": true,
+									"base_points": 5,
+									"reference": "B66",
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "9855a946-8efc-4bf2-99fe-7625952a72ab",
+									"name": "Reprogrammable",
+									"mental": true,
+									"exotic": true,
+									"base_points": -10,
+									"reference": "B150",
+									"calc": {
+										"points": -10
+									}
+								}
+							]
+						},
+						{
+							"type": "advantage_container",
+							"id": "9038904b-c881-4e3c-aaf7-97e8828d2197",
+							"name": "Meta-Trait: Automaton",
+							"reference": "B263",
+							"calc": {
+								"points": -85
+							},
+							"open": false,
+							"children": [
+								{
+									"type": "advantage",
+									"id": "856b00dc-ff5c-40c2-84b3-1423bd4243f1",
+									"name": "Hidebound",
+									"physical": true,
+									"base_points": -5,
+									"reference": "B138",
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "f46cf033-c42e-4a6a-8c9b-1b1e80aa82e7",
+									"name": "Incurious (CR: 6)",
+									"mental": true,
+									"base_points": -10,
+									"reference": "B140",
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "10a1bdac-aeca-4123-ad6a-8cd98af0e0e2",
+									"name": "Low Empathy",
+									"mental": true,
+									"base_points": -20,
+									"reference": "B142",
+									"calc": {
+										"points": -20
+									},
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "advantage_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "oblivious"
+												}
+											},
+											{
+												"type": "advantage_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "callous"
+												}
+											},
+											{
+												"type": "advantage_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "empathy"
+												}
+											}
+										]
+									},
+									"features": [
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "acting"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "carousing"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "criminology"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "detect lies"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "diplomacy"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "enthrallment"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "fast-talk"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "interrogation"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "leadership"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "merchant"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "politics"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "contains",
+												"qualifier": "psychology"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "contains",
+												"qualifier": "savoir-faire"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "sex appeal"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "sociology"
+											}
+										},
+										{
+											"type": "skill_bonus",
+											"amount": -3,
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "streetwise"
+											}
+										}
+									]
+								},
+								{
+									"type": "advantage",
+									"id": "0808f4e4-b923-4ac4-a171-0ca7063d5fa3",
+									"name": "No Sense of Humor",
+									"physical": true,
+									"base_points": -10,
+									"reference": "B146",
+									"calc": {
+										"points": -10
+									},
+									"notes": "-2 Reaction"
+								},
+								{
+									"type": "advantage",
+									"id": "06dae118-a5cc-47df-92ed-adecff532cac",
+									"name": "Slave Mentality",
+									"physical": true,
+									"base_points": -40,
+									"reference": "B154",
+									"calc": {
+										"points": -40
+									}
+								}
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "d44eae22-da29-4806-9685-a1b66ee4991d",
+							"name": "Taboo Trait (Complexity-limited IQ)",
+							"mental": true,
+							"physical": true,
+							"calc": {
+								"points": 0
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "bb12dd7d-ed82-4c56-bf76-e364d9144564",
+					"name": "Social Stigma (Subjugated)",
+					"social": true,
+					"base_points": -20,
+					"reference": "B155",
+					"calc": {
+						"points": -20
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from others"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "c7ad0156-31ea-410a-9d4f-017f46afb5d6",
+					"name": "Taboo Traits (Complexity limited IQ and DX; No Psychic Powers)",
+					"physical": true,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "11bdde8c-8ee2-4498-aa3b-80790a049fe3",
+					"name": "Unfazeable",
+					"mental": true,
+					"base_points": 15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "4e9fe538-05b6-452a-b61e-4fd0a02a3f6d",
+							"disabled": true,
+							"name": "Familiar Horrors",
+							"reference": "H20",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						}
+					],
+					"reference": "B95",
+					"calc": {
+						"points": 15
+					},
+					"notes": "Exempt from fright checks. Reaction modifiers do not affect you.",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	]
+}

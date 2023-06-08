@@ -1,0 +1,257 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "7a3a6a73-a517-4e45-9c7f-2ccf4df3d20d",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"id": "c66b449a-c489-4725-9280-14619e04c87f",
+			"container_type": "meta_trait",
+			"name": "Volitional Robot",
+			"calc": {
+				"points": -27
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "a99d985f-aeb5-4c18-a462-496d7c091a73",
+					"name": "Dead Broke",
+					"social": true,
+					"base_points": -25,
+					"reference": "B25",
+					"calc": {
+						"points": -25
+					},
+					"notes": "Starting wealth is 0",
+					"categories": [
+						"Disadvantage",
+						"Wealth"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "cefa11a8-273f-4f70-9945-8a8fd6523c2c",
+					"name": "Duty (Master)",
+					"social": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "3f623a0e-4d24-42c7-9d1a-dabca9ce5d00",
+							"disabled": true,
+							"name": "FR: 6",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "0ef4bcab-4ffa-4111-8a72-ffe063eb7fc0",
+							"disabled": true,
+							"name": "FR: 9",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "c4302de2-3e87-47dc-859c-735f0f0d7c39",
+							"disabled": true,
+							"name": "FR: 12",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "74f4dbee-2a49-4e65-ac82-8cb0026b1e78",
+							"name": "FR: 15",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "713cf97e-5fb4-4941-a4d5-6eaed78d8aec",
+							"disabled": true,
+							"name": "Extremely Hazardous",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "52944e78-9b8e-4cd0-8fb7-804ded3fa74b",
+							"disabled": true,
+							"name": "Involuntary",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "f698f960-8729-4f40-820d-4ed56ae2172b",
+							"disabled": true,
+							"name": "Nonhazardous",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						}
+					],
+					"reference": "B133",
+					"calc": {
+						"points": -15
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "1f446edb-5400-447c-82d8-6200d3688d3b",
+					"name": "Neural-net",
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "8c6323a3-357b-407d-bc7a-86d21559c422",
+					"name": "Social Stigma (Subjugated)",
+					"social": true,
+					"base_points": -20,
+					"reference": "B155",
+					"calc": {
+						"points": -20
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from others"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "218cee76-d01b-4db0-8597-ae2b8e5c5d24",
+					"name": "Taboo Traits (Complexity limited IQ and DX; No Psychic Powers)",
+					"physical": true,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"type": "advantage_container",
+					"id": "68893964-3f73-4b81-89d9-6d67785f8923",
+					"container_type": "meta_trait",
+					"name": "Volitional AI",
+					"reference": "UT28",
+					"calc": {
+						"points": 32
+					},
+					"notes": "This sentient program has as much self-initiative and creativity as a living creature of equivalent intelligence. It requires computer hardware and software with a Complexity equal to or greater than its (IQ/2)+3, rounded up.",
+					"open": false,
+					"children": [
+						{
+							"type": "advantage_container",
+							"id": "e11123ea-b368-449d-9a07-6f0594b1eda8",
+							"name": "Meta-Trait: Artificial Intelligence",
+							"reference": "B263",
+							"calc": {
+								"points": 32
+							},
+							"open": false,
+							"children": [
+								{
+									"type": "advantage",
+									"id": "d11f17c9-67cc-4f17-859d-c5d695957a05",
+									"name": "Absolute Timing",
+									"mental": true,
+									"base_points": 2,
+									"reference": "B35",
+									"calc": {
+										"points": 2
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "62e887a7-4392-4f30-a628-dde54359a794",
+									"name": "Digital Mind",
+									"physical": true,
+									"exotic": true,
+									"base_points": 5,
+									"reference": "B49",
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "2297c757-b6d6-430d-8c0f-f7983e96e198",
+									"name": "Doesn't Sleep",
+									"physical": true,
+									"exotic": true,
+									"base_points": 20,
+									"reference": "B50",
+									"calc": {
+										"points": 20
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "9e80f6af-fd45-4334-9286-1a2b1af6b19a",
+									"name": "Eidetic Memory (Photographic)",
+									"mental": true,
+									"base_points": 10,
+									"reference": "B51",
+									"calc": {
+										"points": 10
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "32a33b56-3f50-45b2-90b4-5a60ea3f7db0",
+									"name": "Lightning Calculator (Intuitive Mathematician)",
+									"mental": true,
+									"base_points": 5,
+									"reference": "B66",
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "d49d48cf-ca07-4fc5-b2a0-9fccd8e8fd9c",
+									"name": "Reprogrammable",
+									"mental": true,
+									"exotic": true,
+									"base_points": -10,
+									"reference": "B150",
+									"calc": {
+										"points": -10
+									}
+								}
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "ad3428e3-723f-4cd2-b41e-1089c0c536e3",
+							"name": "Taboo Trait (Complexity-limited IQ)",
+							"mental": true,
+							"physical": true,
+							"calc": {
+								"points": 0
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
