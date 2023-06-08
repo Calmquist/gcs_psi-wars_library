@@ -1,0 +1,3726 @@
+{
+	"type": "skill_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "d0a4a88b-7529-42b6-b59e-eda917114ed6",
+			"type": "technique",
+			"name": "@Constellation@ Navigator",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Navigation",
+				"specialization": "Hyperspace"
+			},
+			"limit": 5
+		},
+		{
+			"id": "780473de-b043-45ea-a187-4fd844f5c391",
+			"type": "technique",
+			"name": "Acrobatic Guard",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Acrobatics"
+			},
+			"limit": 4
+		},
+		{
+			"id": "a7da39ac-1569-4729-b1c9-380fa2cf7c32",
+			"type": "technique",
+			"name": "Afterburner Slide",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@",
+				"modifier": -4
+			},
+			"limit": 0
+		},
+		{
+			"id": "8fdcd66f-a9ed-430f-be26-2740023a9e11",
+			"type": "technique",
+			"name": "Aggressive Maneuvering",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@"
+			},
+			"limit": 0
+		},
+		{
+			"id": "b44cefd9-c664-422e-a503-dc01995af2fb",
+			"type": "technique",
+			"name": "Aggressive Maneuvering",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Shiphandling"
+			},
+			"limit": 0
+		},
+		{
+			"id": "dabab508-31c3-4e69-867a-1913523a318d",
+			"type": "skill",
+			"name": "Beam Weapons",
+			"reference": "B179",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"specialization": "Pistol",
+			"tech_level": "",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Beam Weapons",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Guns",
+					"specialization": "Pistol",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "5ceee4eb-9c94-4f11-9af2-c7ae9def340c",
+			"type": "skill",
+			"name": "Beam Weapons",
+			"reference": "B179",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"specialization": "Projector",
+			"tech_level": "",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Beam Weapons",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "486757a5-be5a-4b8b-b2fe-237e17210161",
+			"type": "skill",
+			"name": "Beam Weapons",
+			"reference": "B179",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"specialization": "Rifle",
+			"tech_level": "",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Beam Weapons",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Guns",
+					"specialization": "Rifle",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "56e43282-ca80-48ad-a625-62e49c68cfa4",
+			"type": "technique",
+			"name": "Beat",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "@Weapon Skill@"
+			},
+			"limit": 4
+		},
+		{
+			"id": "9e34bcef-f5e5-481b-81f2-8e684fc4f87c",
+			"type": "technique",
+			"name": "Burst-Fire",
+			"reference": "PY65:19",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Beam Weapons",
+				"specialization": "@spec@",
+				"modifier": -2
+			},
+			"limit": 0
+		},
+		{
+			"id": "a40d0a2f-3fa5-4cc4-8bcb-714ded2404aa",
+			"type": "technique",
+			"name": "Canyon Dive",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@",
+				"modifier": -5
+			},
+			"limit": 0
+		},
+		{
+			"id": "9058c7f4-ee2e-4db1-8048-acc152f00775",
+			"type": "technique",
+			"name": "Collision Training",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@"
+			},
+			"limit": 4
+		},
+		{
+			"id": "4ffc799d-79af-4df5-9f46-0a8b73d73ba6",
+			"type": "technique",
+			"name": "Collision Training",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Shiphandling"
+			},
+			"limit": 4
+		},
+		{
+			"id": "69d02636-5b2e-40b4-b573-b897a29ad813",
+			"type": "technique",
+			"name": "Combat Art",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "@Combat Skill@",
+				"modifier": -3
+			},
+			"limit": 0
+		},
+		{
+			"id": "c8e55583-597c-49cc-a3a4-60f203da56b3",
+			"type": "technique",
+			"name": "Combat Focus",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "will",
+				"modifier": -3
+			},
+			"limit": 3
+		},
+		{
+			"id": "058ff765-c3f0-486f-8be8-2ee025566920",
+			"type": "skill",
+			"name": "Connoisseur",
+			"reference": "B185,MA56",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Alcohol",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "3b65e47d-450a-4f17-b205-860dcaedcdab",
+			"type": "skill",
+			"name": "Connoisseur",
+			"reference": "B185,MA56",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Art",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "da72e938-b811-4a29-a4b1-44c659d5b2bf",
+			"type": "skill",
+			"name": "Connoisseur",
+			"reference": "B185,MA56",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Blasters",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "6364332d-a7e4-4a48-8259-ed37d2df9e6c",
+			"type": "skill",
+			"name": "Connoisseur",
+			"reference": "B185,MA56",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Cuisine",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "63e0d8ee-345a-4b0d-9a87-5b9295380491",
+			"type": "skill",
+			"name": "Connoisseur",
+			"reference": "B185,MA56",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Fashion",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "4d5979a2-473a-40ef-883e-3b34329abe62",
+			"type": "skill",
+			"name": "Connoisseur",
+			"reference": "B185,MA56",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Force Swords",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "daf0059b-90a0-4d29-bbff-7141db401c11",
+			"type": "skill",
+			"name": "Connoisseur",
+			"reference": "B185,MA56",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Relics",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "b8a2d4d0-b760-4329-8ae7-ba8a417c1e87",
+			"type": "skill",
+			"name": "Connoisseur",
+			"reference": "B185,MA56",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Robotics",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "b36556d0-de5e-4268-81a4-90914d6c3a66",
+			"type": "skill",
+			"name": "Connoisseur",
+			"reference": "B185,MA56",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Starships",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "ddb0aa33-a633-4a00-ad70-8df36ec1ccb9",
+			"type": "technique",
+			"name": "Driving Fire",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Gunner",
+				"specialization": "@Specialty@",
+				"modifier": 2
+			},
+			"limit": 0
+		},
+		{
+			"id": "d50dc883-eea9-4750-96b1-8b4ac49f7ba7",
+			"type": "skill",
+			"name": "Driving",
+			"reference": "B188",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Heavy Repulsorcraft",
+			"tech_level": "",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Repulsorcraft",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "d0074469-e526-401f-a783-21dc585012b3",
+			"type": "skill",
+			"name": "Driving",
+			"reference": "B188",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Hyanide",
+			"tech_level": "",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Motorcycle",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Repulsor-Cycle",
+					"modifier": -2
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Tracked",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "d5995f51-c770-499d-9167-46c95d064111",
+			"type": "skill",
+			"name": "Driving",
+			"reference": "B188",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Mecha",
+			"tech_level": "",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Battlesuit",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "e30b8ff9-a752-42a0-abf4-831879a056ed",
+			"type": "skill",
+			"name": "Driving",
+			"reference": "B188",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Repulsor-Cycle",
+			"tech_level": "",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Repulsorcraft",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Hyanide",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Motorcycle",
+					"modifier": -2
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "0f80a1e4-ea95-46ae-9ca2-b836008eccc6",
+			"type": "skill",
+			"name": "Driving",
+			"reference": "B188",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Repulsorcraft",
+			"tech_level": "",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Automobile",
+					"modifier": -2
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Repulsor-Cycle",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "67ee0f81-de8c-4189-9b9a-8e868aef23f8",
+			"type": "skill",
+			"name": "Driving",
+			"reference": "B188",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Tracked",
+			"tech_level": "",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Half-Track",
+					"modifier": -2
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Hyanide",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "2066ed67-8bdd-4f4f-851b-e8fec5c32fc2",
+			"type": "skill",
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Aircraft",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Contragravity",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "207259eb-1c7d-4108-9533-7d63323f7a3f",
+			"type": "skill",
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Artillery",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Armoury",
+					"specialization": "Heavy Weapons",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "5a904ef5-efc2-46cd-8419-260eb2648e45",
+			"type": "skill",
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Civil",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Architecture",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "9e1b9d7d-75a8-4f60-802e-c297da9a115d",
+			"type": "skill",
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Combat",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Explosives",
+					"specialization": "Demolitions",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "8212299d-b6a7-4af1-b5d2-c30448a3d34b",
+			"type": "skill",
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Electrical",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Electrician",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "cae347d3-8b11-4ae2-8360-eeb7391a605b",
+			"type": "skill",
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Electronics",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Electronic Repair",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "a878c0cb-e7b9-4fc5-b951-137813c4d998",
+			"type": "skill",
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Ground Vehicle",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Legged",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Repulsorcraft",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Tracked",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "57321ea0-03d8-4ccb-9cdd-56c21746d094",
+			"type": "skill",
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Psychotronic",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Small Arms",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ff4b818e-7848-420f-992f-a5df45756450",
+			"type": "skill",
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Psychotronic",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Electronic Repair",
+					"specialization": "Psychotronics",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "1d210ce8-c03e-473f-96be-0ac6226d214d",
+			"type": "skill",
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Robotics",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Robotics",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "215591e9-9fff-4376-bbb5-2abe0d1718cf",
+			"type": "skill",
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Starship",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Impulse Craft",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Light Starship",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "3db374ad-c580-4a2a-bc44-ff40893e931b",
+			"type": "technique",
+			"name": "Evasive Maneuvering",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@"
+			},
+			"limit": 0
+		},
+		{
+			"id": "5f711034-cf4c-41ff-9591-aa3749d1d899",
+			"type": "technique",
+			"name": "Evasive Maneuvering",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Shiphandling"
+			},
+			"limit": 0
+		},
+		{
+			"id": "257ab39a-402a-44e4-b8e8-104057569f55",
+			"type": "technique",
+			"name": "Fast Lock",
+			"notes": "Default penalty is halved for Ace Pilots",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Artillery",
+				"specialization": "@Specialty@",
+				"modifier": -4
+			},
+			"limit": 0
+		},
+		{
+			"id": "8b13c4b9-1924-4fcb-913d-55903bdd8fd6",
+			"type": "technique",
+			"name": "Force Sword Shove",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Force Sword",
+				"modifier": -1
+			},
+			"limit": 4
+		},
+		{
+			"id": "aec24b8a-535e-45ef-b0cc-f54ce9fa3a85",
+			"type": "skill",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Alexian Trumps",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "c3bca6e3-f1d2-44f2-95bb-f0d37fbcbc10",
+			"type": "skill",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Belter's Brag",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "892e1e23-3b4a-471e-90a2-c1e562d6bd03",
+			"type": "skill",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Courtly Games",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "b1e85a7b-4147-44a3-937c-b7990da5a6cf",
+			"type": "skill",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Deluna va Sevana",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "d342181b-989b-42d8-ab3c-f5a6bf5f9889",
+			"type": "skill",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Dueling",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "9fe404ac-8b6e-4d1f-9942-df3aeb948ed8",
+			"type": "skill",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Holo-Chess",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "fc0ae2ac-3b33-49d4-b6a7-cc58f7e2211f",
+			"type": "skill",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Lithavin",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "88db657b-2aa7-4dc9-8989-0502f5e3c93a",
+			"type": "skill",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Pitfighting",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "141a0b41-90a4-42aa-855b-d4fe0f0c0f0c",
+			"type": "skill",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Rikarik",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "c5c3766e-2114-4479-baf7-799adba667a5",
+			"type": "skill",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Star Heros",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Games",
+					"specialization": "Strategem",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "33a1c97d-6112-4959-80ee-86e5e56a4e69",
+			"type": "skill",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Strategem",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Games",
+					"specialization": "Star Heros",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "04b9183b-4908-4d92-a91b-b2025e41e27a",
+			"type": "skill",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Tika",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "19bb7d26-05e3-4b38-ba19-4c2182ae8a8c",
+			"type": "technique",
+			"name": "Ghosting",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@",
+				"modifier": -5
+			},
+			"limit": 0
+		},
+		{
+			"id": "9e093638-de9b-4cb6-bf44-bb5af9d3e43f",
+			"type": "technique",
+			"name": "Ghosting",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Shiphandling",
+				"modifier": -5
+			},
+			"limit": 0
+		},
+		{
+			"id": "b4ae41c8-6cc0-4eca-a358-b566f82788cf",
+			"type": "skill",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Communion",
+			"difficulty": "iq/a",
+			"points": 1
+		},
+		{
+			"id": "7dfb0855-9f00-4443-9565-357301cf87f2",
+			"type": "skill",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Deep Time",
+			"difficulty": "iq/a",
+			"points": 1
+		},
+		{
+			"id": "be1cde80-c382-482b-bb1d-b7cc2871a44d",
+			"type": "skill",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Eldoth",
+			"difficulty": "iq/a",
+			"points": 1
+		},
+		{
+			"id": "5ba2f15f-4c5c-45bd-ae26-3118b2cfc380",
+			"type": "skill",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Ithin Kor",
+			"difficulty": "iq/a",
+			"points": 1
+		},
+		{
+			"id": "24820342-a0f5-4617-ab7f-6c065aa2ed4b",
+			"type": "skill",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Menhiri",
+			"difficulty": "iq/a",
+			"points": 1
+		},
+		{
+			"id": "7459d007-23d5-465d-8110-b4edb1025792",
+			"type": "skill",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Places of Power",
+			"difficulty": "iq/a",
+			"points": 1
+		},
+		{
+			"id": "6e923c37-292d-49cb-b677-bf3190b286e3",
+			"type": "skill",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Skairos",
+			"difficulty": "iq/a",
+			"points": 1
+		},
+		{
+			"id": "54ba7379-e98e-42c9-999f-8c45fa810cbe",
+			"type": "skill",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "Tarvathim",
+			"difficulty": "iq/a",
+			"points": 1
+		},
+		{
+			"id": "5e5a380f-8ec3-4c2d-946e-eea971534c64",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "@Race@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "a4c740cd-b5f6-4fd1-88aa-d45496607fce",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "@Region@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "68c0567e-f2b9-4beb-bf6a-d4316a373e7a",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "Eldoth",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "ab1172c4-ed20-4803-a56b-3500350fe687",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "Keleni Monarchy",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "81bffa42-c30a-4ee6-b3f2-513bfa5f699c",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "Primordial Era",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "5aabf891-f48b-4512-8a9b-bbe027278057",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "Robotic Rights Movement/Cybernetic Union",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "82cc0549-6aa8-4866-9797-556259a5b3b1",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "The Alexian Crusades",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "61cee4ac-d4f5-46e6-ad35-ae8dd5105c94",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "The Alexian Dynasty",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "f9ee92ba-11d6-4970-aaf3-df2e4b41527e",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "The Cataclysm",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "6eb4dd33-bc67-49bc-bedd-4d12ced39e9e",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "The Communion War",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "960f22a4-5246-4059-9bc2-07592f7fbf0e",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "The First Tyrany",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "c2cd4e0e-5e9c-42f0-b3d4-fcdfd50da6dd",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "The Galactic Federation",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "46ea01d3-843a-4bb9-b716-9b8467685a49",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "The Interregnum",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "678c31a0-e109-44b5-8576-7d43c5514801",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "The Monolith War",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "c691d6f3-1292-4f31-b92e-e729db0e216c",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "The Scourge War",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "fad46a85-710e-4c99-ae9a-76c985b61870",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "The Second Tyrany",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "3c2783da-770f-43f4-9f96-1e17bec74d7f",
+			"type": "skill",
+			"name": "History",
+			"reference": "B200",
+			"tags": [
+				"Humanities",
+				"Social Sciences"
+			],
+			"specialization": "The Slaver War",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "b3903ce4-f56e-4238-8e1b-3be801ec5099",
+			"type": "technique",
+			"name": "Hugging",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@"
+			},
+			"limit": 4
+		},
+		{
+			"id": "91b64c7a-d947-4824-bab2-d8cfa1b55883",
+			"type": "skill",
+			"name": "Law",
+			"reference": "B204",
+			"tags": [
+				"Business",
+				"Humanities",
+				"Police",
+				"Social Sciences"
+			],
+			"specialization": "Contract",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Law",
+					"specialization": "Galactic",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Law",
+					"modifier": -4
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "abcc5dc9-b7b6-4dc0-b18f-d9f9fd3cc889",
+			"type": "skill",
+			"name": "Law",
+			"reference": "B204",
+			"tags": [
+				"Business",
+				"Humanities",
+				"Police",
+				"Social Sciences"
+			],
+			"specialization": "Criminal, Alliance",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Law",
+					"specialization": "Galactic",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Law",
+					"specialization": "Criminal, Imperial",
+					"modifier": -4
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "f7e5ccef-b69d-4ea2-b3e6-02c008e48105",
+			"type": "skill",
+			"name": "Law",
+			"reference": "B204",
+			"tags": [
+				"Business",
+				"Humanities",
+				"Police",
+				"Social Sciences"
+			],
+			"specialization": "Criminal, Imperial",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Law",
+					"specialization": "Galactic",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Law",
+					"specialization": "Criminal, Alliance",
+					"modifier": -4
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "c085ef12-7dd3-4084-ab0c-389cc15d8de5",
+			"type": "skill",
+			"name": "Law",
+			"reference": "B204",
+			"tags": [
+				"Business",
+				"Humanities",
+				"Police",
+				"Social Sciences"
+			],
+			"specialization": "Galactic",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Law",
+					"specialization": "Criminal, Alliance",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Law",
+					"specialization": "Criminal, Imperial",
+					"modifier": -4
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "2af4ba06-c4b7-4381-a72c-b57a89659a24",
+			"type": "skill",
+			"name": "Law",
+			"reference": "B204",
+			"tags": [
+				"Business",
+				"Humanities",
+				"Police",
+				"Social Sciences"
+			],
+			"specialization": "Lithian",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Law",
+					"specialization": "Tyrannic",
+					"modifier": -2
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "185e28a2-9a9d-4ac8-8976-940c5da8948a",
+			"type": "skill",
+			"name": "Law",
+			"reference": "B204",
+			"notes": "Fill in any appropriate religious specialties for the default.",
+			"tags": [
+				"Business",
+				"Humanities",
+				"Police",
+				"Social Sciences"
+			],
+			"specialization": "Religious, @Any@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Law",
+					"specialization": "Galactic",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Law",
+					"specialization": "Religious, ",
+					"modifier": -4
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "64bc2be9-e896-4fae-868f-20b050ee5157",
+			"type": "skill",
+			"name": "Law",
+			"reference": "B204",
+			"tags": [
+				"Business",
+				"Humanities",
+				"Police",
+				"Social Sciences"
+			],
+			"specialization": "Tyrannic",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Law",
+					"specialization": "Lithian",
+					"modifier": -2
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "b757b982-4efc-40ce-8b78-5d442e894d20",
+			"type": "skill",
+			"name": "Mathematics",
+			"reference": "B207",
+			"tags": [
+				"Natural Science"
+			],
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "898308d2-58e6-4506-a56b-27f5f1a7a46a",
+			"type": "skill",
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Contragravity",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Light Starships",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Impulse Craft",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Repulsorcraft",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "1065ef42-ec39-44ef-a883-625a272a7b32",
+			"type": "skill",
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Impulse Craft",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Light Starships",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Contragravity",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "c52cbfb5-63cf-4bb1-9614-2e53ecac14ca",
+			"type": "skill",
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Legged Vehicles",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Repulsorcraft",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Robotics",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Tracked Vehicles",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "3589a117-5d9b-423f-8382-8f7ddd252015",
+			"type": "skill",
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Light Starships",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Contragravity",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Impulse Craft",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "4cee1be5-ad3e-412e-b051-1d565e305a47",
+			"type": "skill",
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Repulsorcraft",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Tracked Vehicles",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Contragravity",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Legged Vehicles",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "6f2c8a87-982a-4019-85c2-cbfe52f8314b",
+			"type": "skill",
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Robotics",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Legged Vehicles",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "07255d7b-d7de-4227-bc40-b88798861e8a",
+			"type": "skill",
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Tracked Vehicles",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Repulsorcraft",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Legged Vehicles",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "701c96f3-4a10-4185-acc0-15a6bdcc0a6c",
+			"type": "technique",
+			"name": "Neurolash Field Parry",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "@Melee Weapon Skill@",
+				"modifier": -1
+			},
+			"limit": 0
+		},
+		{
+			"id": "0cd84634-4ff5-48a1-bf58-6b0999239193",
+			"type": "technique",
+			"name": "Neurolash Field Push",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "@Non Flexible Melee Weapon Skill@",
+				"modifier": -1
+			},
+			"limit": 0
+		},
+		{
+			"id": "a9bbb1df-8729-403f-bfd1-d2826c783fa2",
+			"type": "skill",
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Contragravity",
+			"tech_level": "",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Repulsor-Cycle",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Repulsorcraft",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Starfighter",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Corvette",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Impulse Craft",
+					"modifier": -2
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "bdd92610-f30e-4e15-aebd-2588b8b55ced",
+			"type": "skill",
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Corvette",
+			"tech_level": "",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Repulsor-Cycle",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Repulsorcraft",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Contragravity",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Starfighter",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Impulse Craft",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "ddf22c6f-3331-4cf8-8655-2ff507403888",
+			"type": "skill",
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Impulse Craft",
+			"tech_level": "",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Contragravity",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Corvette",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Starfighter",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "d4508a20-4bcc-429a-862f-29f030391ddb",
+			"type": "skill",
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Starfighter",
+			"tech_level": "",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Repulsor-Cycle",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Driving",
+					"specialization": "Repulsorcraft",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Contragravity",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Corvette",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Impulse Craft",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "3fedd947-c656-48aa-8f67-94256d3e1b7f",
+			"type": "skill",
+			"name": "Precognitive Defense",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "fbbe9042-d710-4235-8f4c-36ca42f2a426",
+			"type": "technique",
+			"name": "Precognitive Fast-Draw",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Precognitive Defense",
+				"modifier": -3
+			},
+			"limit": 3
+		},
+		{
+			"id": "3db71d84-5b13-4af6-aeff-b5fb561a0298",
+			"type": "technique",
+			"name": "Precognitive Reflection",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Precognitive Defense",
+				"modifier": -3
+			},
+			"limit": 3
+		},
+		{
+			"id": "49150938-c21e-4771-a2ec-c6785e45fe51",
+			"type": "skill",
+			"name": "Prospecting",
+			"reference": "B216",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Geology",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "37f3c118-aa69-437e-894d-2190dda76cd7",
+			"type": "technique",
+			"name": "Quick Salvo",
+			"notes": "The penalty is halved for Ace Pilots.",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "@Gunner or Artillery@",
+				"specialization": "@Specialty@",
+				"modifier": -6
+			},
+			"limit": 0
+		},
+		{
+			"id": "53c7a363-fb2a-4401-a632-3f2c9e863b88",
+			"type": "technique",
+			"name": "Reacquire Target",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Artillery",
+				"specialization": "@Specialty@",
+				"modifier": -6
+			},
+			"limit": 0
+		},
+		{
+			"id": "c50ad1c9-62ba-4bc7-9f82-baa438b4387a",
+			"type": "technique",
+			"name": "Reckless Assault",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@",
+				"modifier": -8
+			},
+			"limit": 0
+		},
+		{
+			"id": "3d156c33-7d7e-4007-8178-b9c90df59a50",
+			"type": "technique",
+			"name": "Resonance Charge",
+			"notes": "Default penalty is halved with Trained by a Master or Weapon Master",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "@Melee Skill@",
+				"modifier": -6
+			},
+			"limit": 0
+		},
+		{
+			"id": "5884f286-079a-46ec-862d-8ffc87777275",
+			"type": "technique",
+			"name": "Resonance Field Parry",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "@Melee Skill@",
+				"modifier": -1
+			},
+			"limit": 0
+		},
+		{
+			"id": "bfc3f85b-dd98-4b90-b2c7-ef64cafa3428",
+			"type": "technique",
+			"name": "Reverse",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@",
+				"modifier": -10
+			},
+			"limit": -5
+		},
+		{
+			"id": "ca346509-3978-4d83-be9c-b562671ff3b1",
+			"type": "technique",
+			"name": "Risky Pass",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@",
+				"modifier": -1
+			},
+			"limit": 0
+		},
+		{
+			"id": "136f026b-b36f-4017-8032-fadf6c1caf2a",
+			"type": "technique",
+			"name": "Shadowed Blade",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Force Sword",
+				"modifier": -8
+			},
+			"limit": 0
+		},
+		{
+			"id": "ae68bb15-467c-4890-9db6-00f113767eb8",
+			"type": "technique",
+			"name": "Shake",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@",
+				"modifier": -5
+			},
+			"limit": 0
+		},
+		{
+			"id": "2bd82754-6cf6-4135-9294-0355c84a1967",
+			"type": "technique",
+			"name": "Shipjacking",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Artillery",
+				"specialization": "@Specialty@",
+				"modifier": -5
+			},
+			"limit": 0
+		},
+		{
+			"id": "07ae2674-ca73-41d0-b426-641d48b2103a",
+			"type": "technique",
+			"name": "Space Tactics (@Specialty@)",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Tactics"
+			},
+			"limit": 4
+		},
+		{
+			"id": "d7caa2a9-1a16-4ea3-a0b6-ab62d5970bdf",
+			"type": "technique",
+			"name": "Stealthy Maneuvering",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@"
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Smuggling"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Stealth"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "bb653050-45da-4c86-91f9-dbe3593eb036",
+			"type": "technique",
+			"name": "Stealthy Maneuvering",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Shiphandling"
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Smuggling"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Stealth"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "e8873bc2-afbe-4512-8cd2-83e8751b8960",
+			"type": "technique",
+			"name": "Storm Rider",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Navigation",
+				"specialization": "Hyperspace"
+			},
+			"limit": 4
+		},
+		{
+			"id": "b4c4c549-2d8b-483a-8e35-e7ac37b8058c",
+			"type": "skill",
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Arctic",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swamplands",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
+				}
+			]
+		},
+		{
+			"id": "24e828a7-5f5c-40a7-b3e7-bc7088335915",
+			"type": "skill",
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Desert",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
+				}
+			]
+		},
+		{
+			"id": "19aff644-bb75-463d-9a8d-dc66f653f8af",
+			"type": "skill",
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Ice World",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"modifier": -4
+				},
+				{
+					"type": "per",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "a58328df-0148-431d-9f7a-c2e0b8a80732",
+			"type": "skill",
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Island/Beach",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Tropical Lagoon",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
+				}
+			]
+		},
+		{
+			"id": "bccb6a67-dc99-4d5c-883c-69c386ddbb05",
+			"type": "skill",
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Jungle",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
+				}
+			]
+		},
+		{
+			"id": "f0ad9354-d6d3-4659-864e-ea63f7295922",
+			"type": "skill",
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Mountain",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
+				}
+			]
+		},
+		{
+			"id": "bfde6a81-d260-4a1b-a09c-f4d599a6a021",
+			"type": "skill",
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Plains",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
+				}
+			]
+		},
+		{
+			"id": "12516085-6297-4b15-b752-19b16b15d2a7",
+			"type": "skill",
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Rock World",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"modifier": -4
+				},
+				{
+					"type": "per",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "6cab32ff-7138-437e-ab3a-ebebc42cd91c",
+			"type": "skill",
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Swampland",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "River/Stream",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
+				}
+			]
+		},
+		{
+			"id": "6ca6dfb7-4d45-4a00-8dcf-17e14fb0cc37",
+			"type": "skill",
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Wasteland",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Ice World",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Rock World",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
+				},
+				{
+					"type": "per",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "39a07eaa-2c3f-4cd0-81d7-8faf8279b956",
+			"type": "skill",
+			"name": "Survival",
+			"reference": "B223",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"specialization": "Woodlands",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				}
+			]
+		},
+		{
+			"id": "9e161e54-04c0-4a73-afdd-0149c48309d3",
+			"type": "technique",
+			"name": "Targeted Attack (@Subsystem@)",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Gunner",
+				"specialization": "@Beams or Torpedo@",
+				"modifier": -5
+			},
+			"limit": -2
+		},
+		{
+			"id": "2d966225-a40b-4e38-b2bd-611acf538dc8",
+			"type": "skill",
+			"name": "Urban Survival",
+			"reference": "B228",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Street"
+			],
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "85f82136-c36f-4b68-a623-ecb6afe5a39a",
+			"type": "skill",
+			"name": "Vacc Suit",
+			"reference": "B192",
+			"tags": [
+				"Technical"
+			],
+			"tech_level": "",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Diving Suit",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "NBC Suit",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Battlesuit",
+					"modifier": -2
+				}
+			]
+		},
+		{
+			"id": "4d921c95-076e-4e14-a3e7-da740dfcbf0e",
+			"type": "technique",
+			"name": "Warding Parry",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "@Unarmed Skill@",
+				"modifier": -1
+			}
+		},
+		{
+			"id": "c32415cf-9756-4970-b403-ab5e82546307",
+			"type": "technique",
+			"name": "Weave",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"specialization": "@Specialty@",
+				"modifier": -3
+			},
+			"limit": 0
+		},
+		{
+			"id": "2fefedf2-798e-4a1c-93bd-649fd52fed44",
+			"type": "technique",
+			"name": "Well Diver",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Navigation",
+				"specialization": "Hyperspace"
+			},
+			"limit": 5
+		},
+		{
+			"id": "64de580e-1893-4622-9556-1dca19e3b404",
+			"type": "technique",
+			"name": "Winding Course",
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Navigation",
+				"specialization": "Hyperspace"
+			},
+			"limit": 5
+		},
+		{
+			"id": "4390a1a5-539c-4fc8-bcd5-aeba3f13c65e",
+			"type": "technique",
+			"name": "Yomi",
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Tactics"
+			},
+			"limit": 0
+		}
+	]
+}
