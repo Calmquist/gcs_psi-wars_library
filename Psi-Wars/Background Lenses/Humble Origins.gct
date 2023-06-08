@@ -1,0 +1,1386 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "8a3cc863-a68b-4411-a8d3-1d5d3b1bc253",
+	"traits": [
+		{
+			"id": "478ca1b1-8e22-4b69-b8df-48bd83a445ed",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "7efc5f26-6bf0-4636-8338-e3f3c730e09f",
+					"type": "trait",
+					"name": "Pitiable",
+					"reference": "B22",
+					"tags": [
+						"Advantage",
+						"Physical",
+						"Social"
+					],
+					"base_points": 5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from those who consider you to be in a position of helplessness, weakness, or need (which never includes those with the Callous disadvantage)",
+							"amount": 3
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "5fe6bc3a-2ef5-4951-9810-2cddb13f672e",
+					"type": "trait",
+					"name": "Honest Face",
+					"reference": "B101",
+					"tags": [
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to trained Acting skill for the sole purpose of \"acting innocent\"",
+							"amount": 1
+						}
+					],
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "0229d081-fada-45ba-b734-4e2eabc0c67d",
+					"type": "trait",
+					"name": "Equipment Bond",
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "c0abae44-447d-4170-a3e4-fd009a2d5d44",
+					"type": "trait",
+					"name": "Contact (@Who@)",
+					"reference": "B44",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "8b0fefc6-5071-44c5-89ca-f8453e588828",
+							"type": "modifier",
+							"name": "Effective skill",
+							"notes": "12",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "833fb095-f6c4-459c-8660-474161fdd329",
+							"type": "modifier",
+							"name": "Effective skill",
+							"notes": "15",
+							"cost": 2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "9e2567e7-25d8-4843-aab9-bd953050e948",
+							"type": "modifier",
+							"name": "Effective skill",
+							"notes": "18",
+							"cost": 3,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "63b4314d-f722-442c-a1d8-c53b4c5733a5",
+							"type": "modifier",
+							"name": "Effective skill",
+							"notes": "21",
+							"cost": 4,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "083ee360-33df-4ab1-8bf5-520f9e31f2e7",
+							"type": "modifier",
+							"name": "Can obtain information using supernatural talents",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "20f09f2b-9eeb-4fc3-9b60-7c5d0e2e69b3",
+							"type": "modifier",
+							"name": "Group",
+							"cost": 5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "815c9373-73e7-4edc-8a82-a72820d3851f",
+							"type": "modifier",
+							"name": "Appears almost all the time",
+							"notes": "15-",
+							"cost": 3,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "05183ed1-b4d0-4f10-a14f-a1b164a8992e",
+							"type": "modifier",
+							"name": "Appears quite often",
+							"notes": "12-",
+							"cost": 2,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "2687a0a0-cf05-4650-a350-7790c38999e3",
+							"type": "modifier",
+							"name": "Appears fairly often",
+							"notes": "9-",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "44ffa02d-134b-4d0a-a47e-8d9edef75dc8",
+							"type": "modifier",
+							"name": "Appears quite rarely",
+							"notes": "6-",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "ed43bb5c-a588-42cb-a135-c515dafb5d60",
+							"type": "modifier",
+							"name": "Completely reliable",
+							"cost": 3,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "db8d124a-a83b-4d66-85ed-f70ce7eadcf8",
+							"type": "modifier",
+							"name": "Usually reliable",
+							"cost": 2,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "51804516-d8da-4c44-9585-2c6cd33482c3",
+							"type": "modifier",
+							"name": "Somewhat reliable",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "9665355f-8bc0-495c-a77f-f0aed8e2f600",
+							"type": "modifier",
+							"name": "Unreliable",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "b5112ac7-096a-42ce-9dd1-3fea5b78eb76",
+							"type": "modifier",
+							"name": "Favor",
+							"reference": "B55",
+							"cost": 0.2,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "f67a232b-c443-45e4-a68c-72465418aaa5",
+					"type": "trait",
+					"name": "Comfortable Wealth",
+					"reference": "B25",
+					"notes": "Starting wealth is twice normal",
+					"tags": [
+						"Advantage",
+						"Social",
+						"Wealth"
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "e4a3cf5b-904f-4150-937f-d8fc7da94f7f",
+					"type": "trait",
+					"name": "Charisma",
+					"reference": "B41",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fortune-telling"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "leadership"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "panhandling"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "public speaking"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from sapient being with whom you actively interact (converse, lecture, etc.)",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "to Influence rolls",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				}
+			],
+			"name": "May Spend discretionary points on",
+			"calc": {
+				"points": 21
+			}
+		},
+		{
+			"id": "604b69ca-d59a-4f52-b724-bf002b7cf7cc",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "08a68bc8-0a59-4d1c-b040-f8ef1fe95964",
+					"type": "trait",
+					"name": "Workaholic",
+					"reference": "B162",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "6bafba09-032e-47e4-aeff-5ffdc3c355fe",
+					"type": "trait",
+					"name": "Unfit",
+					"reference": "B160",
+					"notes": "You lose FP at twice the normal rate",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to all HT rolls to remain conscious, avoid death, resist disease or poison, etc",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "5011ea6c-ae28-44c2-a196-3e6d132cda1c",
+					"type": "trait",
+					"name": "Truthfulness",
+					"reference": "B159",
+					"notes": "Make a self-control roll whenever you must keep silent about an uncomfortable truth (lying by omission). Roll at -5 if you actually have to tell a falsehood! If you fail, you blurt out the truth, or stumble so much that your lie is obvious.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							},
+							"amount": -5
+						}
+					],
+					"cr": 12,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "8f696444-c43a-41ef-b232-9abd0ca84f9b",
+					"type": "trait",
+					"name": "Struggling",
+					"reference": "B25",
+					"notes": "Starting wealth is ½ normal",
+					"tags": [
+						"Disadvantage",
+						"Social",
+						"Wealth"
+					],
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "d021221a-37a4-4174-ab3f-29eb23d50725",
+					"type": "trait",
+					"name": "Sense of Duty",
+					"reference": "B153",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "de47158b-455d-4448-8055-86065b81d6d1",
+							"type": "modifier",
+							"name": "Friends and Companions",
+							"reference": "B153",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "8fde1c7b-7271-4b9b-9032-8551dde325a8",
+							"type": "modifier",
+							"name": "Homeworld",
+							"reference": "B153",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "89ec98d8-237b-4ab6-82e5-f9767592c065",
+							"type": "modifier",
+							"name": "@Individual@",
+							"reference": "B153",
+							"cost": -2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "0daad494-07fe-4b61-a1fe-ab5e198b6411",
+							"type": "modifier",
+							"name": "@Large Group@",
+							"reference": "B153",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "103f5c35-d3d6-4f0f-9336-447062d5c050",
+							"type": "modifier",
+							"name": "@Entire Race@",
+							"reference": "B153",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "721ee069-0e87-46c8-9638-0f2dee3142e6",
+							"type": "modifier",
+							"name": "Every Living Being",
+							"reference": "B153",
+							"cost": -20,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "ce405efa-142a-493f-a70a-ebfde7901664",
+					"type": "trait",
+					"name": "Selfless",
+					"reference": "B153",
+					"notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"cr": 12,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "46bc1089-7dd0-4164-9af9-2a545cde5d8f",
+					"type": "trait",
+					"name": "Post-Combat Shakes",
+					"reference": "B150",
+					"notes": "Make a self-control roll at the end of any battle. If you fail, roll 3d, add the amount by which you failed your self-control roll, and look up the result on the Fright Check Table.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"cr": 12,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "e1caaefa-3461-4f43-bc8c-d8685987ed32",
+					"type": "trait",
+					"name": "Pacifism: Reluctant Killer",
+					"reference": "B148",
+					"notes": "You are psychologically unprepared to kill people. Whenever you make a deadly attack (e.g., with a knife or a gun) against an obvious person whose face is visible to you, you are at -4 to hit and may not Aim. If you cannot see the foe’s face (due to a mask, darkness, or distance, or because you attacked from behind), the penalty is only -2, save in close combat. You have no penalty to attack a vehicle (even an occupied one), an opponent you do not believe is a person (including things with Horrific or Monstrous appearance), or a target you can’t actually see (e.g., a set of map coordinates or a blip on a radar screen). If you kill a recognizable person, the effect on you is the same as for Pacifism: Cannot Kill. You have no problem with your allies killing; you may even supply ammo, loaded weapons, and encouragement! You just can’t do the killing yourself.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "6d3031de-32e5-4203-a9ad-f1ff23f723fd",
+							"type": "modifier",
+							"name": "Species-Specific",
+							"reference": "UT32",
+							"cost": -80,
+							"disabled": true
+						}
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "ef88e09b-7165-463b-b312-75a08834ee1d",
+					"type": "trait",
+					"name": "Pacifism: Cannot Harm Innocents",
+					"reference": "B148",
+					"notes": "You may fight – you may even start fights – but you may only use deadly force on a foe that is attempting to do you serious harm. Capture is not “serious harm” unless you are already under penalty of death or have a Code of Honor that would require suicide if captured. You never intentionally do anything that causes, or even threatens to cause, injury to the uninvolved – particularly if they are “ordinary folks.”",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "74354ea8-96ba-4eee-9027-9f746e9bd941",
+							"type": "modifier",
+							"name": "Species-Specific",
+							"reference": "UT32",
+							"cost": -80,
+							"disabled": true
+						}
+					],
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "fc3a3b5b-e9d2-48bb-8e7f-68e73e6d4c44",
+					"type": "trait",
+					"name": "Honesty",
+					"reference": "B138",
+					"notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"cr": 12,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "e8fd4d00-cfbc-470e-a1ca-ff173fb1a92c",
+					"type": "trait",
+					"name": "Gullibility",
+					"reference": "B137",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "detect lies"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "merchant"
+							},
+							"amount": -3
+						}
+					],
+					"cr": 12,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "9c9b9d3a-a76a-4509-be6b-29be0b719a29",
+					"type": "trait",
+					"name": "Easy to Read",
+					"reference": "B134",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to others on all Empathy, Body Language, and Psychology rolls to discern your intentions or the truth of your words",
+							"amount": 4
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to others on IQ, Detect Lies, and Gambling rolls in any Quick Contest with your Acting, Fast-Talk, or Gambling skill when you try to lie or bluff",
+							"amount": 4
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "a9fffffa-84f1-4f80-9a60-ae2dca3d5581",
+					"type": "trait",
+					"name": "Chummy",
+					"reference": "B126",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "to others",
+							"amount": 2
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to IQ-based skills when alone",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				}
+			],
+			"name": "Additional Disadvantage options",
+			"calc": {
+				"points": -85
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "15dc9715-a67e-4021-96bc-beddeb6a7bb7",
+			"type": "skill",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"notes": "Location of major planets; familiarity with all known races (but not necessarily expertise); knowledge of people of Status 7+; general understanding of the economic and political situation",
+			"tags": [
+				"Everyman",
+				"Knowledge"
+			],
+			"specialization": "@Interplanetary State@",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			]
+		},
+		{
+			"id": "93e17096-a90a-4f46-9405-91be7d7bb9a6",
+			"type": "skill_container",
+			"open": true,
+			"children": [
+				{
+					"id": "8452c23a-cc0a-4566-a5c3-862da01781df",
+					"type": "skill",
+					"name": "Driving",
+					"reference": "B188",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Repulsorcraft",
+					"tech_level": "",
+					"difficulty": "dx/a",
+					"points": 2,
+					"encumbrance_penalty_multiplier": 2,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Driving",
+							"specialization": "Heavy Wheeled",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Driving",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "79382fd6-aeed-4430-9f79-da3455b24197",
+					"type": "skill",
+					"name": "Piloting",
+					"reference": "B214",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Contragravity",
+					"tech_level": "",
+					"difficulty": "dx/a",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "Vertol",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "9b6c8425-92ac-466a-9e82-f8bd5cf58fc1",
+					"type": "skill",
+					"name": "Computer Operation",
+					"reference": "B184",
+					"tags": [
+						"Everyman",
+						"Scholarly",
+						"Technical"
+					],
+					"tech_level": "",
+					"difficulty": "iq/e",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "02fad8bf-682e-4c73-93a4-cc2e9f47d9b5",
+					"type": "skill",
+					"name": "Current Affairs",
+					"reference": "B186",
+					"tags": [
+						"Business",
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Homeworld",
+					"tech_level": "",
+					"difficulty": "iq/e",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "cbd0c861-1ad7-422c-90aa-a5beab62fb02",
+					"type": "skill",
+					"name": "Games",
+					"reference": "B197,MA57",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/e",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "aa5265d6-ced6-4017-b8a9-7463eecf5f09",
+					"type": "skill",
+					"name": "Hobby Skill",
+					"reference": "B200,MA57",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "@Mental Hobby@",
+					"difficulty": "iq/e",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "5e03796b-1b84-4b0b-93ea-118cab0d0d2d",
+					"type": "skill",
+					"name": "Hobby Skill",
+					"reference": "B200,MA57",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "@Physical Hobby@",
+					"difficulty": "dx/e",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "9562e2a4-4564-4fdc-b3e7-0d3daa8ef502",
+					"type": "skill",
+					"name": "Carousing",
+					"reference": "B183",
+					"tags": [
+						"Criminal",
+						"Social",
+						"Street"
+					],
+					"difficulty": "ht/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "d59f14a9-b654-4941-a666-326bd049b59b",
+					"type": "skill",
+					"name": "Housekeeping",
+					"reference": "B200",
+					"tags": [
+						"Everyman"
+					],
+					"difficulty": "iq/e",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "68949c0f-0975-4d8c-8c8a-b3bb26444300",
+					"type": "skill",
+					"name": "Lifting",
+					"reference": "B205",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "ht/a",
+					"points": 1
+				},
+				{
+					"id": "294c9ddb-961d-4cf5-ba08-536a552541f1",
+					"type": "skill",
+					"name": "Animal Handling",
+					"reference": "B175",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "f44172d1-31e5-4573-99f0-3b0a6f03ddc2",
+					"type": "skill",
+					"name": "Administration",
+					"reference": "B174",
+					"tags": [
+						"Business",
+						"Social"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Merchant",
+							"modifier": -3
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "6c780f3a-9068-4f55-b927-12e870d7dff9",
+					"type": "skill",
+					"name": "Machinist",
+					"reference": "B206",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "a26531cb-1287-44a1-8599-e258649394f3",
+					"type": "skill",
+					"name": "Freight Handling",
+					"reference": "B197",
+					"tags": [
+						"Technical",
+						"Vehicle"
+					],
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "a05f997f-bd68-4f64-9cdd-82b244c221bd",
+					"type": "skill",
+					"name": "Mechanic",
+					"reference": "B207",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Contragravity",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Contragravity",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "4913074c-5a33-4d25-83bc-375111aca6f5",
+					"type": "skill",
+					"name": "Electrician",
+					"reference": "B189",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electrical",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "1b9137fd-9703-4fcc-a1f2-d43290e161a7",
+					"type": "skill",
+					"name": "Mechanic",
+					"reference": "B207",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Robotics",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Robotics",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "18bb3061-4363-4af5-b724-4a584aca0610",
+					"type": "skill",
+					"name": "Mechanic",
+					"reference": "B207",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Repulsorcraft",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Hovercraft",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "e361d4b4-e857-4a05-8987-e918d645463f",
+					"type": "skill",
+					"name": "Professional Skill",
+					"reference": "B215",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "@Mental Skill@",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "8d9883d5-0fed-4474-9a12-3caa0f31a6aa",
+					"type": "skill",
+					"name": "Professional Skill",
+					"reference": "B215",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "@Physical Skill@",
+					"difficulty": "dx/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "d1bef61b-442e-48f7-8b8e-33b885b82a34",
+					"type": "skill",
+					"name": "Engineer",
+					"reference": "B190",
+					"tags": [
+						"Design",
+						"Engineer",
+						"Invention"
+					],
+					"specialization": "Civil",
+					"tech_level": "",
+					"difficulty": "iq/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Architecture",
+							"modifier": -6
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"when_tl": {
+							"compare": "at_least",
+							"qualifier": 5
+						},
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "mathematics"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "applied"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "fad41698-0fee-4720-9ccc-21179ad53ce6",
+					"type": "skill",
+					"name": "Engineer",
+					"reference": "B190",
+					"tags": [
+						"Design",
+						"Engineer",
+						"Invention"
+					],
+					"specialization": "Robotics",
+					"tech_level": "",
+					"difficulty": "iq/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Mechanic",
+							"specialization": "Robotics",
+							"modifier": -6
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"when_tl": {
+							"compare": "at_least",
+							"qualifier": 5
+						},
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "mathematics"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "applied"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "e3b1a5a1-296a-4ea4-84b9-7f059fbc9109",
+					"type": "skill",
+					"name": "Prospecting",
+					"reference": "B216",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Geology",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "4e8b3876-a1ca-4f81-9ee9-4137334916bb",
+					"type": "skill",
+					"name": "Merchant",
+					"reference": "B209",
+					"tags": [
+						"Business",
+						"Social"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Finance",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Market Analysis",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "c3d0b7a3-a16a-4b11-8587-e09e9d528d94",
+					"type": "skill",
+					"name": "Cooking",
+					"reference": "B185",
+					"tags": [
+						"Everyman"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Housekeeping",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "954fa198-4e45-4579-b752-cece7547befa",
+					"type": "skill",
+					"name": "Farming",
+					"reference": "B194",
+					"tags": [
+						"Plant"
+					],
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Biology",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Gardening",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "809f27ed-f354-4f50-ac34-f42b60ba425e",
+					"type": "skill",
+					"name": "Savoir-Faire",
+					"reference": "B218,MA59",
+					"tags": [
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Servant",
+					"difficulty": "iq/e",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Savoir-Faire",
+							"specialization": "High Society",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"id": "89bf78e1-5213-4296-a83d-5157554068db",
+					"type": "skill",
+					"name": "Scrounging",
+					"reference": "B218",
+					"tags": [
+						"Criminal",
+						"Street"
+					],
+					"difficulty": "per/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"name": "Another 18 points in"
+		}
+	]
+}
