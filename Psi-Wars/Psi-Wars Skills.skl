@@ -201,8 +201,8 @@
 			"id": "9058c7f4-ee2e-4db1-8048-acc152f00775",
 			"type": "technique",
 			"name": "Collision Training",
-			"difficulty": "a",
-			"points": 1,
+			"difficulty": "h",
+			"points": 2,
 			"default": {
 				"type": "skill",
 				"name": "Piloting",
